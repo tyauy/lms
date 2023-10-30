@@ -1,0 +1,41 @@
+ID Question,Objective,Instructions,Question,Question time,Answer,Is correct,Answer type
+1,Vocabulary,Fill in the blanks,It is _____ in summer.,30,cloudy,0,radio
+,,,,,rainy,0,radio
+,,,,,sunny,1,radio
+,,,,,cold,0,radio
+2,Vocabulary,Fill in the blanks,"In England, it's nearly always _____.",30,raining,1,radio
+,,,,,sunny,0,radio
+,,,,,hot,0,radio
+,,,,,stormy,0,radio
+3,Vocabulary,Fill in the blanks,"I think I'll wear a coat today, the weather forecast says it will be _____.",30,hot,0,radio
+,,,,,cold,1,radio
+,,,,,sunny,0,radio
+,,,,,stormy,0,radio
+4,Grammar,Fill in the blanks,In winter we can build snowmen when ___ been snowing.,30,it's,1,radio
+,,,,,it have,0,radio
+,,,,,it was,0,radio
+,,,,,it will,0,radio
+5,Vocabulary,Fill in the blanks,I love to look at the sky and find shapes in the _____.,30,rain,0,radio
+,,,,,clouds,1,radio
+,,,,,hot,0,radio
+,,,,,cold,0,radio
+6,Vocabulary,Fill in the blanks,In _____ it is so pretty when the leaves start to turn orange and brown.,30,spring,0,radio
+,,,,,summer,0,radio
+,,,,,autumn,1,radio
+,,,,,winter,0,radio
+7,Vocabulary,Fill in the blanks,Don't take out your umbrella when it's too _____.,30,windy,1,radio
+,,,,,rainy,0,radio
+,,,,,snowy,0,radio
+,,,,,cold,0,radio
+8,Vocabulary,Fill in the blanks,"I always get confused when my American friends say ""fall"" because in Britain we say ""_____"".",30,spring,0,radio
+,,,,,winter,0,radio
+,,,,,summer,0,radio
+,,,,,autumn,1,radio
+9,Vocabulary,Fill in the blanks,"We'll need to put the air conditioner on today, it is really _____.",30,cold,0,radio
+,,,,,hot,1,radio
+,,,,,windy,0,radio
+,,,,,rainy,0,radio
+10,Grammar,Fill in the blanks,In winter I like to sit _____ a fire when it is cold outside.,30,behind,0,radio
+,,,,,in front of,1,radio
+,,,,,above,0,radio
+,,,,,under,0,radio

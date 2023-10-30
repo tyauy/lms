@@ -1,0 +1,898 @@
+DONE	general	sidemenu_trainer_home	Accueil	Home	Home	Inicio		
+DONE	general	sidemenu_trainer_calendar	Mon calendrier	My Calendar	Mein Kalender	Mi calendario		
+DONE	general	sidemenu_trainer_learners	Mes apprenants	My Learners	Meine Schüler	Mis alumnos		
+DONE	general	sidemenu_trainer_programs	Mes parcours	My Learners	Mein Programm	Mi programa		
+DONE	general	sidemenu_trainer_lessons	Mes cours	My Lessons	Meine Kurse	Mis lecciones		
+DONE	general	sidemenu_trainer_account	Mon compte	My Account	Mein Profil	Mi perfil		
+DONE	general	sidemenu_trainer_library	Bibliothèque	Syllabus	Meine Bibliothek	Biblioteca		
+DONE	general	sidemenu_trainer_general	Général	General	Generelles	General		
+DONE	general	sidemenu_trainer_settings	Réglages	My profile	Einstellungen	Ajustes		
+DONE	general	sidemenu_trainer_availabilities	Disponibilités	My calendar	Verfügbarkeit	Disponibilidad		
+DONE	general	sidemenu_trainer_awaiting	A lancer	New	Neue Schüler	Nuevos		
+DONE	general	sidemenu_trainer_active	En cours	In progress	in Arbeit	En curso		
+DONE	general	sidemenu_trainer_inactive	Terminés	Finished	Inaktiv	Terminados		
+DONE	general	sidemenu_trainer_anomaly	Anomalie	Anomaly	Anomalie	Anomalia		
+DONE	general	sidemenu_learner_home	Accueil	Home	Home	Inicio		
+DONE	general	sidemenu_learner_formation	Ma formation	My Training	Mein Training	Mi formación		
+DONE	general	sidemenu_learner_eval	Mes tests	My Tests	Meine Tests	Mis tests		
+DONE	general	sidemenu_learner_trainers	Mes formateurs	My Trainers	Meine Trainer	Mis formadores		
+DONE	general	sidemenu_learner_library	Ma bibliothèque	My Syllabus	Meine Bibliothek	Mi biblioteca		
+DONE	general	sidemenu_learner_account	Mon compte	My account	Mein profil	Mi cuenta		
+DONE	general	sidemenu_learner_calendar	Mon calendrier	My calendar	Mein Kalender	Mi calendario		
+DONE	general	sidemenu_learner_reservation	Réservations	Booking	Buchungen	Reservar		
+DONE	general	sidemenu_learner_global	Vue globale	Global view	Übersicht	Vista global		
+DONE	general	sidemenu_learner_report	Mes rapports	My reports	Kursübersicht	Mis informes		
+DONE	general	sidemenu_learner_tp	Mon parcours	My program	Mein Trainingsprogramm	Mi programa		
+DONE	general	sidemenu_learner_materials	Supports	Materials	Material	Materiales		
+DONE	general	sidemenu_learner_exercise	Exercices	Exercises	Übungen	Ejercicios		
+DONE	general	sidemenu_learner_email_template	Email (modèles)	Email templates	Email Vorlagen	Ejempos de Email		
+DONE	general	sidemenu_learner_video	Tutoriels	Tutoriels	Tutoriels	Tutoriales		
+DONE	general	sidemenu_learner_signature	Signature	Signature	Signature	Firma		
+DONE	general	sidemenu_learner_myeprogram	Mon e-Program	My e-Program	Mein e-Programm	Mi programa en linea		
+DONE	general	sidemenu_learner_visio_f2f_tp	Parcours Visio / F2F	Visio / F2F Training	Video / F2F Training	Programa por video conferencia / F2F		
+DONE	general	sidemenu_learner_visio_library	Bibliothèque Visio	Visio Library	Video Bibliothek	Biblioteca Visio		
+DONE	general	sidemenu_learner_my_trainer	Mon formateur	My trainer	Mein Trainer	Mi formador		
+DONE	general	sidemenu_learner_my_trainers	Mes formateurs	My trainers	Meine Trainer	Mis formadores		
+DONE	general	sidemenu_learner_wait_signature	Attente signature	Awaiting signature	Kursbestätigung	A la espera de firma		
+DONE	general	sidemenu_learner_tests	Tests / Évaluations	Tests	Tests	Evaluaciones		
+DONE	general	sidemenu_learner_media_library	Médiathèque	Media Library	Mediathek	Mediateca		
+DONE	general	sidemenu_learner_toolbox	Outils	Tools	Tools	Herramientas		
+DONE	general	sidemenu_learner_vocab_list	Listes vocabulaire	Vocabulary Lists	Vokabellisten	Listas de vocabulario		
+DONE	general	sidemenu_learner_vocab_list_perso	Ma liste	My list	Meine Liste	Mi lista		
+DONE	general	sidemenu_learner_activity_report	Rapport d'activité	Activity report	Kursübersicht	Historial de clases		
+DONE	general	sidemenu_learner_mock_tests	Examens blancs	Mock Tests	Mock Tests	Exámenes de prueba		
+DONE	general	sidemenu_learner_vocab	Vocabulaire	Vocabulary	Vokabular	Vocabulario		
+DONE	general	sidemenu_learner_vocab_theme	Thématiques	Thematics	Themen	Temas		
+DONE	general	sidemenu_tm_activity	Activité	Activity	Aktivität	Actividad		
+DONE	general	sidemenu_tm_orders	Dossiers Formation	Orders	Buchungen	Planes de formación		
+DONE	general	sidemenu_tm_reports	Rapports	Reports	Reporting	Informes		
+DONE	general	sidemenu_tm_learners	Suivi Apprenants	Follow up Learners	Schüler Übersicht	Seguimiento de estudiantes		
+DONE	general	sidemenu_tm_visio_library	Bibliothèque Visio	Visio library	Video Bibliothek	Biblioteca Visio		
+DONE	general	sidemenu_tm_opinion	Votre avis	Your Say	Ihre Meinung	Su opinión		
+DONE	general	sidemenu_tm_catalog	Catalogue	Catalogue	Katalog	Catálogo		
+DONE	general	sidemenu_tm_tutos	Tutoriels	Tutorials	Tutorials	Tutoriales		
+DONE	general	sidemenu_tm_trainers	Formateurs	Trainers	Trainer	Formadores		
+DONE	general	sidemenu_tm_library	Bibliothèque	Syllabus	Meine Bibliothek	Biblioteca		
+DONE	general	card_tm_lrn_activity	Activité apprenant	Learning activity	Aktiver Schüler	Actividad de aprendizaje		
+DONE	general	card_tm_participate_rate	Taux de participation	Rate of participation	Teilnahmequote	Tasa de participación		
+DONE	general	tm_personalized_export	Export personalisé	Personalised export	Benutzerdefinierter Export	Contenido personalizado exportable		
+DONE	general	card_tm_distribution	Répartition formation	Training distribution	Trainingsverteilung	Distribución de la formación		
+DONE	general	card_tm_followup	Suivi administratif	 	Administrative Übersicht	 		
+DONE	general	card_tm_feedback	Feedback & notation	Feedback & rating	Feedback & Anmerkungen	Feedback y puntuación		
+DONE	general	global_all	Tous	All	All	Todos		
+DONE	general	dont_care	Indifférent	None selected	Egal	Indiferente		
+DONE	general	coming_soon	Coming Soon	Coming soon	Bald verfügbar	Proximamente		
+DONE	general	more_details	En savoir plus	More details	Mehr details	Más información		
+DONE	general	global_details	Détails	Details	Details	Detalles		
+DONE	general	global_title	Intitulé	Title	Berechtigt	Título		
+DONE	general	contacts	Contacts	Contacts	Kontakte	Contactos		
+DONE	general	techno	Technique	Technical	Technik	Técnico		
+DONE	general	webconf	Webconférence	Webconference	Videokonferenz	Teleconferencia		
+DONE	general	global_perform	Effectué	Completed	Durchgeführt	Realizado		
+DONE	general	global_completed	Complété	Completed	Abgeschlossen	Completado		
+DONE	general	global_missed	Manqué	Missed	Verpasst	Perdido		
+DONE	general	global_scheduled	Planifié	Scheduled	Geplant	Planificado		
+DONE	general	global_cancelled	Annulé	Cancelled	Storniert	Cancelado		
+DONE	general	global_inprogress	En cours	In progress	In Arbeit	En curso		
+DONE	general	global_home	Accueil	Home	Home	Inicio		
+DONE	general	by	par	by	von	por		
+DONE	general	with	avec	with	mit	con		
+DONE	general	lrn_charter_title	Vos engagements	Your commitment	Ihre Verpflichtungen	Vuestro compromiso		
+DONE	general	wefit_charter_title	Nos engagements	Our commitment	Unsere Verpflichtungen	Nuestro compromiso		
+DONE	general	more_lst_progress	Déroulement	Process	Inhalt	Desarrollo		
+DONE	general	more_lst_list_profil	Liste des profils	List of profiles	Liste der Lernprofile	Lista de perfiles		
+DONE	general	structured_course	Cours structuré	Structured lessons	Strukturierter Kurs	Clase estructurada		
+DONE	general	workshop	Workshop	Workshop	Workshop	Workshop		
+DONE	general	open_lesson	Cours Open	Open lesson	Open Lesson	Clase abierta		
+DONE	general	course	cours	lesson(s)	Unterricht	Lección		
+DONE	general	short_from	De	From	von	De		
+DONE	general	short_to	à	to	zu	A		
+DONE	general	short_between	Entre le	From	zwischen	Entre		
+DONE	general	short_and	Et le	To	und	Y		
+DONE	general	lesson	Cours	Lesson	Kurs	Lección		
+DONE	general	lessons	Cours	Lessons	Kurse	Lecciónes		
+DONE	general	level	Niveau	Level	Level	Nivel		
+DONE	general	specify	Précisez	Other	Details	Precisar		
+DONE	general	resume	Résumé	Summary	Zusammenfassung	Resumen		
+DONE	general	completely	Complètement	Completely	Vollständig	Completamente		
+DONE	general	partially	Partiellement	Partially	Teilweise	Parcialmente		
+DONE	general	yes	Oui	Yes	Ja	Sí		
+DONE	general	no	Non	No	Nein	No		
+DONE	general	day	Jour	Day	Tag	Día		
+DONE	general	week	Semaine	Week	Woche	Semana		
+DONE	general	short_date_from	Du	From	von	De		
+DONE	general	short_date_to	au	to	zu	a		
+DONE	general	week_of	Semaine du	Week of	Woche vom	Semana del		
+DONE	general	question	Question	Question	Frage	Pregunta		
+DONE	general	desactivated	Désactivé	disabled	untauglich	Desactivado		
+DONE	general	answer	Réponse(s)	Answer(s)	Antwort	Respuesta(s)		
+DONE	general	search	Rechercher	Search	Suche	Búsqueda		
+DONE	general	all	Tous	All	Alles	Todos		
+DONE	general	inprogress	en cours	in progress	In Bearbeitung	en curso		
+DONE	general	level_a0	A0 - Débutant	A0 - True beginner	A0 - Einsteiger	A0- Principiante		
+DONE	general	level_a1	A1 - Faux-débutant	A1 - Beginner	A1 - Anfänger	A1-Falso principiante		
+DONE	general	level_a2	A2 - Pré-intermédiaire	A2 - Pre-Intermediate	A2 - Fortgeschritten	A2-Pre-Intermedio		
+DONE	general	level_b1	B1 - Intermédiaire	B1 - Intermediate	B1 - Kompetent	B1-Intermedio		
+DONE	general	level_b2	B2 - Confirmé	B2 - Advanced	B2 - Gewandt	B2- Avanzado		
+DONE	general	level_c1	C1 - Maîtrise	C1 - Master	C1 - Experte	C1- Dominio		
+DONE	general	level_c2	C2 - Avez-vous besoin de nous ?	C2 - Are you sure you need us?	C2 - Möchten Sie für uns arbeiten?	C2- ¿Nos necesita?		
+DONE	general	l_beginner	Débutant	Beginner	Beginner	Principiante		
+DONE	general	l_intermediate	Intermédiaire	Intermediate	Intermediate	Intermedio		
+DONE	general	l_advanced	Avancé	Advanced	Advanced	Avanzado		
+DONE	general	l_preintermediate	Pré-Intermédiaire	Pre-Intermediate	Pre-Intermediate	Pre-intermedio		
+DONE	general	lives	Habite	Lives in	Wohnt in	Vive		
+DONE	general	lang_en	Anglais	English	Englisch	Inglés		
+DONE	general	lang_de	Allemand	German	Deutsch	Alemán		
+DONE	general	lang_fr	Français	French	Französisch	Francés		
+DONE	general	lang_es	Espagnol	Spanish	Spanisch	Español		
+DONE	general	lang_it	Italien	Italian	Italienisch	Italiano		
+DONE	general	badge_planned_m_s	Planifié	Scheduled	Geplant	Planificado		
+DONE	general	badge_planned_m_p	Planifiés	Scheduled	Geplant	Planificado		
+DONE	general	badge_planned_f_s	Planifiée	Scheduled	Geplant	Planificado		
+DONE	general	badge_planned_f_p	Planifiées	Scheduled	Geplant	Planificado		
+DONE	general	badge_inprogress	En cours	In progress	In Arbeit	En curso		
+DONE	general	badge_completed_m_s	Complété	Completed	Abgeschlossen	Completado		
+DONE	general	badge_completed_m_p	Complétés	Completed	Abgeschlossen	Completado		
+DONE	general	badge_completed_f_s	Complétée	Completed	Abgeschlossen	Completado		
+DONE	general	badge_completed_f_p	Complétées	Completed	Abgeschlossen	Completado		
+DONE	general	badge_missed_m_s	Manqué	Missed	Verpasst	Perdido		
+DONE	general	badge_missed_m_p	Manqués	Missed	Verpasst	Perdido		
+DONE	general	badge_missed_f_s	Manquée	Missed	Verpasst	Perdido		
+DONE	general	badge_missed_f_p	Manquées	Missed	Verpasst	Perdido		
+DONE	general	badge_cancelled_m_s	Annulé	Cancelled	Storniert	Cancelado		
+DONE	general	badge_cancelled_m_p	Annulés	Cancelled	Storniert	Cancelado		
+DONE	general	badge_cancelled_f_s	Annulée	Cancelled	Storniert	Cancelado		
+DONE	general	badge_cancelled_f_p	Annulées	Cancelled	Storniert	Cancelado		
+DONE	general	badge_remaining_m_s	Restant	Remaining	Verbleibend	Restante		
+DONE	general	badge_remaining_m_p	Restants	Remaining	Verbleibend	Restantes		
+DONE	general	badge_remaining_f_s	Restante	Remaining	Verbleibend	Restante		
+DONE	general	badge_remaining_f_p	Restantes	Remaining	Verbleibend	Restantes		
+DONE	general	badge_signed_m_s	Signé	Signed	Unterzeichnet	Firmado		
+DONE	general	badge_signed_m_p	Signés	Signed	Unterzeichnet	Firmado		
+DONE	general	badge_signed_f_s	Signée	Signed	Unterzeichnet	Firmado		
+DONE	general	badge_signed_f_p	Signées	Signed	Unterzeichnet	Firmado		
+DONE	general	text_verified	Vérifié	Verified	Überprüfen			
+DONE	general	tooltip_hours_planned	Heures planifiées	Planned hours	Geplante Stunden	Horas planificadas		
+DONE	general	tooltip_hours_completed	Heures réalisées	Completed hours	Abgeschlossene Stunden	Horas realizadas		
+DONE	general	tooltip_hours_missed	Heures manquées	Missed hours	Verpasste Stunden	Horas perdidas		
+DONE	general	tooltip_hours_cancelled	Heures annulées	Cancelled hours	Stornierte Stunden	Horas canceladas		
+DONE	general	tooltip_hours_remain	Heures restantes	Remaining hours	Verbleibende Stunden	Horas restantes		
+DONE	general	tooltip_keyword_connected	Ce mot-clé fait partie de vos favoris	This subject matches your interests 	Dieses Keyword entspricht Ihren Interessen		Not a favourites	
+DONE	general	tooltip_head_trainer	Formateur principal	Head Trainer	Haupt-Trainer	Formador principal		
+DONE	general	tooltip_secondary_trainer	Formateur secondaire	Secondary Trainer	Zweiter Trainer	Formador secundario		
+DONE	general	tooltip_view_lesson	Voir réservation	View booking	Buchung anzeigen	Ver reserva		
+DONE	general	tooltip_view_ln	Voir Lesson Notes	View Lesson Notes	Lesson Notes anzeigen	Ver Notas de Clase		
+DONE	general	tooltip_sign_lesson	Signer cours	Sign lesson	Kurs bestätigen	Firmar clase		
+DONE	general	tooltip_launch_lesson	Lancer cours	Launch lesson	Kurs starten	Empezar clase		
+DONE	general	tooltip_material	Support de cours	Material	Material	Materiales		
+DONE	general	tooltip_cancel_lesson	Annuler cours	Cancel lesson	Kurs stornieren	Cancelar clase		
+DONE	general	tooltip_fill_ln	Rédiger Lesson Notes	Fill Lesson Notes	Lesson Notes erstellen	Redactar Notas de Clase		
+DONE	general	tooltip_fill_pta	Rédiger PTA Notes	Fill PTA Notes	PTA Notes erstellen	Redactar Notas EFC		
+DONE	general	tooltip_fill_na	Rédiger NA Notes	Fill NA Notes	NA Notes erstellen	Redactar Notas EN		
+DONE	general	tooltip_video_content	Contient de la video	Video content	Videomaterial	Contenido de video		
+DONE	general	tooltip_audio_content	Contient de l'audio	Audio content	Audiomaterial	Contenido de audio		
+DONE	general	tooltip_quiz_content	Quiz de validation	Quiz	Quiz	Prueba tipo test		
+DONE	general	title_page_trainer_index	Bienvenue sur *WEFIT LMS*	Welcome to *WEFIT LMS*	Willkommen im *WEFIT LMS*	Bienvenido al "WEFIT LMS"		
+DONE	general	title_page_trainer_avail	Disponibilités	Availability	Verfügbarkeiten	Disponibilidad		
+DONE	general	card_trainer_edit_workinghour	Actions possibles	What you can do	Mögliche Aktionen	Lo que puede hacer		
+DONE	general	card_trainer_planned	Cours planifiés	Planned lessons	Geplante Kurse	Clases planificadas		
+DONE	general	card_trainer_next	Prochain cours	Next lesson	Nächster Kurs	Próxima clase		
+DONE	general	card_trainer_incoming	Parcours à lancer	New learners	Programm in Arbeit	Nuevos cursos		
+DONE	general	card_trainer_active	Parcours actifs	Learners in progress	Programm läuft	Cursos activos		
+DONE	general	card_trainer_done	Cours réalisés	Completed lessons	Kurs beendet	Clases realizadas		
+DONE	general	card_trainer_done	Cours réalisés ce mois	Hours completed this month	Diesen Monat absolviert	Clases realizadas este mes		
+DONE	general	card_setup	Prendre rdv avec notre happy customer service	Arrange a callback from our Customer Service team.	Termin mit unserem Kundenservice			
+DONE	general	card_trainer_today	Aujourd'hui	Today's lessons	Heutiger Kurs	Hoy		
+DONE	general	card_trainer_tocomplete	Cours à compléter	Lessons to complete	zu bestätigende Kurse	Clases por completar		
+DONE	general	title_page_trainer_program	Mes parcours	My learners	Mein Programm	Mis alumnos		
+DONE	general	title_page_trainer_calendar	Mon calendrier	My calendar	Mein Kalender	Mi calendario		
+DONE	general	card_select_learner	Sélection apprenant	Select learner	Schüler auswählen	Selección de alumno		
+DONE	general	card_manage_avail	Gestion dispo	Manage availability	Meine Verfügbarkeiten	Gestión de disponibilidad		
+DONE	general	card_trainer_avail_add	Ajouter dispo	Add availability	Verfügbarkeiten hinzufügen	Añadir disponibilidad		
+DONE	general	card_trainer_avail_remove	Ajouter un blocker (=Supprimer dispo)	Add blocker (Remove availability)	Blocker erstellen (Verfügbarkeiten löschen)	Bloquear disponibilidad		
+DONE	general	title_page_trainer_lessons	Mes cours	Lesson list	Meine Kurse	Mis lecciones		
+DONE	general	card_trainer_period	Période sélectionnée	Period	Zeitraum	Periodo seleccionado		
+DONE	general	card_trainer_activity	Mon activité	Activity	Aktivität	Mi actividad		
+DONE	general	card_trainer_hours	Heures de formations (période)	Hours this month	Stundenpaket	Horas de formación		
+DONE	general	title_page_connect	Nous vous attendions ;)	We were waiting for you	Wir freuen uns auf Sie	Teníamos ganas de verle		
+DONE	general	card_forgotten_password	Mot de passe oublié ?	Forgotten password?	Passwort vergessen?	¿Ha olvidado su contrasena?		
+DONE	general	card_connect	Connexion	Connect	Verbinden	Conectar		
+DONE	general	title_page_common_trainer	Compte formateur	Trainer account	Trainer Profil	Cuenta formador		
+DONE	general	title_page_common_trainer_learnerview	Compte formateur	Trainer Profile	Trainer Profil	Cuenta formador		
+DONE	general	title_page_common_trainer_trainerview	Compte formateur	Trainer Profile	Trainer Profil	Cuenta formador		
+DONE	general	title_page_common_trainer_avail	Compte formateur : Disponibilité	Trainer Profile: Availability	Trainer Profil : Verfügbarkeit	Cuenta formador		
+DONE	general	tab_general	Général	General	Generelles	General		
+DONE	general	tab_settings	Réglages	Settings	Einstellungen	Ajustes		
+DONE	general	tab_avail	Disponibilités	Availability	Verfügbarkeiten	Disponibilidad		
+DONE	general	tab_working	Horaires	Working hours	Arbeitszeiten	Horario		
+DONE	general	card_trainer_speciality	Spécialités	Specialities	Fachgebiete	Especialidad		
+DONE	general	card_trainer_availability	Disponibilité globale	Global availability	Verfügbarkeit	Disponibilidad global		
+DONE	general	card_trainer_about	A propos de moi	About me	Über mich	Sobre mi		
+DONE	general	card_trainer_workinghour	Heures de travail	Working hours	Arbeitszeiten	Horas de trabajo		
+DONE	general	card_trainer_signature	Signature	Signature	Unterschrift	Firma		
+DONE	general	title_page_common_tp_details_learner	Mon parcours de formation	My training program	Mein Trainingsprogramm	Mi programa de formación		
+DONE	general	title_page_common_tp_details	Parcours de formation	Training program	Trainingsprogramm	Programa de formación		
+DONE	general	card_tp_resume	Résumé parcours	Training program overview	Trainingsfortschritt	Resumen del programa de formación		
+DONE	general	card_tp_hours	Heures de formation	Training hours	Stundenübersicht	Horas de formación		
+DONE	general	card_tp_details	Détails parcours	Training program details	Details	Detalles del curso		
+DONE	general	card_lesson_details	Détails des cours	Lessons details	Lessons details	Detalles de las clases		
+DONE	general	card_formation_details	Détails de ma formation	Formation details	Formation details	Detalles de formación		
+DONE	general	card_tp_calendar	Calendrier	Calendar	Kalender	Calendario		
+DONE	general	card_tp_description	Description	Description	Beschreibung	Descripción		
+DONE	general	card_note_description	Commentaires	Comments	Kommentare	Comentarios		
+DONE	general	card_tp_exercice	Exercices	Exercices	Übungen	Ejercicios		
+DONE	general	card_tp_lessonnote	Compte-rendu	Lesson Notes	Lesson Notes	Notas de Clase		
+DONE	general	card_tp_note	Évaluer le cours	Rate the lesson	Bewertung abgeben	Valorar de la clase		
+DONE	general	title_page_common_tp_builder	Edition du parcours de formation	Edit Training Program	Trainingsprogramm erstellen	Editar programa de formación		
+DONE	general	card_add_lesson	Ajouter cours de	Add lesson	Kurs hinzufügen	Añadir lección		
+DONE	general	card_program	Programme	Training Program	Trainingprogramm	Programa		
+DONE	general	card_details	Contenu	Content	Inhalt	Contenido		
+DONE	general	title_page_common_syllabus	Bibliothèque	Library	Meine Bibliothek	Bilbioteca		
+DONE	general	title_page_common_materials	Supports de cours	Library	Bibliothek	Biblioteca		
+DONE	general	text_about	Env.	About	Ca.	Alrededor de		
+DONE	general	title_page_common_practice	Exercices	Exercises	Übungen	Ejercicios		
+DONE	general	title_page_common_wemail	Modèles d'email	Email templates	Email Vorlagen	Ejemplos de email		
+DONE	general	card_wemail_search	Rechercher un modèle	Look for a template	Vorlage suchen	Búsqueda de un ejemplo		
+DONE	general	card_wemail_category	Modèles par catégorie	Templates by category	Vorlagen nach Kategorie	Ejemplos por categoría		
+DONE	general	card_vocab_search	Rechercher un mot	Look for a word/expression	Wortsuche	Búsqueda de palabra		
+DONE	general	card_settings	Réglages	Settings	Einstellungen	Ajustes		
+DONE	general	title_page_common_learner_account_learner	Mon compte apprenant	My learner account	Mein Profil	Mi cuenta de alumno		
+DONE	general	title_page_common_learner_account_trainer	Compte apprenant :	Learner account:	Schülerprofil	Cuenta alumno:		
+DONE	general	accordion_subscription	Abonnement	Subscription	Abonnement	Subscripción		
+DONE	general	subscription_el	Votre abonnement E_Learning	Your e-learning subscription	Ihr eLearning Abonnement	Su subscripción a e-Learning		
+DONE	general	accordion_availabilities	Disponibilités	Availability	Verfügbarkeiten	Disponibilidad		
+DONE	general	accordion_needs	Besoins en formation	Needs	Bedarfsanforderungen	Necesidades de formación		
+DONE	general	accordion_settings	Réglages	Settings	Einstellungen	Ajustes		
+DONE	general	accordion_my_availabilities	Mes disponibilités	My availability	Verfügbarkeiten	Mi disponibilidad		
+DONE	general	accordion_my_needs	Mes besoins en formation	My needs	Bedarfsanforderungen	Mis necesidades de formación		
+DONE	general	accordion_my_settings	Mes réglages	My settings	Meine Einstellungen	Mis ajustes		
+DONE	general	title_page_gateway	Lancement du cours	Launch lesson	Kurs starten	Empezar clase		
+DONE	general	card_gateway_launch	Vous êtes prêt(e) à commencer ?	Are you ready?	Ich bin bereit	¿Está preparado?		
+DONE	general	card_title_reinit	Réinitialiser votre mot de passe	Reset your password	Passwort zurücksetzen	Restablecer contraseña		
+DONE	general	card_text_reinit	Vous avez initié une demande de changement ou de récupération de mot de passe. Veuillez entrer un nouveau mot de passe.	You asked for a password reset. Please enter your new password and confirm.	Sie möchten Ihr Passwort zurücksetzen? Bitte geben Sie Ihr neues Passwort ein.	Ha pedido restablecer su contraseña. Inserte una nueva contraseña.		
+DONE	general	ln_title_description	Description	Description	Beschreibung	Descripción		
+DONE	general	ln_title_automatic	Automatique	Automatic	Automatisch	Automático		
+DONE	general	ln_title_main_description	Description du cours	Main Description	Kursbeschreibung	Descripción de la lección		
+DONE	general	ln_title_objectives	Objectifs pédagogiques	Objectives	Lernziel	Objetivos pedagógicos		
+DONE	general	ln_title_grammar	Grammaire	Grammar	Grammatik	Gramática		
+DONE	general	ln_title_vocabulary	Vocabulaire	Vocabulary	Vokabular	Vocabulario		
+DONE	general	ln_title_today_teaching_points	Principaux points abordes aujourd'hui	Today's main teaching points	Heutige Hauptlehrpunkte	Aspectos principales de la clase de hoy		
+DONE	general	ln_title_today_work_on	Aujourd'hui, nous avons travaillé sur	In Today's lesson we worked on	Im heutigen Kurs lag der Fokus auf	Hoy hemos tratado		
+DONE	general	ln_title_today_work_on_placeholder	Compétences abordées non listées ci-dessus	Skills covered that are not specified above	Zusätzlich angesprochene Punkte	Competencias tratadas no enumeradas arriba		
+DONE	general	ln_title_grammar_covered	Points de grammaire	Grammar points covered during this lesson	Im heutigen Kurs behandelte Grammatikpunkte	Aspectos de gramática tratados		
+DONE	general	ln_title_sort_by_level	par niveau	sort by level	Sortiert nach Level	por nivel		
+DONE	general	ln_title_grammar_explanation	Exercices ou Points de grammaire	Grammar explanation, exercices & tips	Grammatik: Erklärungen, Übungen & Tipps	Ejercicios o aspectos gramaticales		
+DONE	general	ln_title_trainer_feedback	Compte-rendu du formateur	Trainer's feedback & homework	Trainer Feedback & Hausaufgaben	Informe del formador		
+DONE	general	ln_title_min_char	min. 150 caractères	min. 150 chr.	mind. 150 Zeichen	min. 150 caracteres		
+DONE	general	ln_title_main_discussion	Principaux sujets / ressources utilisees	Main discussion topics and resources used	Hauptdiskussionsthemen und verwendete Ressourcen	Temas principales / Recursos utilizados		
+DONE	general	ln_title_did_work_on	Sur quoi avons-nous travaillé aujourd'hui ?	What did you work on today	Heute haben wir folgende Themen behandelt	¿Qué trabajado hoy?		
+DONE	general	ln_title_target_situation	Objectifs	Target situation	Lernziel	Objetivos		
+DONE	general	ln_title_strategy_analysis	Analyse	Strategy analysis	Strategieanalyse	Análisis		
+DONE	general	ln_title_learner_profile	Profile Apprenant	Learner profile	Schülerprofil	Perfil del alumno		
+DONE	general	profile	Profil	Profile	Profil erstellen	Perfil		
+DONE	general	profile_social_lrn	Social learner	Social learner	Sozialer Lerner	Estudiante social		
+DONE	general	profile_social	Social	Social	sozial	Social		
+DONE	general	profile_dynamic_lrn	Dynamic learner	Dynamic learner	Dynamischer Lerner	Estudiante dinámico		
+DONE	general	profile_dynamic	Dynamic	Dynamic	dynamisch	Dinámico		
+DONE	general	profile_independant_lrn	Independant learner	Independant learner	Unabhängiger Lerner	Estudiante independiente		
+DONE	general	profile_independant	Independant	Independant	unabhängig	Independiente		
+DONE	general	profile_applied_lrn	Applied learner	Applied learner	Pragmatischer Lerner	Estudiante aplicado		
+DONE	general	profile_applied	Applied	Applied	pragmatisch	Aplicado		
+DONE	general	profile_conceptual_lrn	Conceptual learner	Conceptual learner	Konzeptioneller Lerner	Estudiante conceptual		
+DONE	general	profile_conceptual	Conceptual	Conceptual	konzeptionell	Conceptual		
+DONE	general	profile_scholastic_lrn	Scholastic learner	Scholastic learner	Schulischer Lerner	Estudiante académico		
+DONE	general	profile_scholastic	Scholastic	Scholastic	schulisch	Académico		
+DONE	general	profile_creative_lrn	Creative learner	Creative learner	Kreativer Lerner	Estudiante creativo		
+DONE	general	profile_creative	Creative	Creative	kreativ	Creativo		
+DONE	general	profile_analytic_lrn	Analytic learner	Analytic learner	Analytischer Lerner	Estudiante analítico		
+DONE	general	profile_analytic	Analytic	Analytic	analytisch	Analítico		
+DONE	general	profile_neutral_lrn	Neutral learner	Neutral learner	Neutraler Lerner	Estudiante neutro		
+DONE	general	profile_neutral	Neutral	Neutral	neutral	Neutro		
+DONE	general	brain_dominance	Dominance cérébrale	Brain Dominance	Gehirndominanz	Parte dominante del cerebro		
+DONE	general	left_brain_dominance	Hémisphère gauche dominant	Left Brain dominant	Linke Gehirnhälftendominanz	Cerebro izquierdo dominante		
+DONE	general	right_brain_dominance	Hémisphère droit dominant	Right Brain dominant	Rechte Gehirnhälftendominanz	Cerebro derecho dominante		
+DONE	general	left_brain	Hémisphère gauche	Left Brain	Linke Gehirnhälfte	Hemisferio cerebral izquierdo		
+DONE	general	right_brain	Hémisphère droit	Right Brain	Rechte Gehirnhälfte	Hemisferio cerebral derecho		
+DONE	general	introvert	Introvertie	Introvert	Introvertiert	Introvertido		
+DONE	general	extrovert	Extravertie	Extrovert	Extrovertiert	Extrovertido		
+DONE	general	sensory_perception	Perception sensorielle	Sensory perception	Sensorische Wahrnehmung	Percepción sensorial		
+DONE	general	perception_visual_nv	Visuel / Non verbal	Visual non-verbal	Visuell nonverbal	Visual / no verbal		
+DONE	general	perception_kinesthetic	Kinesthésique	Kinesthetic	Kinästhetisch	Kinestético		
+DONE	general	perception_visual_verbal	Visuel / Verbal	Visual-verbal	Visuell verbal	Visual / verbal		
+DONE	general	perception_audio_verbal	Audio / Verbal	Audio-verbal	Auditiv verbal	Audio / verbal		
+DONE	general	ln_title_target_analysis	Analyse	Target analysis	Zielanalyse	Análisis		
+DONE	general	ln_title_training_program	Parcours de Formation	Training program	Trainingsprogramm	Programa de formación		
+DONE	general	ln_title_trainer_feedback_tips	Compte-rendu du formateur	Trainer's feedback & tips	Trainer Feedback	Informe del formador		
+DONE	general	ln_title_achievement	Résultats	Achievement	Ergebnis	Resultados		
+DONE	general	ln_title_ln	Compte-rendu de cous	Lesson notes	Lesson Notes	Notas de clase		
+DONE	general	ln_title_na	Recueil de besoins	Needs Assessment	Needs Assessment	Evaluación de necesidades		
+DONE	general	ln_title_pta	Rapport de formation	Post Training Assessment	Post Training Assessment	Evaluación final de curso		
+DONE	general	ln_title_initial	Besoins initiaux / Points a améliorer	Initial needs / Areas of improvement	Erste Bedarfe / Zu verbessernde Punkte	Necesidades iniciales / Aspectos a mejorar		
+DONE	general	ln_title_want_to	Compétences à développer	Skills to improve:	Zu verbessernde Fähigkeiten	Competencias a desarrollar		
+DONE	general	ln_title_auto_needs	Automatique (formulaire rempli par l'apprenant)	Automatic - based on learner's needs form	Automatisch - basierend auf den Angaben in der Bedarfsanalyse	Automático (formulario cumplimentado por el alumno)		
+DONE	general	ln_title_auto_pt	Automatique (Test d'évaluation de l'apprenant)	Automatic - based on learner's placement test	Automatisch - basierend auf dem Ergebnis des Einstufungstests	Automático (test de evaluacion del alumno)		
+DONE	general	ln_title_auto_tp	Automatique (basé sur le parcours de l'apprenant)	Automatic - based on learner's Training Program	Automatisch - basierend auf dem Trainingsprogramm des Schülers	Automático (en función del programa del alumno)		
+DONE	general	ln_title_how	Comment souhaitez-vous apprendre la langue :	This is how you want to learn the language:	Wie Sie diese Sprache lernen möchten:	Como desea aprender el idioma:		
+DONE	general	ln_title_alert_skill	Au moins une compétence doit être renseignée	At least one skill has to be checked	Es muss mindestens eine Fähigkeit eingegeben werden.	Debe comprobarse al menos una destreza		
+DONE	general	ln_title_interests	Centres d'intérêts / Thématiques :	Interests / keywords:	Interessen/ Keywords:	Intereses / Temas		
+DONE	general	ln_title_level	Niveau :	Level:	Level:	Nivel:		
+DONE	general	ln_title_now_able	Vous êtes maintenant capable de :	You are now able to:	Sie können jetzt:	Usted puede:		
+DONE	general	ln_title_performance	Votre performance	Performance during the training	Ihre Leistung	Rendimiento		
+DONE	general	ln_title_alert_list	Lister les sujets ou points d'amélioration exprimés par l'apprenant :	List here the topics or situations your learner wants to work on during their training:	Listen Sie hier die Themen oder Situationen auf, an denen Ihr Schüler während seines Trainings arbeiten möchte:	Enumere los puntos o aspectos que el alumno quiere mejorar:		
+DONE	general	title_page_learner_index	Bienvenue sur *WEFIT LMS*	Welcome to *WEFIT LMS*	Willkommen im *WEFIT LMS*	Bienvenido al "WEFIT LMS"		
+DONE	general	card_learner_nextlesson	Mon prochain cours	Next lesson	Nächster Kurs	Próxima clase		
+DONE	general	card_learner_mytraining	Ma formation	My training	Mein Training	Mi formación		
+DONE	general	card_learner_mytrainer	Mon formateur	My trainer	Mein Trainer	Mi formador		
+DONE	general	card_learner_mytrainers	Mes formateurs	My trainers	Meine Trainer	Mis formadores		
+DONE	general	card_learner_remaining_hours	Total heures restantes	Remaining hours	Verbleibende Stunden	Total de horas restantes		
+DONE	general	card_learner_remaining_without	(hors eLearning & certification)	(except eLearning & certification)	eLearning & Zertifikat	(expcepto eLearning y certificados)		
+DONE	general	card_course_to_sign	Cours à signer	Lessons to sign	Kurs bestätigen	Clases a firmar		
+DONE	general	card_new	Nouveautés	New lessons	Neuer Kurs	Lecciones nuevas		
+DONE	general	card_certification	Certification	Certification	Zertifikat	Certificados		
+DONE	general	card_subscription	Abonnement	Subscription	Abonnement	Subscripción		
+DONE	general	card_rules	Les règles du jeu	Rules of the game	Spielregeln	Reglas del juego		
+DONE	general	card_use_terms	Conditions d'utilisation	Terms of use	Datenschutzbedingungen	Condiciones de uso		
+DONE	general	card_checklist	Checklist	Checklist	Checkliste	Lista de verificación		
+DONE	general	card_deadline	Date limite de formation	Training deadline	Trainingsfrist	Fecha limite para la formación		
+DONE	general	card_step_1	Je passe mon test d'évaluation	Take my Placement Test	Einstufungstest	Hacer mi prueba de nivel		
+DONE	general	card_step_2	J'évalue mon profil d'apprentissage	Take my Learning Style Test	Lernprofiltest	Hacer mi tests de estilo de aprendizaje		
+DONE	general	card_step_3	Je renseigne mes besoins	Complete my needs assessment	Bedarfsanalyse	Completar la evaluación de mis necesidades		
+DONE	general	el_txt_lesson	cours	lesson	Kurs	clases		
+DONE	general	el_txt_lessons	cours	lessons	Kurse	clases		
+DONE	general	el_txt_quiz	quiz	quiz	Quiz	prueba tipo test		
+DONE	general	el_txt_quizzes	quizzes	quizzes	Quizze	pruebas tipo test		
+DONE	general	el_txt_test	test	test	Test	prueba tipo test		
+DONE	general	el_txt_tests	tests	tests	Tests	pruebas tipo test		
+DONE	general	title_page_learner_eval	Mes évaluations	My tests	Meine Tests	mis pruebas		
+DONE	general	card_learner_pt	Test de niveau	Placement Test	Einstufungstest	Prueba de nivel		
+DONE	general	card_learner_lst	Profil d'apprentissage	Learning Style Test	Lernprofiltest	Estilo de aprendizaje		
+DONE	general	title_page_learner_needs	Recueil de besoin	Needs assessment	Bedarfsanalyse	Evaluación de necesidades		
+DONE	general	card_learner_needs	Evaluation de vos besoins	Your needs	Einschätzung Ihrer Lernbedarfe	Evaluación de sus necesidades		
+DONE	general	needs_txt_exp_write_improve	Amélioration expression écrite	Improve written expression	Verbesserung des schriftlichen Ausdrucks	Mejorar la expresión escrita		
+DONE	general	needs_txt_exp_oral_improve	Amélioration expression orale	Improve oral expression	Verbesserung des mündlichen Ausdrucks	Mejorar la expresión oral		
+DONE	general	needs_txt_exp_both_improve	Amélioration expression orale et écrite	Improve oral & written expression	Verbesserung des mündichen & schriftlichen Ausdrucks	Mejorar la expresión oral y escrita		
+DONE	general	needs_txt_comp_write_improve	Amélioration compréhension écrite	Improve written comprehension	Verbesserung des schriftlichen Verständnis	Mejorar la comprensión escrita		
+DONE	general	needs_txt_comp_oral_improve	Amélioration compréhension orale	Improve oral comprehension	Verbesserung des mündlichen Verständnis	Mejorar la comprensión oral		
+DONE	general	needs_txt_comp_both_improve	Amélioration compréhension orale et écrite	Improve oral & written comprehension	Verbesserung des schriftlichen & mündlichen Verständnis	Mejorar la comprensión oral y escrita		
+DONE	general	needs_txt_trainer_mono	Formateur unique	One trainer	Einzel-Trainer	Formador único		
+DONE	general	needs_txt_trainer_several	Plusieurs formateurs	Several trainers	mehrere Trainer	Varios formadores		
+DONE	general	needs_txt_advise	(conseillé pour les niveaux débutants : de A0 à B1)	(for low level)	(Empfohlen für die Beginner-Level A0-B1)	(nivel debutante: A0-B1)		
+DONE	general	title_page_learner_eval_pt	Test de niveau	Placement Test	Einstufungstest	Prueba de nivel		
+DONE	general	title_page_learner_eval_lst	Test de profil d'apprentissage	Learning Style Test	Lernprofiltest	Prueba de estilo de aprendizaje		
+DONE	general	title_page_learner_eou_quiz	Quiz de compréhension	Comprehension quiz	Verständnis-Quiz	Prueba de comprensión		
+DONE	general	title_page_learner_assessmet_quiz	Writing Assessment	Writing Assessment	Schriftliche Bewertung	Examen de producción escrita		
+DONE	general	card_eval_global_results	Résultat global	Global results	Gesamtniveau	Resultado global		
+DONE	general	card_eval_answer_details	Détails de vos réponses	Answer details	Antwortdetails	Detalle de sus respuestas		
+DONE	general	card_learner_your_level	Votre niveau	Your level	Dein Level	Su nivel		
+DONE	general	title_page_learner_calendar	Mon calendrier	My calendar	Mein Kalender	Mi calendario		
+DONE	general	title_page_learner_trainers_view	Mes formateurs	My trainers	Meine Trainer	Mis formadores		
+DONE	general	title_page_trainer_lessons	Mes cours	Lesson list	Meine Kurse	Mis clases		
+DONE	general	card_learner_hours	Heures de formations (période)	Hours on period	Stundenpaket	Horas de formación		
+DONE	general	title_page_learner_mock_tests	Examens blancs	Mock Tests	Mock Tests	Exámenes de prueba		
+DONE	general	card_linguaskill_name	Compréhension orale et écrite	Oral and written comprehension	Hör- und Schreibverständnis	Comprensión oral y escrita		
+DONE	general	card_brain_dominance	Dominance cérébrale	Brain dominance	Gehirndominanz	Dominancia cerebral		
+DONE	general	card_socialization	Socialisation	Socialization	Sozialisation	Socialización		
+DONE	general	card_sensory_perception	Perception sensorielle	Sensory Perception	Sensorische Wahrnehmung	Percepción sensorial		
+DONE	general	card_rating	Évaluation du cours	Lesson evaluation	Kursbewertung	Evaluación de la clase		
+DONE	general	txt_rating	Merci de prendre un court instant pour évaluer votre cours. Cela nous aide à améliorer nos services.	Please take a moment to rate your lesson. This will help us to improve your experience with WEFIT.	Bitte nehmen Sie sich einen kurzen Moment Zeit, um Ihren Kurs zu bewerten. Dies hilft uns, die Qualität kontinuierlich zu verbessern.	Le agradecemos que se tome unos instantes para evaluar la clase. Esto nos ayudará a mejorar nuestro servicio.		
+DONE	general	txt_rating2	NB : Cette appréciation ne sera pas visible par votre formateur.	Please note: This assessment will not be visable by your teacher	FYI: Diese Bewertung ist für Ihren Trainer nicht sichtbar.	Tenga en cuenta que su formador no podrá ver estos comentarios.		
+DONE	general	title_page_tm_trainers	Formateurs WEFIT	WEFIT trainers	WEFIT Trainer	Formadores WEFIT		
+DONE	general	title_page_tm_opinion	Enquête de satisfaction	Customer satisfaction survey	Zufriedenheitsumfrage	Encuesta de satisfaccción del cliente		
+DONE	general	card_quiz_timer	Temps restant	Countdown	Countdown	Tiempo restante		
+DONE	general	title_page_quiz_lst	Mon profil d'apprentissage	My learning Style Test	Mein Lernprofiltest	Mi estilo de aprendizaje		
+DONE	general	title_page_quiz_pt	Mon test d'évaluation	My placement test	Mein Einstufungstest	Mi prueba de evaluación		
+DONE	general	p_several_answers	Plusieurs réponses possibles	More than one answer is possible	Viele mögliche Antworten	Varias respuestas posibles		
+DONE	general	p_solo_answer	Une seule réponse possible	Only one answer possible	Nur eine Antwort möglich	Una sola respuesta posible		
+DONE	general	title_page_subscription	Bienvenue sur *WEFIT LMS*	Welcome to *WEFIT LMS*	Willkommen im *WEFIT LMS*	Bienvenido a *WEFIT LMS*		
+DONE	general	card_subscribe	Vous souhaitez créer un compte démo sur WEFIT	Create a free account on WEFIT	Sie möchten ein WEFIT Testprofil anlegen	Crear una cuenta gratuita en WEFIT		
+DONE	general	card_already	Déjà inscrit?	Already registered?	Bereits registriert?	¿Ya está registrado?		
+DONE	general	text_subscription	L'ouverture d'un compte sur notre plate-forme est gratuite et sans engagement. Une fois vos coordonnées renseignées, vous pourrez :	This subscription is free. Once you have completed your details you will have access to:	Die Eröffnung eines Kontos auf unserer Plattform ist kostenlos und unverbindlich. Sobald Sie Ihre Daten eingegeben haben, können Sie:	La apertura de una cuenta en nuestra platarforma es gratuita y no conlleva ningún compromiso. Una vez rellene sus datos tendrá acceso a:		
+DONE	general	text_subscription_1	Passer votre test de niveau	Placement Test	den WEFIT Einstufungstest absolvieren	Completar su prueba de nivel		
+DONE	general	text_subscription_2	Passer votre test de profil d'apprentissage	Learning Style Test	den WEFIT Lernprofiltest absolvieren	Completar su prueba de estilo de aprendizaje		
+DONE	general	text_subscription_3	Bénéficier d'un abonnement eLearning pendant 6 heures et accéder à l'ensemble de nos ressources (supports de cours, examens blancs, listes de vocabulaires, modèles d'emails...)	eLearning platform for 6 hours, including materials, quizzes, email template, vocabulary lists and more...	auf alle Lernmaterialien inkl. interaktiven Übungen und Quizzen, sowie Vokabellisten, Email-Templates, und Sprachtests zugreifen.	Obtenga un bono de 6 horas de eLearning y acceda a todos nuestros materiales (recursos de clase, exámenes de prueba, listas de vocabulario, ejemplos de email...)		
+DONE	general	form_subscription_1	Vous êtes	You are	Name	Nombre		
+DONE	general	form_subscription_2	Email	Email	Email	Email		
+DONE	general	form_subscription_3	Mot de passe	Password	Passwort	Contraseña		
+DONE	general	form_subscription_4	Téléphone	Phone	Telefon	Teléfono		
+DONE	general	form_subscription_5	Situation	Working status	berufliche Situation	Situación laboral:		
+DONE	general	form_subscription_btn	Enregistrer et commencer !	Save and get started!	Registrieren und anfangen	Regístrese y empiece!		
+DONE	general	title_page_visio_f2f_tp	Parcours Visio / F2F	Visio / F2F Training	Video / F2F Training	Programa Video Conferencia / F2F		
+DONE	general	prefilled_tp	Parcours pré-construit	Pre-built training program	Vorgefertigtes Trainingsprogramm	Programa pre-creado		
+DONE	general	solo_tp	Parcours sur-mesure	Tailor-made training program	Maßgeschneidertes Trainingsprogramm	Programa a medida		
+DONE	general	collab_tp	Parcours collaboratif	Collaborative journey	Gemeinsam erstelltes Trainingsprogramm	Porgrama en colaboración		
+DONE	general	title_page_visio_library	Bibliothèque Visio	Visio Library	Video Bibliothek	Biblioteca Visio		
+DONE	general	title_page_my_trainer	Mon formateur	My trainer	Mein Trainer	Mi formador		
+DONE	general	title_page_my_trainers	Mes formateurs	My trainers	Meine Trainer	Mis formadores		
+DONE	general	title_page_activity_report	Rapport d'activité	Activity report	Kursübersicht	Informe de actividad		
+DONE	general	title_page_tests	Tests & Evaluations	Tests	Tests	Pruebas y evaluaciones		
+DONE	general	title_page_signature	Attente signature	Awaiting signature	Kursbestätigung	A la espera de firma		
+DONE	general	title_page_tools	Outils	Tools	Tools	Herramientas		
+DONE	general	card_level	Niveau	Level	Level	Nivel		
+DONE	general	card_keywords	Mots-clés	Keywords	Keywords	Palabras clave		
+DONE	general	card_grammar	Grammaire	Grammar	Grammatik	Gramática		
+DONE	general	card_activity	Activité	Activity	Aktivität	Actividad		
+DONE	general	card_media_library	Médiathèque	Media library	Mediathek	Mediateca		
+DONE	general	card_awaiting_signature	Cours en attente de signature	Lessons that need a signature	Kurs durch Unterschrift zu bestätigen	Clase a la espera de firma		
+DONE	general	card_for_practice	Pour s'entraîner	Practice	Übungstest	Para practicar		
+DONE	general	card_vocabulary_list	Listes vocabulaire	Vocabulary Lists	Vokabellisten	Listas de vocabulario		
+DONE	general	card_vocabulary_perso_list	Ma liste de vocabulaire	My vocabulary list	Meine Vokabelliste	Mi lista de vocabulario		
+DONE	general	card_thematic_list	Thématiques	Themes	Themen	Temas		
+DONE	general	var_duration	Durée variable	Variable duration	Variable Kursdauer	Duración variable		
+DONE	general	short_minute	min	min	min	min		
+DONE	general	timing_fifteen_minutes	environ 15 minutes	About 15 minutes	Ca. 15 Minuten	15 minutos aproximadamente		
+DONE	general	timing_ten_to_fifty_min	de 10 à 50 minutes	From 10 to 50 minutes	Zwischen 10 und 50 Minuten	de 10 a 15 minutos		
+DONE	general	timing_zero_minute	0 minute	0 minutes	0 Minuten	0 minutos		
+DONE	general	timing_two_minutes	2 minutes	2 minutes	2 Minuten	2 minutos		
+DONE	general	timing_three_minutes	3 minutes	3 minutes	3 Minuten	3 minutos		
+DONE	general	timing_ten_minutes	10 minutes	10 minutes	10 Minuten	10 minutos		
+DONE	general	timing_course_morning	Matin : 7h/12h	Morning: 7am/Noon	Morgen: 7h/12h	MAÑANA (7H/12H)		
+DONE	general	timing_course_lunch	Midi : 12h/15h	Early afternoon: Noon/3pm	Mittag: 12h/15h	MEDIODÍA (12H/15)		
+DONE	general	timing_course_afternoon	Après-midi : 15h/19h	Late afternoon: 3pm/7pm	Nachmittag: 15h/19h	TARDE (15H/19H)		
+DONE	general	timing_course_evening	Soirée : 19h/22h	Evening: 7pm/10pm	Abend: 19h/22h	TARDE (19H/22H)		
+DONE	general	tooltip_time_elapsed	Temps passé	Time elapsed	Zeit abgelaufen	Tiempo transcurrido		
+DONE	general	tooltip_last_connect	Dernière visite	Last viewed	Zuletzt angesehen	Última visita		
+DONE	general	tooltip_score_quiz	Score quiz	Quiz score	Punktzahl	Puntuación		
+DONE	general	tooltip_remove_elearning	Retirer de mon e-Program	Remove from e-Program	aus e-Programm löschen	Eliminar de mi e-Program		
+DONE	general	tooltip_add_favourite	Ajouter aux favoris	Add to favourites	Zu Favoriten hinzufügen	Añadir a favoritos		
+DONE	general	tooltip_remove_favourite	Retirer des favoris	Remove from favourites	Aus den Favoriten löschen	Eliminar de favoritos		
+DONE	general	tooltip_nnl	No Next Lesson	No Next Lesson	No Next Lesson	No hay próxima clase		
+DONE	general	tooltip_bl	Bad Learner (2 months without scheduling)	Bad Learner (2 months without scheduling)	Bad Learner (2 Monate ohne Buchung)	Bad Learner (2 meses sin reservar)		
+DONE	alert	alert_accept_charter	Veuillez accepter la charte ainsi que les conditions d'utilisation SVP	Please accept the charter as well as the conditions of use	Bitte bestätigen Sie die Spielregeln, sowie die Datenschutzrichtlinien	Acepte la política de uso y las condiciones		
+DONE	alert	alert_enter_valid_level	Veuillez indiquer un niveau valide SVP.	Please choose your level.	Bitte geben Sie ein Sprachlevel ein	Indique un nivel válido, por favor		
+DONE	alert	alert_no_data	Aucune données à afficher	No data to display	Keine Daten angezeigt	Sin información para mostrar		
+DONE	alert	alert_no_course	Aucun cours disponible	No lessons available	Kein Kurs verfügbar	Ninguna clase disponible		
+DONE	alert	alert_not_compatible	Votre navigateur n'est pas compatible	Your browser is not supported	Ihr Browser ist nicht kompatibel	Su navegador no es compatible		
+DONE	alert	alert_no_support	Pas de support de cours	No material attached	Kein Material angehängt	Sin materiales de clase adjuntos		
+DONE	alert	alert_no_video	Ne contient pas de support vidéo	Does not contain video media	Kein Videomaterial verfügbar	No contiene video		
+DONE	alert	alert_no_audio	Ne contient pas de support audio	Does not contain audio media	Kein Audiomaterial verfügbar	No contiene audio		
+DONE	alert	alert_no_quiz	Pas de quiz attaché	No quiz attached	Kein Quiz verfügbar	Sin test adjunto		
+DONE	alert	alert_no_tp	Aucun parcours	No training program	Kein Trainingsprogramm	Ningún programa de formación		
+DONE	alert	alert_no_tp_created	Aucun parcours créé	No training program created	Kein Trainingsprogramm erstellt	Ningún programa de formación creado		
+DONE	alert	alert_modif_tp_ok	Modifications du parcours effectuées.	Training program modifications made.	Trainingsprogramm Änderungen	Modificaciones del programa de formación efectuadas.		
+DONE	alert	alert_program_calendar_conflict	Parcours de formation incompatible avec le calendrier de réservation.	Training course not compatable with the calendar	Schulungskurs nicht kompatibel mit dem Reservierungskalender.	Curso de formación no compatible con el calendario de reservación		
+DONE	alert	alert_no_avail	Pas de disponibilités	No availability	Keine Verfügbarkeiten	Sin disponibilidad		
+DONE	alert	alert_no_workinghour	Pas de profil d'horaires de travail.	No working hours set	Keine Arbeitszeiten eingestellt	Ningún horario laboral establecido		
+DONE	alert	alert_modif_ok	Modifications effectuées.	Changes made.	Änderungen gespeichert	Modificaciones realizadas.		
+DONE	alert	alert_modif_lesson_ok	Félicitations, votre cours est désormais réservé.	Well done! Your lesson is now scheduled.	Herzlichen Glückwunsch! Ihr nächster Kurs ist gebucht.	Felicidades. Ha reservado su clase.		
+DONE	alert	alert_switch_lesson	Le statut du cours est passé de 'planifié' à 'En cours'.	The lesson switched from 'Scheduled' to 'In Progress'	Der Status wurde von "geplant" zu "in progress" geändert.	El estado de su clase a cambiado de "planificada" a " En curso".		
+DONE	alert	alert_cancel_lesson_ok	Votre cours a été annulé.	Your lesson is now cancelled.	Ihr Kurs wurde storniert	Vuestra clase ha sido cancelada.		
+DONE	alert	alert_no_planned	Vous n'avez pas de cours planifié.	No scheduled lesson.	Kein Kurs gebucht	No tiene ninguna clase reservada.		
+DONE	alert	alert_no_trainer	Vous n'avez pas de formateur rattaché.	No trainers available yet.	Sie haben noch keinen Trainer	No tiene formador asignado.		
+DONE	alert	alert_sign_lesson_ok	Vous avez correctement émargé votre cours.	Lesson signed	Kurs durch Unterschrift bestätigt!	Clase firmada.		
+DONE	alert	alert_no_access_syllabus	Vous n'avez pas encore les droits de consultation sur la bibliothèque WEFIT.	You don't have access to the syllabus	Sie haben keinen Zugriff auf die Bibliothek	Todavia no tiene acceso a la biblioteca WEFIT.		
+DONE	alert	alert_trainer_ok	Formateur correctement créé	Trainer added.	Trainer hinzugefügt	Formador añadido correctamente		
+DONE	alert	alert_user_created	Utilisateur créé!	User created	Benutzer erstellt	Usuario creado		
+DONE	alert	alert_user_already_exist	Un utilisateur existe déjà avec cet email.	A user already exists with this email address	Es existiert bereits ein Benutzer mit dieser Emailadresse	Ya existe un usuario con este correo electronico		
+DONE	alert	alert_status_mail_send	Email de status envoyé	Update email	Emailstatus gesendet	Correo electronico de status enviado		
+DONE	alert	alert_mdp_trainer_reinit	Process mot de passe initialisé	Reset password	Passwort zurücksetzen	Proceso de restablecimiento de contraseña iniciado		
+DONE	alert	alert_mdp_change_ok	Votre mot de passe a correctement été paramétré.	Your password was successfully reset	Ihr Passwort wurde erfolgreich geändert.	Su contraseña ha sido restablecida correctamente.		
+DONE	alert	alert_thx_reading	Merci d'avoir pris le temps de nous lire!	Thank you for reading and agreeing to our terms and conditions.	Ich habe die Nutzungsbedingungen gelesen und akzeptiert.	Gracias por leer nuestros términos y condiciones.		
+DONE	alert	alert_thx_giving_opinion	Votre formulaire nous est correctement parvenu. Merci d'avoir pris le temps de répondre.	Thank you for taking the time to complete the form, it has now been sent.	Ihr Formular wurde an uns übermittelt. Vielen Dank, dass Sie sich die Zeit genommen haben, es auszufüllen.	Gracias por haber tomado el tiempo de rellenar el formulario. Ya lo hemos recibido		
+DONE	alert	alert_needs_ok	Votre recueil de besoins nous est correctement parvenu et nous vous en remercions.	Thank you for completing the needs assessment	Vielen Dank, wir haben Ihre Bedarfsanalyse erhalten.	Gracias por completar su evaluación de necesidades de formación.		
+DONE	alert	alert_wrong_connect	<strong>Attention !</strong> Erreur d'authentification. Veuillez entrer à nouveau vos identifiants.	Authentification error. Please try again	Authentifizierungsfehler! Bitte versuchen Sie es noch einmal.	<strong>¡Cuidado!</strong> Error de autentificación. Vuelva a introducir sus datos.		
+DONE	alert	alert_wrong_link	<strong>Attention !</strong> le lien que vous avez utilisé n'est plus actif ou est cassé. Veuillez réitérer une demande.	Link expired. Please try again.	Link abgelaufen. Bitte versuchen Sie es noch einmal.	<strong>¡Cuidado!</strong> el enlace ya no está activo o ha caducado. Por favor, vuelva a intentarlo.		
+DONE	alert	alert_ready	<strong>Bravo !</strong> Votre nouveau mot de passe a été réinitialisé. Vous pouvez enfin vous connecter )	Your password has now been updated	Glückwunsch! Ihr Passwort wurde geändert. Sie können sich nun anmelden.	<strong>¡Bravo!</strong> Su nueva contraseña ha sido creada. Ya puede conectarse.		
+DONE	alert	alert_tp_anomaly	<strong>Attention !</strong> Le Training Program est incomplet, veuillez le compléter rapidement.	<strong>Warning!</strong> Incomplete Training Program, please build it.	<strong>Achtung!</strong> Trainingsprogramm unvollständig. Bitte kurzfristig erstellen.	<strong>¡Cuidado!</strong> El Programa de Formación está incompleto. Por favor, complételo.		
+DONE	alert	alert_tp_deadline	<strong>Attention !</strong> La date limite d'utilisation des crédits est dépassée. Veuillez contacter notre équipe.	<strong>Warning !</strong> The deadline has passed... please contact our team.	<strong>Achtung! </strong> Die Frist für die Verwendung Ihrer Trainings-Credits ist abgelaufen. Bitte kontaktieren Sie unser Team.	<strong>¡Cuidado!</strong> El Programa de Formación está incompleto. Por favor, complételo.		
+DONE	alert	alert_no_answer	Vous n'avez sélectionné aucune réponse...	No answer selected	Sie haben keine Antwort ausgewählt.	No ha selecionado ninguna respuesta...		
+DONE	alert	alert_warning	Attention !	Warning!	Achtung!	Atención!		
+DONE	alert	alert_inactive_learner	<strong>Attention !</strong> Votre compte est inactif.<br>Veuillez contacter notre Service Client :<br>service@wefitgroup.com // 01 83 62 32 46	Your account is inactive, please contact Customer Services: service@wefitgroup.com	Ihr Account wurde deaktiviert. Bitte kontaktieren Sie unseren Kundenservice: service@wefitgroup.com	<strong>¡Cuidado!</strong> Su cuenta está inactiva.<br>Por favor contacte con nuestro Servicio al Cliente:<br>service@wefitgroup.com // 01 83 62 32 46		
+DONE	alert	alert_reset_pwd	<strong>Veuillez consulter votre boite email.</strong> Un email vous a été adressé contenant un lien vous permettant de réinitialiser votre mot de passe.	An email has been sent to reset your password	Wir haben Ihnen eine Email zum Zurücksetzen Ihres Passworts gesendet.	<strong>Consulte su bandeja de entrada.</strong> Ha recibido un correo electrónico con un enlace que le permitirá restablecer su contraseña.		
+DONE	alert	alert_ln_removed	La pièce jointe a été correctement supprimée.	The Lesson Note has been deleted	Die Lesson Notes wurden gelöscht.	El archivo adjunto se ha eliminado correctamente.		
+DONE	alert	alert_ln_uploaded	La pièce jointe a été correctement uploadée.	The Lesson Note was uploaded.	Die Lesson Notes wurden erfolgreich hochgeladen.	El archivo adjunto se ha cargado correctamente.		
+DONE	alert	alert_ln_treated	Le compte-rendu de cours a été traité.	Lesson Note completed.	Die Lesson Notes wurden erfolgreich finalisiert.	Las Notas de Clase han sido completadas.		
+DONE	alert	alert_title_signature	Vous avez des cours en attente de signature !	You have lessons waiting to be signed	Bitte bestätigen Sie die Kurse mit Ihrer Unterschrift.	Tiene clases a la espera de firma		
+DONE	alert	alert_title_no_signature	Vous n'avez pas de cours en attente de signature sur ce parcours !	You have no lessons waiting to be signed	Sie müssen aktuell keinen Kurs bestätigen.	No tiene clases a la espera de firma en este programa.		
+DONE	alert	alert_title_elearning	Votre dossier e-Learning est vide !	Your e-Learning Program is empty	Ihr e-Learning Programm ist leer.	Su carpeta e-Learning está vacia.		
+DONE	alert	alert_tm_no_records	Aucun dossier de formation sur cette année	No training record for this year	Kein Trainingsplan für dieses Jahr	Ningún récord de formación este año		
+DONE	alert	alert_body_elearning	Parcourez les ressources parmi les différents niveaux et cliquez sur <i class='fas fa-folder-plus'></i> pour ajouter un cours à votre 'e-program'.	You can browse all the resources by different levels. Then click on e-program to add to your list of lessons to complete	Klicken Sie sich durch die Ressourcenbibliothek und fügen Sie Ihrem e-Programm beliebig viele Kurse hinzu.	Explore los recursos de los diferentes nieveles y haga click <i class='fas fa-folder-plus'></i> para añadir una clase a su e-program.		
+DONE	alert	alert_body_signature	Afin de garantir le bon déroulement administratif de votre dossier de formation, il est nécessaire de signer électroniquement vos cours.	You need to sign each lesson to confirm that you have completed that lesson	Um die ordnungsgemäße, administrative Bearbeitung Ihres Trainingsprogramms zu gewährleisten, müssen Sie Ihre Kurse elektronisch unterzeichnen.	Para poder garantizar el buen funcionamiento administrativo de su carpeta de formación, es necesario que firme las clases de manera electrónica.		
+DONE	alert	alert_no_access	Vous n'avez pas accès à la page demandée, vous avez été redirigé(e) vers votre page d'accueil.	Your subscription does not include access to this page, we have redirected you to the homepage.	Der Zugriff auf diese Funktion ist nicht in Ihrem Abonnement enthalten. Sie wurden auf Ihre Startseite weitergeleitet.	No tiene acceso a la página solicitada. Ha sido dirigido a nuestra página de inicio.		
+DONE	alert	alert_title_no_access_page	Attention	Warning	Achtung!	Atención		
+DONE	alert	alert_no_access_page	Vous n'avez pas accès à la page demandée, veuillez contacter notre équipe.	Your subscription does not include access to this page, please contact our team.	Der Zugriff auf diese Funktion ist nicht in Ihrem Abonnement enthalten.	No tiene acceso a la página solicitada. Por favor contacte con nuestro equipo.		
+DONE	alert	alert_note_success	<strong>Merci !</strong> Votre évaluation nous est parvenue. Vous pouvez à présent fermer cette fenêtre ou accéder à votre interface LMS.	Thank you! Your feedback has been received. You can now close this window and go back to the LMS.	Vielen Dank! Wir haben Ihre Bewertung erhalten. Sie können dieses Fenster jetzt schließen, oder sich in Ihr persönliches Profil einloggen.	Hemos recibido sus comentarios. Puede cerrar esta ventana o acceder de nuevo al sistema LMS.		
+DONE	alert	alert_note_danger	<strong>Attention !</strong> Vous avez déjà noté ce cours, cette note sera visible sur votre parcours de formation. Vous pouvez à présent fermer cette fenêtre.	You have already rated this lesson, you can see the score in your training plan. You can now close the window.	Sie haben diesen Kurs bereits bewertet. Die Bewertung ist in Ihrem Trainingsplan ersichtlich. Sie können dieses Fenster jetzt schließen.	Ya ha valoradoesta clase. La puntuación se mostrará en su programa de formación. Ya puede cerrar esta ventana.		
+DONE	button	btn_save	Sauvegarder	Save	Speichern	Guardar		
+DONE	button	btn_apply	Appliquer	Apply	Übernehmen	Aceptar		
+DONE	button	btn_add	Ajouter	Add	Hinzufügen	Añadir		
+DONE	button	btn_remove	Retirer	Remove	Entfernen	Quitar		
+DONE	button	btn_open_all_collapse	Tout déplier	Show all	Alles anzeigen	Abrir todo		
+DONE	button	btn_send	Envoyer	Send	Senden	Enviar		
+DONE	button	btn_add_feedback	Ajouter feedback	Add feedback	Feedback hinzufügen	Añadir feedback		
+DONE	button	btn_create_profil	Créer profil	Create profile	Profil erstellen	Crear perfil		
+DONE	button	btn_generate_estimate	Générer devis	Generate quote	Angebot erstellen	Generar presupuesto		
+DONE	button	btn_generate_convention	Générer convention	Generate contract	Vertrag erstellen	Generar contrato		
+DONE	button	btn_trainer_nextlesson	Prochain cours	Next lesson	Nächster Kurs	Próxima clase		
+DONE	button	btn_trainer_nonextlesson	Aucun cours planifié	No next lesson	Kein Kurs geplant	No hay clases planificadas		
+DONE	button	btn_trainer_report_access	Accès rapport	Reporting	Report	Acceso a informe		
+DONE	button	btn_trainer_view	Voir	View	Übersicht	Ver		
+DONE	button	btn_trainer_sheet	Fiche formateur	Trainer information	Trainer Datenblatt	Información del formador		
+DONE	button	btn_trainer_thismonth	Ce mois	This month	Aktueller Monat	Este mes		
+DONE	button	btn_cancel_slot	Annuler réservation	Cancel lesson	Kurs stornieren	Canelar reserva		
+DONE	button	btn_miss_slot	Cours manqué	Missed lesson	Kurs verpasst	Clase perdida		
+DONE	button	btn_launch_lesson	Lancer cours	Launch lesson	Kurs starten	Empezar clase		
+DONE	button	btn_view_profile	Voir profil	View profile	Profil anzeigen	Ver perfil		
+DONE	button	btn_view_report	Accès rapport	View report	Report anzeigen	Acceso a informe		
+DONE	button	btn_edit_again	Éditer à nouveau	Re-edit	Erneut bearbeiten	Editar otra vez		
+DONE	button	btn_later	Plus tard	Later	Später	MÁS TARDE		
+DONE	button	btn_go_test	Je passe mon test	Start test	Test starten	Empezar prueba		
+DONE	button	btn_view_rules	Consulter notre politique	Read our policy	Datenschutzrichtlinie anzeigen	Consultar		
+DONE	button	btn_view_charter	Consulter les engagements	Read our commitments	Spielregeln anzeigen	Consultar		
+DONE	button	btn_results	Résultats	Results	Ergebnis	Resultados		
+DONE	button	btn_note	Évaluer	Rate	Bewertung abgeben	Valorar		
+DONE	button	btn_continue	Continuer	Continue	Weiter	Continuar		
+DONE	button	btn_results_test	Résultats Test	Test Results	Testergebnis	Resultados de la prueba		
+DONE	button	btn_view	Voir	View	Ansicht	Ver		
+DONE	button	btn_cancel_short	Annuler	Cancel	Löschen	Cancelar		
+DONE	button	btn_launch_short	Lancer	Start	Starten	Empezar		
+DONE	button	btn_sign_short	Signer	Sign	Bestätigen	Firmar		
+DONE	button	btn_support_short	Support	Material	Material	Material		
+DONE	button	btn_notes_short	Notes	Notes	Notes	Notas		
+DONE	button	btn_book_short	Réserver	Book	Buchen	Reservar		
+DONE	button	btn_nothx	Non, merci	No, thank you	Nein, danke!	No, gracias		
+DONE	button	btn_fill_notes	Rédiger LN	Complete LN	LN erstellen	Redactar Notas de Clase		
+DONE	button	btn_upload_notes	Upload LN	Upload LN	Upload LN	Cargar Notas de Clase		
+DONE	button	btn_go_send	C'est parti !	Let's go!	Los geht´s!	Vamos!		
+DONE	button	btn_reset	Changer mot de passe	Reset	Zurücksetzen	Cambiar contraseña		
+DONE	button	btn_change	Changer	Change	Ändern	Cambiar		
+DONE	button	btn_choose_level	Choisir mon niveau	Choose my level	Mein Level wählen	Elegir mi nivel		
+DONE	button	btn_ichoose	Je choisis	I have chosen	Ich wähle	Elegir		
+DONE	button	btn_choose_program	Choisir ce parcours	Choose this training program	Mein Trainingsprogramm wählen	Elegir este programa		
+DONE	button	btn_choose_course_duration	Je prends des cours de	Take lessons for	Ich nehme Unterricht in	Esttudio cursos de:		
+DONE	button	btn_view_themes	J'affiche les thématiques	Display the themes	Themen anzeigen	Mostrar temas		
+DONE	button	btn_prefilled_tp	un parcours pré-construit	Pre-built training program	ein vorgefertigtes Trainingsprogramm	un programa pre-creado		
+DONE	button	btn_solo_tp	un parcours sur-mesure	Tailor-made training program	ein maßgeschneidertes Trainingsprogramm	un programa a medida		
+DONE	button	btn_collab_tp	un parcours collaboratif	Collaborative journey	ein gemeinsam erstelltes Trainingsprogramm	un programa en colaboración		
+DONE	button	btn_criteria	Mes critères	My criteria	Meine Kriterien	Mis criterios		
+DONE	button	btn_book_na	Je réserve mon premier cours	Book my first lesson	Ich buche meinen ersten Kurs	Reservar la primera clase		
+DONE	button	btn_validate_tpstep	Valider l'étape "Mon parcours"	Validate the 'Training program' step	Abschnitt "Mein Trainingsprogramm" bestätigen	Validar el paso "Mi programa"		
+DONE	button	btn_validate_levelstep	Valider l'étape "Mon niveau"	Validate the 'My level' step	Abschnitt "Mein Sprachlevel" bestätigen	Validar el paso "Mi nivel"		
+DONE	button	btn_validate_lststep	Valider l'étape "Mon profil d'apprentissage"	Validate the 'My learning profile' step	Abschnitt "Meinen Lernprofiltest" bestätigen	Validar el paso "Mi perfil de aprendizaje"		
+DONE	button	btn_choose_trainer	Je choisis un formateur :	Choose a trainer	Trainerauswahl	Elegir formador:		
+DONE	button	btn_choose_this_trainer	Choisir ce formateur	Choose this trainer	Diesen Trainer auswählen	Elegir este formador		
+DONE	button	btn_validate	Valider	Next	Weiter	Validar		
+DONE	button	btn_go_needs	Je renseigne mes besoins	Complete form	Jetzt eingeben	Cumplimentar formulario		
+DONE	button	btn_connect	Connexion	Connect	Einloggen	Conectar		
+DONE	button	btn_lms_connect	Connexion WEFIT LMS	Connect to WEFIT LMS	Einloggen	Conectar WEFIT LMS		
+DONE	button	btn_mdp_reset	Réinitialiser	Reset	Speichern	Restablecer		
+DONE	button	btn_disconnect	Déconnexion	Disconnect	Abmelden	Desconectar		
+DONE	button	btn_update	Mettre à jour	Save	Speichern	Actualizar		
+DONE	button	btn_take_appointment	Prendre rendez-vous	Arrange a callback	Einen Termin vereinbaren	Solicitar una llamada de vuelta		
+DONE	button	btn_no_thx	Tant pis !	Not now	Jetzt nicht!	No pasa nada!		
+DONE	button	btn_whynot	Pourquoi pas en fait...	Why not? Let's go!	Test jetzt starten	Por qué no?		
+DONE	button	btn_return_quiz	Retour aux quizs	Return to quiz	Zurück zur Übersicht	Volver a los tests		
+DONE	button	btn_start_again	Recommencer	Start again	Wiederholen	Volver a empezar		
+DONE	button	btn_start	Commencer	Start	Starten	Empezar		
+DONE	button	btn_start_formation	Commencer ma formation	Start my training	Mein Training starten	Empezar la formación		
+DONE	button	btn_favourite	Mes favoris	My favourites	Meine Favoriten	Mis favoritos		
+DONE	button	btn_return	Retour	Back	Zurück	Volver		
+DONE	button	btn_export	Exporter	Export	Exportieren	Exportar		
+DONE	button	btn_help	Aide	Help	Hilfe	Ayuda		
+DONE	button	btn_help_page	Aide sur cette page	Help on this page	Hilfe zu dieser Seite	Ayuda en esta página		
+DONE	button	btn_my_e_program	Mon e-Program	My e-Program	Mein e-Programm	Mi e-Program		
+DONE	button	btn_empty_program	Programme vide	Empty program	Trainingsprogramm leer	Programa vacío		
+DONE	button	btn_more_info	Plus d'info	More info	Details	Más información		
+DONE	button	btn_know_more	en savoir plus	Find out more	Mehr Details	Más información		
+DONE	button	btn_all_level	Tous niveaux	All levels	Alle Level	Todos los niveles		
+DONE	button	btn_el_support	Support	Support	Kursmaterial	Materiales		
+DONE	button	btn_el_keys	Corrections	Keys	Keys	Correcciones		
+DONE	button	btn_el_vocab_list	Liste Vocabulaire	Vocabulary List	Vokabelliste	Lista de Vocabulario		
+DONE	button	btn_el_practice	Entraînement & Validation	Practice & Validation	Übung & Validierung	Práctica y Validación		
+DONE	button	btn_el_video	Video	Video	Video	Video		
+DONE	button	btn_el_grammar_points	Grammaire	Grammar Points	Grammatikpunkte	Gramática		
+DONE	button	btn_el_voc_points	Vocabulaire	Vocabulary points	Vokabular	Vocabulario		
+DONE	button	btn_el_transcript	Transcript	Transcript	Transkript	Transcripciones		
+DONE	button	btn_el_exercices	Exercices	Exercices	Übungen	Ejercicios		
+DONE	button	btn_el_resources	Ressources	Resources	Ressourcen	Recursos		
+DONE	button	btn_move_forward	Poursuivre	Continue	Fortfahren	Continuar		
+DONE	button	btn_unlock	Débloquer l'accès	Allow access	Zugriff beantragen	Desbloquear acceso		
+DONE	button	btn_check_qpt	Passer mon test d'évaluation	Take my placement test	Einstufungstest absolvieren	Hacer mi prueba de evaluación		
+DONE	button	btn_check_lst	Passer mon test de profil d'apprentissage	Take my learning profile test	Lernprofiltest absolvieren	Hacer mi prueba de estilo de aprendizaje		
+DONE	button	btn_check_na	Remplir vos besoins en formation	Complete your training requirements	Trainingsbedarfe eingeben	Completar sus necesidades de formación		
+DONE	button	btn_check_build_el	Construire mon parcours e-learning	Build my e-learning training program	Mein eLearning Trainingsprogramm anlegen	Crear mi programa e-Learning		
+DONE	button	btn_build_tp	Construire mon parcours	Create my training program	Trainingsprogramm erstellen	Crear mi programa		
+DONE	button	btn_contact_wefit	Contact WEFIT	Contact WEFIT	Kontakt WEFIT	Contactar WEFIT		
+DONE	form	form_message_name	Veuillez entrer un nom SVP.	Please enter your last name.	Bitte tragen Sie Ihren Nachnamen ein	Introduzca su apellido		
+DONE	form	form_message_entitled	Entrer un intitulé	Title	Titel	Título		
+DONE	form	form_label_name	Nom	Last Name	Nachname	Apellido		
+DONE	form	form_placeholder_name	Nom	Last Name	Nachname	Apellido		
+DONE	form	form_message_firstname	Veuillez entrer un prénom SVP.	Please enter your first name	Bitte tragen Sie einen Vornamen ein	Introduzca su nombre		
+DONE	form	form_label_firstname	Prénom	First name	Vorname	Nombre		
+DONE	form	form_placeholder_firstname	Prénom	First name	Vorname	Nombre		
+DONE	form	form_message_alias	Veuillez entrer un alias SVP.	Please enter a username.	Bitte tragen Sie ein Pseudonym ein	Introduzca un nombre de usuario		
+DONE	form	form_label_alias	Alias	Username	Pseudonym	Nombre de usuario		
+DONE	form	form_placeholder_alias	Alias (Prénom + Inital Nom)	Username (Last name + Initial Of First Name)	Pseudonym (Vorname + Initialien des Nachnamens)	Nombre de usuario (Nombre+Inicial del apellido)		
+DONE	form	form_message_email	Veuillez entrer un email SVP.	Please enter your email address.	Bitte tragen Sie eine Emailadresse ein	Introduzca una dirección de correo electrónico.		
+DONE	form	form_label_email	Email	Email address	Emailadresse	Email		
+DONE	form	form_placeholder_email	Email	Email address	Emailadresse	Email		
+DONE	form	form_message_phone	Veuillez entrer un numéro de téléphone SVP.	Please enter your phone number.	Bitte tragen Sie eine Telefonnummer ein	Introduca un número de teléfono.		
+DONE	form	form_label_phone	Tél.	Phone number	Telefonnummer	Tel.		
+DONE	form	form_placeholder_phone	Tél.	Phone number	Telefonnummer	Tel.		
+DONE	form	form_label_password	Mot de passe	Password	Passwort	Contraseña		
+DONE	form	form_placeholder_new_password	Nouveau mot de passe	New password	Neues Passwort	Nueva contraseña		
+DONE	form	form_placeholder_new_password2	Répéter mot de passe	Confirm password	Neues Passwort wiederholen	Repita la contraseña		
+DONE	form	form_placeholder_jobtitle	Votre situation professionnelle	Job title	Berufsbezeichnung	Situación profesional		
+DONE	form	form_tm_partnership_ans1	Gestion administrative	Admin management	Admin Bereich	Gestión administrativa		
+DONE	form	form_tm_partnership_ans2	Conseil	Advice	Hilfe	Consejos		
+DONE	form	form_tm_partnership_ans3	Formation additionnelle	Additional training	Zusätzliches Training	Formación adicional		
+DONE	form	form_tm_partnership_ans4	Organisation d'évènement	Event organisation	Veranstaltungsorganisation	Organización de eventos		
+DONE	form	plugin_datatable_search	Recherche:	Search:	Suche	Buscar:		
+DONE	form	plugin_datatable_first	Début	First	Vorher	Principio		
+DONE	form	plugin_datatable_last	Fin	Last	Letzte	Fin		
+DONE	form	plugin_datatable_next	Suivant	Next	Nächste	Siguiente		
+DONE	form	plugin_datatable_previous	Préc.	Previous	Vorherige	Anterior		
+DONE	form	plugin_datatable_emptytable	Pas de résultat	No results	Keine Daten verfügbar	Sin resultado		
+DONE	form	plugin_datatable_lengthmenu	Afficher _MENU_ résultats	Show _MENU_ entries	MENÜ_Ergebnisse_anzeigen	Mostrar_MENÚ_resultados		
+DONE	form	plugin_datatable_loading	Chargement...	Loading...	Lädt...	Cargando...		
+DONE	form	plugin_datatable_processing	Exécution...	Processing...	Arbeitet...	Procesando...		
+DONE	modal	js_modal_title_trainer_view	Vue trainer	Trainer view	Trainer anzeigen	Vista formador		
+DONE	modal	js_modal_title_before_book	Avant de réserver votre premier cours	Before you book your first lesson	Bevor Sie Ihren ersten Kurs reservieren			
+DONE	modal	js_modal_title_trainer_choose_solo	Vous avez choisi le formateur suivant :	You have chosen the following trainer:	Sie haben folgenden Trainer ausgewählt:			
+DONE	modal	js_modal_title_trainer_choose	Vous avez choisi les formateurs suivants :	You have chosen the following trainers:	Sie haben folgende Trainer ausgewählt:			
+DONE	modal	js_warning_trainer_max	Nombre maximum de formateur atteint	Maximum number of trainers reached	Maximale Anzahl von Trainern überschritten.			
+DONE	modal	js_modal_title_launch_step1	Etape 1/3 : Remplir son profil	Step 1/3: Complete your profile	Schritt 1/3: Vervollständigen Sie Ihr Profil	Paso 1/3: Complete su perfil		
+DONE	modal	js_modal_title_launch_step2	Etape 2/3 : Contruire mon parcours de formation	Step 2/3: Build the training program	Schritt 2/3: Mein Trainingsprogramm erstellen	Paso 2/3: Crear mi programa de formación		
+DONE	modal	js_modal_title_launch_solo	J'ai choisis l'option parcours sur-mesure	I choose the tailor-made option	Ich entscheide mich für das maßgeschneiderte Trainingsprogramm	He elegido la opción Programa a medida		
+DONE	modal	js_modal_title_validate_program	Valider Parcours de formation	Validate the training program	Trainingsprogramm bestätigen	Validar programa de formación		
+DONE	modal	js_modal_title_no_lst	Je ne souhaite pas évaluer mon profil d'apprentissage	I don't want to take my Learning Style Test	Ich möchte mein Lernprofil nicht bestimmen	No deseo evaluar mi estilo de aprendizaje		
+DONE	modal	js_modal_title_detail	Détail du cours	Lesson details	Kursdetails	Detalles de la clase		
+DONE	modal	js_modal_title_lst	J'évalue mon profil d'apprentissage	Learning Style Test	Lernprofiltest	Evaluar mi estilo de aprendizaje		
+DONE	modal	js_modal_title_pt	Je passe mon test d'évaluation	Take my Placement Test	Mein Einstufungstest	Hacer prueba de nivel		
+DONE	modal	js_modal_title_nextlesson	Mon cours à venir	Next lesson	Nächster Kurs	Mi próxima clase		
+DONE	modal	js_modal_title_session	Aperçu du cours	Lesson overview	Kursübersicht	Vista general de la clase		
+DONE	modal	js_modal_title_book	Réserver un cours	Book a lesson	Kurs buchen	Reservar clase		
+DONE	modal	js_modal_title_book_confirm	Confirmer votre réservation	Confirm booking	Kurs bestätigen	Confirmar reserva		
+DONE	modal	js_modal_title_edit_ln	Editer Compte-rendu de cours	Edit Lesson Notes	Lesson Notes bearbeiten	Editar Notas de Clase		
+DONE	modal	js_modal_title_edit_na	Editer Needs Assessment	Edit Needs Assessment	Needs Assessment bearbeiten	Editar Evaluación de Necesidades		
+DONE	modal	js_modal_title_edit_pta	Editer Post Training Assessment	Edit Post Training Assessment	Post Training Assessment erstellen	Editar Evaluación Final del Curso		
+DONE	modal	js_modal_title_upload	Upload document	Upload document	Dokument hochladen	Cargar documento		
+DONE	modal	js_modal_title_attendance	Confirmation de présence	Confirm attendance	Bestätigen	Confirmar asistencia		
+DONE	modal	js_modal_title_account_edit	Editer compte	Edit Account	Pofil bearbeiten	Editar cuenta		
+DONE	modal	js_modal_title_settings_edit	Editer paramètres	Edit Settings	Einstellungen ändern	Editar parámetros		
+DONE	modal	js_modal_title_avail_edit	Editer disponibilités	Edit Availability	Verfügbarkeiten bearbeiten	Editar disponibilidades		
+DONE	modal	js_modal_title_access_edit	Editer accès	Edit Access	Zugang bearbeiten	Editar acceso		
+DONE	modal	js_modal_title_special_edit	Editer spécialités	Edit Specialities	Fachgebiete bearbeiten	Editar especialidades		
+DONE	modal	js_modal_title_resume_edit	Editer CV	Edit Resume	Meine Informationen bearbeiten	Editar CV		
+DONE	modal	js_modal_title_about_edit	Editer about	Edit About	"Über mich" bearbeiten	Editar "Sobre Mi"		
+DONE	modal	js_modal_title_details_edit	Editer coordonnées	Edit Details	Meine Kontaktinformationen bearbeiten	Editar detalles		
+DONE	modal	js_modal_title_mdp_reset	Changer mot de passe	Reset your password	Passwort zurücksetzen	Cambiar contraseña		
+DONE	modal	js_modal_title_mdp_forgotten	Mot de passe oublié ?	Forgot your password?	Passwort vergessen	¿Ha olvidado su consaseña?		
+DONE	modal	js_modal_title_mdp_nomatch	Les mots de passe ne correspondent pas...	Passwords don't match	Passwörter stimmen nicht überein	Las contraseñas no coinciden		
+DONE	modal	js_modal_title_ty	Merci pour ces infos !	Thank you for your time	Vielen Dank für Ihre Eingaben.	Gracias por la información		
+DONE	modal	js_modal_title_inactive	Inactivité	Inactive	Zeitüberschreitung	Intactividad		
+DONE	modal	js_modal_title_note	Évaluation du cours	Lesson evaluation	Kursbewertung	Valoración de la clase		
+DONE	modal	js_modal_contact_wefit	Contacter WEFIT	Contact WEFIT	Kontakt WEFIT	Contactar WEFIT		
+DONE	modal	js_grammar	Grammaire	Grammar	Grammatik	Gramática		
+DONE	modal	js_writing	Compréhension écrite	Reading comprehension	Leseverstehen	Comprensión escrita		
+DONE	modal	js_oral	Compréhension orale	Oral comprehension	Hörverstehen	Comprensión oral		
+DONE	modal	js_vocabulary	Vocabulaire	Vocabulary	Vokabular	Vocabulario		
+DONE	modal	js_comprehension	Compréhension	Comprehension	Verständnis	Comprensión		
+DONE	modal	js_book_confirm	Confirmer votre réservation ?	Confirm booking	Buchung bestätigen	Confirmar reserva		
+DONE	modal	js_restart_quiz_confirm	Les résultats de l'ancien test seront perdus, continuer ?	Previous results will be lost, would you like to continue?	Alte Ergebnisse werden gelöscht.	Los resultados de la prueba anterior se perderán. ¿Desea continuar?		
+DONE	modal	js_book_credential	Impossible de programmer plus de cours. Crédit insuffisant.	Unable to schedule more lessons, insufficient credit.	Nicht genügend Credits vorhanden	Imposible planificar más clases. Crédito insuficiente.		
+DONE	modal	js_cancel_confirm_trainer	Etes-vous sûr(e) d'annuler le cours ?	Are you sure you wish to cancel the lesson?	Die Stornierungsfrist ist abgelaufen. Wenn Sie dennoch stornieren, wird Ihnen ein Malus berechnet.	¿Cancelar clase?		
+DONE	modal	js_cancel_confirm_learner	Etes-vous sûr(e) d'annuler votre cours ? Ce cours sera retiré de votre crédit d'heures. Contactez notre support pour plus d'informations	Are you sure you wish to cancel? You will be charged as per the late cancellation policy.	Sind Sie sicher, dass Sie diesen Kurs stornieren möchten? Die Stornierungsfrist ist abgelaufen, der Kurs wird von Ihrem Guthaben abgezogen.	¿Está seguro de querer cancelar su clase? Esta clase se descontará de su crédito de horas. Contacte con nuestro servicio de ayuda para más información.		
+DONE	modal	js_warning_signature	Veuillez compléter le champ signature SVP.	Please add your signature	Bitte unterschreiben Sie hier.	Complete la firma, por favor.		
+DONE	modal	js_warning_issue	Probleme de traitement	Issue when treating data	Problem bei der Datenübermittlung	Problema al procesar		
+DONE	modal	js_modal_title_help	Aide	Help	Hilfe	Ayuda		
+DONE	modal	modal_supports	Supports	Materials	Material	Materiales		
+DONE	modal	modal_support_pdf	Support PDF	PDF Material	PDF Material	Material PDF		
+DONE	modal	modal_support_video	Support VIDéO	Video Material	Video Material	Material de Video		
+DONE	modal	modal_support_audio	Support AUDIO	Audio Material	Audio Material	Material de Audio		
+DONE	modal	modal_support_quiz	Quizz	Quiz	Quiz	Prueba tipo test		
+DONE	modal	modal_link_ws	Support de cours	Worksheet	Arbeitsblatt	Material de clase		
+DONE	modal	modal_link_wsk	Support de cours avec corrections	Worksheet with keys	Arbeitsblatt inkl. Lösungen	Materiales con respuestas		
+DONE	modal	modal_link_video	Vidéo	Video	Video	Video		
+DONE	modal	modal_link_audio	Audio	Audio	Audio	Audio		
+DONE	modal	modal_link_quiz	Quiz	Quiz	Quiz	Tests		
+DONE	modal	modal_avail_title	Créneaux disponibles	Availability	Verfügbarkeiten	Disponibilidad		
+DONE	modal	modal_planning_title	Planning du jour	Day's activity	Tagesplanung	Actividad diaria		
+DONE	modal	modal_txt_reinit_please	Veuillez entrer votre adresse email :	Please enter your email:	Bitte geben Sie Ihre Emailadresse ein.	Introduzca su direccion de correo electrónico:		
+DONE	modal	modal_txt_reinit_explain	Nous allons vous envoyer un email automatique. Il contiendra un lien qui vous permettra de réinitialiser votre mot de passe.	We will send you an email shortly to reset your password	Wir senden Ihnen in Kürze eine Email mit einem Link zu, damit Sie Ihr Passwort zurücksetzen können.	Vamos a enviarle un email automático con un enlace que le permitirá restablecer su contraseña.		
+DONE	modal	modal_txt_reinit_connected_please	Votre email :	Your email:	Ihre Emailadresse	Su email:		
+DONE	modal	modal_txt_reinit_connected_explain	Vous allez être déconnecté et nous allons vous envoyer un email automatique. Il contiendra un lien qui vous permettra de réinitialiser votre mot de passe.	You will now be logged out. An automatic email will be sent with a link to reset your password.	Sie werden abgemeldet. Wir senden Ihnen in Kürze eine Email zu, damit Sie Ihr Passwort zurücksetzen können.	Su sesión va a cerrarse. Vamos a enviarle un email automático con un enlace que le permitirá restablecer su contraseña.		
+DONE	modal	modal_txt_welcome	Bienvenue	Welcome	Willkommen	Bienvenido		
+DONE	modal	modal_txt_mdp_info	Afin de poursuivre sur notre plateforme, veuillez entrer un nouveau mot de passe. <em>(6 caractères minimum)</em>	Please change your password before continuing (minimum 6 characters)	Bitte vergeben Sie ein neues, persönliches Passwort (mind. 6 Zeichen)	Para poder seguir teniendo acceso a nuestra plataforma, por favor introduzca una nueva contraseña.<em>(6 caracteres minimo)</em>		
+DONE	modal	modal_txt_mdp	Mot de passe	Password	Passwort	Contraseña		
+DONE	modal	modal_txt_mdp_repeat	Répéter mot de passe	Repeat password	Passwort wiederholen	Repita contraseña		
+DONE	modal	modal_ln_finalize	Finaliser cours (passer en complété)	Finalise lesson (switch to completed)	Kurs beenden	Clase completada		
+DONE	modal	modal_txt_inactive	Nous avons détecté que vous étiez inactif pendant une période prolongée, souhaitez-vous poursuivre votre navigation ?	Your session has timed out. Do you wish to continue?	Sie waren längere Zeit inaktiv, wollen Sie nun mit Ihrem Training fortfahren?	Hemos detectado inactividad prolongada.¿Desea continuar conectado?		
+DONE	modal	modal_txt_proposition	Proposition	Template	Vorschlag	Ejemplo		
+DONE	table	table_th_nationality	Nationalité	Country Of Birth	Nationalität	Nacionalidad	Not updated on LMS	
+DONE	table	table_th_teaches	Enseigne	Teaches	Unterrichtet	Enseña		
+DONE	table	table_th_speaks	Parle	Also speaks	Spricht	Habla		
+DONE	table	needs_trainer_speaks	Formateur(s) parlant	Trainer also speaks	Trainer spricht außerdem			
+DONE	table	table_th_specialities	Spécialités	Specialities	Spezialgebiet	Especialidades		
+DONE	table	table_th_expertise	Expertise	Expertise	Ausbildung	Dominio		
+DONE	table	table_th_localisation	Localisation	Location	Ort	Ubicación		
+DONE	table	table_th_assign	Assigné	Assign	Zuordnen	Asignar		
+DONE	table	table_th_personnality	Personnalité	Personality	Persönlichkeit	Personalidad	not updated on lms	
+DONE	table	table_th_availabilities	Disponibilités	Availability	Verfügbarkeiten	Disponibilidad	not updated on lms	
+DONE	table	table_th_methods	Méthode	Method	Methoden	Método		
+DONE	table	table_th_interests	Centres d'intérêt	Interests	Interessen	Intereses		
+DONE	table	table_th_about	À propos	About	Über	Sobre Mi		
+DONE	table	table_th_about_me	À propos de moi	About me	Über mich	Sobre mi		
+DONE	table	table_th_quick_about_me	À propos de moi	Quick about me	Kurz über mich	Brevemente sobre mi		
+DONE	table	table_th_learner	Apprenant	Learner	Name	Alumno		
+DONE	table	table_th_learners	Apprenants	Learners	Lerner	Alumnos		
+DONE	table	table_th_active_learners	Apprenants actifs	Active learners	Aktive Schüler	Estudiantes activos		
+DONE	table	table_th_role	Rôle	Role	Rolle	Rol		
+DONE	table	table_th_account	Compte	Account	Konto	Cuenta		
+DONE	table	table_th_level	Niveaux preferes	Preferred level of learner	Bevorzugtes Level	Preferencia de niveles	not updated on lms	
+DONE	table	table_th_experience	Experience professionnelle	Professional experience	Berufserfahrung	Experiencia profesional	not updated on lms	
+DONE	table	table_th_experience_long	Experience professionnelle (Formation)	Professional experience (Training)	Berufserfahrung (Training)	Experiencia profesional (Formación)	not updated on lms	
+DONE	table	table_th_education	Parcours	Education and training	Zertifikate / Diplome	Recorrido	not updated on lms	
+DONE	table	table_th_last_lesson	Dernier cours	Last lesson	Letzter Kurs	Ultima clase		
+DONE	table	table_th_last	Dernier	Last	Letzter	Ultima		
+DONE	table	table_th_next_lesson	Prochain cours	Next Lesson	Nächster Kurs	Próxima clase		
+DONE	table	table_th_next	Prochain	Next	Nächster	Próxima		
+DONE	table	table_th_alert	Alert	Alert	Warnung	Alerta		
+DONE	table	table_th_all_accounts	Tous les comptes	All accounts	Alle Konten	Todas las cuentas		
+DONE	table	table_th_last_connect	Dernière connexion	Last connection	Letzte Verbindung	Última conexión		
+DONE	table	table_th_tp_level	Niveau	Level	Level	Nivel		
+DONE	table	table_th_administrative_file	Dossier administratif	Administrative file	Verwaltungsdatei	Carpeta administrativa		
+DONE	table	table_th_period	Période	Period	Zeitraum	Periodo		
+DONE	table	table_th_financial_proposal	Proposition financière	Financial proposal	Finanzieller Vorschlag	Proposicion financiera		
+DONE	table	table_th_attachments	Pièce(s) jointe(s)	Attachment(s)	Anhang/e	Archivo(s) adjunto(s)		
+DONE	table	table_th_factures	Facture(s)	Invoice(s)	Rechnung/en	Factura(s)		
+DONE	table	table_th_teached_language	Langue enseignée	Language taught	Unterrichtete Sprache	Idioma enseñado		
+DONE	table	table_th_formation_method	Méthode de formation	Method of training	Trainingsmethode	Método de formación		
+DONE	table	table_th_training_records	Dossiers de formation	Training records	Übersicht Sprachtrainings	Carpeta de formación		
+DONE	table	table_th_records	Dossiers	Records	Aufträge	Récords		
+DONE	table	table_th_pricing_table	Grille tarifaire	Price list	Preisliste	Lista de precios		
+DONE	table	table_th_courses_launched	Cours lancé(s)	Lesson(s) started	Kurs/e gestartet	Clases empezadas		
+DONE	table	table_th_launching	Lancement	Starting	Starttermin	Empezar		
+DONE	table	table_th_months_done	Réalisé Mois	Done Months	Realisiert Monat	Realizado Mes		
+DONE	table	table_th_total_done	Réalisé total	Done total	Realisiert gesamt	Realizado Total		
+DONE	table	table_th_months_missed	Manqué Mois	Missed Months	Verpasst Monat	Perdido Mes		
+DONE	table	table_th_total_missed	Manqué total	Missed total	Verpasst gesamt	Perdido Total		
+DONE	table	table_th_remaining	Restant	Remaining	Verbleibend	Restante		
+DONE	table	table_th_booked	Planifié	Booked	Geplant	Planificado		
+DONE	table	table_td_active_learners	Aprennants actifs	Active learners	Aktive Lerner	Alumnos en activo		
+DONE	table	table_th_status	Statut	Status	Status	Estado		
+DONE	table	table_th_method	Méthode	Method	Methode	Método		
+DONE	table	table_th_trainer	Formateur	Trainer	Trainer	Formador		
+DONE	table	table_th_visio_trainer	Formateur visio	Visio trainer	Visio trainer	Formador visio		
+DONE	table	table_th_trainer2	Formateur ##2	Trainer ##2	Trainer ##2	Formador ##2		
+DONE	table	table_th_trainer3	Formateur ##3	Trainer ##3	Trainer ##3	Formador ##3		
+DONE	table	table_th_start	Début	Start	Beginn	PRINCIPIO		
+DONE	table	table_th_end	Fin	End date	Ende	Fin		
+DONE	table	table_th_date	Date	Date	Datum	Fecha		
+DONE	table	table_th_time	Heure	Time	Uhrzeit	Hora		
+DONE	table	table_th_program_short	Parcours	Training program	Trainingsprogramm	Programa		
+DONE	table	table_th_training_course	Session de formation	Training session	Trainingseinheit	Sesión de formación		
+DONE	table	table_th_program	Parcours de formation	Training program	Trainingsprogramm	Programa de formación		
+DONE	table	table_th_type	Type	Type	Typ	Tipo		
+DONE	table	table_th_session_type	Type session	Session type	Kursart	Tipo de sesión		
+DONE	table	table_th_planning	Planification	Planning	Planung	Planificación		
+DONE	table	table_th_duration	Durée (min)	Duration	Dauer (min)	Duración (min)		
+DONE	table	table_th_duration_short	Durée	Duration	Dauer	Duración		
+DONE	table	table_th_support	Support	Material	Material	Material		
+DONE	table	table_th_tp	Parcours	Program	Programm	Programa		
+DONE	table	table_th_module	Module	Module	Modul	Módulo		
+DONE	table	table_th_course	Cours	Lesson	Kurs/e	Clase		
+DONE	table	table_th_course_type	Type cours	Type	Kursart	Tipo de clase		
+DONE	table	table_th_techno	Outils de visio	Video tool	Videokonferenz-Tools			
+DONE	table	table_th_certification	Certification visée	Exam preparation	Sprachzertifikate / Diplom Vorbereitung		Not sure what this is	"OLD EXPERTISE", reffered to the certification the L wants to prepare
+DONE	table	table_th_progress	Progression	Progress	Fortschritt	Progreso		
+DONE	table	table_th_progress_formation	Progression formation	Training progress	Trainingsfortschritt	Progresión formativa		
+DONE	table	table_th_repartition	Répartition Programme	Program distribution	Aufteilung	Distribución del programa		
+DONE	table	table_th_repartition_short	Répartition	Distribution	Verteilung	Distribución		
+DONE	table	table_th_nextlesson	Prochain cours	Next lesson	Nächste Stunde	Próxima clase		
+DONE	table	table_th_program_end	Fin de parcours	End date	Unterrichtsende	Fin del programa		
+DONE	table	table_th_action	Action	Action	Aktion	Acción		
+DONE	table	table_th_bookedby	Réservé par	Booked by	Gebucht von	Reservado por		
+DONE	table	table_th_book	Réserver	Book	Buchen	Reservar		
+DONE	table	table_th_build	Build	Build	Erstellen	Crear		
+DONE	table	table_th_ncourse	N°	No.	Nr.	N°		
+DONE	table	table_th_course_title	Intitulé cours	Lesson title	Kurstitel	Título de la clase		
+DONE	table	table_th_course_description	Description	Description	Beschreibung	Descripción		
+DONE	table	table_th_course_objectives	Objectifs	Objectives	Ziel	Objetivos		
+DONE	table	table_th_course_grammar	Points de grammaire	Grammar points	Grammatikpunkte	Aspectos gramaticales		
+DONE	table	table_th_course_vocabulary	Vocabulaire	Vocabulary	Vokabular	Vocabulario		
+DONE	table	table_th_estimated_time	Temps estimé	Estimated time	Geschätzte Dauer	Tiempo estimado		
+DONE	table	table_th_login	Identifiants de connexion	Login	Login	Nombre de usuario		
+DONE	table	table_th_el_login	Identifiants E-learning	Elearning log in details	Zugangsdaten E-learning	Detalles para entrar en el sistema de E-learning		
+DONE	table	table_th_certif_login	Identifiants Certification	Certficate log in details	Zugangsdaten Sprachprüfung & Zertifikat	Detalles para obtener el certificado		
+DONE	table	table_th_tmp_pwd	Mot de passe temporaire*	Temporary password*	Temporäres Passwort *	Contraseña temporal*		
+DONE	table	table_th_params	Paramètres LMS	LMS Settings	LMS Einstellungen	Parámetros lms		
+DONE	table	table_th_notifications	Notifications (EMAIL)	Notifications (EMAIL)	Benachrichtigungen (Email)	Notificaciones (EMAIL)		
+DONE	table	table_th_notifications_sms	Notifications (SMS)	Notifications (SMS)	Benachrichtigungen (SMS)	Notificaciones (SMS)		
+DONE	table	table_th_timezone	Zone GMT	Timezone	Zeitzone	Zona horaria		
+DONE	table	table_th_lms_language	Langue LMS	LMS Language	LMS Sprache	Idioma LMS		
+DONE	table	table_th_24h	24h avant	24h before	24 Std Vorher	24hs antes		
+DONE	table	table_th_1h	1h avant	1h before	1 Std Vorher	1h antes		
+DONE	table	table_th_15m	15min avant	15 min before	15 min vorher	15mins antes		
+DONE	table	table_th_blocker	Blocker	Blocker	Blocker	Blocker		
+DONE	table	table_th_activity	Activité	Activity	Aktivität	Actividad		
+DONE	table	table_th_missed_lesson	Cours manqué	Missed lesson	Verpasster Kurs	Clase perdida		
+DONE	table	table_th_cancelled_lesson	Cours annulé	Cancelled lesson	Stornierter Kurs	Clase cancelada		
+DONE	table	table_th_cancelled_lesson_pl	Cours annulé(s)	Cancelled lesson(s)	Stornierte(r) Kurs(e)	Curso anulado		
+DONE	table	table_th_scheduled_lesson	Cours réservé	Scheduled lesson	Geplanter Kurs	Clase reservada		
+DONE	table	table_th_reason	Motif	Reason	Grund	Razón		
+DONE	table	table_th_num	N°	N°	Nr.	N°		
+DONE	table	table_th_competence	Compétence	Competence	Kompetenz	Destreza		
+DONE	table	table_about_paragraph	En quelques mots	In my own words	In wenigen Worten			
+DONE	table	table_th_question	Question	Question	Frage	Pregunta		
+DONE	table	table_th_answer_analyse	Analyse réponse	Answer	Antwortanalyse	Análisis de la respuesta		
+DONE	table	table_th_genre	Civilité	Title	Anrede	Tratamiento		
+DONE	table	table_th_firstname	Prénom	First name	Vorname	Nombre		
+DONE	table	table_th_lastname	Nom	Last name	Nachname	Apellido		
+DONE	table	table_th_name	Nom	Name	Name	Apellido		
+DONE	table	table_th_group	Groupe	Company	Firma	Empresa		
+DONE	table	table_th_email	Email	Email	Email	Email		
+DONE	table	table_th_password	Mot de passe	Password	Passwort	Contraseña		
+DONE	table	table_th_email	Email	Email	Email	Email		
+DONE	table	table_th_phone	Téléphone	Phone	Telefon	Teléfono		
+DONE	table	table_th_details	Coordonnées	Details	Details	Información de contacto		
+DONE	table	table_th_coordinates	Coordonnées	Details	Details	Información de contacto		
+DONE	table	table_th_destination	Destination	Destination	Ziel	Destino		
+DONE	table	table_th_address	Adresse	Address	Adresse	Dirección		
+DONE	table	table_th_url	Adresse URL	URL	URL-Adresse	Dirección URL		
+DONE	table	table_th_tests	Tests	Tests	Tests	Pruebas		
+DONE	table	table_th_mini_pt	Test de niveau	Placement test	Einstufungstest	Prueba de nivel		
+DONE	table	table_th_mini_lst	Test de profil d'apprentissage (LST)	Learning Style Test	Lernprofiltest	Prueba de estilo de aprendizaje (LST)		
+DONE	table	table_th_access	Accès	Access	Zugang	Acceso		
+DONE	table	table_th_mini_access	Accès	Access	Zugang	Acceso		
+DONE	table	table_th_syllabus	Catalogue	Syllabus	Katalog	Catálogo		
+DONE	table	table_th_trainers	Formateurs	Trainers	Trainer	Formadores		
+DONE	table	table_th_general	General	General	Allgemein	General		
+DONE	table	table_th_mini_job	Métier	Job title	Berufsbezeichnung	Profesión		
+DONE	table	table_th_mini_hobbies	Centres d'intérêt	Hobbies	Hobbies	Intereses		
+DONE	table	table_th_mini_needs	Besoins	Needs	Bedarfe	Necesidades		
+DONE	table	table_th_training	Formation	Training	Training	Formación		
+DONE	table	table_th_feedback	Feedback	Feedback	Feedback	Feedback		
+DONE	table	table_th_signature	Signature	Signature	Signature	Firma		
+DONE	table	table_th_mini_avail	Vos disponibilités	Availability	Ihre Verfügbarkeiten	Su disponibilidad		
+DONE	table	table_th_mini_course_pref	Préférences de cours	Lesson preferences	Bevorzugte Kursart	Preferencias de clase		
+DONE	table	table_th_mini_course_duration	Durée de cours	Lesson duration	Kursdauer	Duración de clase		
+DONE	table	table_th_mini_course_freq	Fréquence de cours	Lesson frequency	Kursfrequenz	Frecuencia de las clases		
+DONE	table	table_th_mini_themes	Thématique(s)	Themes	Themen	Temática		
+DONE	table	table_th_mini_complement	Complément d'info	Additional information	Zusätzliche Information	Información adicional		
+DONE	table	table_th_mini_trainer_franco	Formateur parlant votre langue native	Trainer who speaks your native language	Trainer, der Ihre Muttersprache spricht	Formador que hable su lengua materna		
+DONE	table	table_th_mini_trainer_nb	Préférence formateur	Trainer preference	Bevorzugter Trainer	Preferencia de formador		
+DONE	table	table_th_mini_trainer_complement	Complément formateur	Additional information	Zusätzliche Information	Formador adicional		
+DONE	table	table_th_accept_sign	Pour lancer le cours, veuillez signer dans l'encart ci-contre	To start the lesson, please put your signature in this box	Um Ihren Kurs zu starten, loggen Sie sich bitte ein.	Para empezar la clase firme en la casilla.		
+DONE	table	table_th_keywords	Mots-clés	Keywords	Keywords	Palabras clave		
+DONE	table	table_th_grammar	Grammaire	Grammar	Grammatik	Gramática		
+DONE	table	table_th_elapsed_time_course	Temps passé (ce cours)	Elapsed time (this lesson)	Aktive Zeit (Aktueller Kurs)	Tiempo transcurrido (clase actual)		
+DONE	table	table_th_last_connect_course	Dernière visite (ce cours)	Last visit (this lesson)	Letzter Besuch (Aktueller Kurs)	Última visita (clase actual)		
+DONE	table	table_th_recommended_time	Temps recommandé	Recommended time	Geschätzte Dauer	Tiempo recomendado		
+DONE	table	table_th_el_description	Description	Description	Beschreibung	Descripción		
+DONE	table	table_th_mock_tests	Examens blancs	Mock tests	Prüfungssimulation	Exámenes de prueba		
+DONE	table	table_th_language	Langue	Language	Sprache	Idioma		
+DONE	table	table_th_total_lms	Total LMS	Total LMS	Gesamtzeit LMS	Total LMS		
+DONE	table	table_th_e_program	E-Program	E-Program	E-Programm	E-Program		
+DONE	table	table_th_quizzes	Quizzes	Quizzes	Quizze	Tests		
+DONE	table	table_th_global_level	Niveau global	Global level	Gesamtniveau	Nivel global		
+DONE	table	table_th_score	Score	Score	Punktzahl	Puntuación		
+DONE	table	table_th_cecr	Échelle CECR	CEFR Scale	GER-Skala	Marco Común Europeo de Referencia para las Lenguas		
+DONE	table	table_th_analyse	Analyse	Analyse	Analyse	Análisis		
+DONE	table	table_th_scale	Echelle	Scale	Skala	Escala		
+DONE	table	table_th_estimated_level	Niveau	Estimated level	Geschätztes Niveau	Nivel		
+DONE	table	table_th_my_level	Mon niveau	My level	Mein Sprachlevel	Mi nivel		
+DONE	table	table_th_your_answer	Votre réponse	Your answer	Ihre Antwort	Su respuesta		
+DONE	table	table_th_good_answer	Bonne réponse	Correct answer	Richtige Antwort	Buena respuesta		
+DONE	table	table_th_training_exercices	Exercices pratiques	Training Exercices	Trainingsquiz	Ejercicios prácticos		
+DONE	table	table_th_validation_quiz	Quiz de validation	Validation Quiz	Validierungsquiz	Test de validación		
+DONE	table	table_th_material	Support de cours	Material	Material	Materiales de clase		
+DONE	table	table_th_audio	Contient de la video	Video content	Videomaterial	Contiene video		
+DONE	table	table_th_video	Contient de l'audio	Audio content	Audiomaterial	Contiene audio		
+DONE	table	table_th_quiz	Quiz de validation	Validation quiz	Validierungsquiz	Test de validación		
+DONE	table	table_th_practical_exercice	Exercices pratiques	Practical exercises	Praktische Übungen	Ejercicios prácticos		
+DONE	table	table_th_vocab_list	Listes de vocabulaire	Vocabulary list	Vokabelliste	Listas de vocabulario		
+DONE	table	table_th_my_vocab_list	Ma liste de vocabulaire	My vocabulary list	Meine Vokabelliste	Mi lista de vocabulario		
+DONE	table	table_th_vocab_word	Mot/Expression	Word/Expression	Wort/Ausdruck	Palabra/Expresión		
+DONE	table	table_th_vocab_nature	Nature	Nature	Wortart	Naturaleza		
+DONE	table	table_th_vocab_definition	Définition	Definition	Beschreibung	Definición		
+DONE	table	table_th_vocab_category	Catégorie	Category	Kategorie	Categoría		
+DONE	table	table_th_main_language	Langue principale	Main Language	Muttersprache	Idioma principal		
+DONE	table	table_th_lrn_language	J'apprends:	I learn:	Ich lerne:	Estoy aprendiendo:		
+DONE	table	table_th_translation	Traduction	Translation	Übersetzung	Traducción		
+DONE	table	table_th_rating_support	Qualité du support de cours	Quality of the lesson material	Qualität des Kursmaterials	Calidad de los materiales de clase		
+DONE	table	table_th_rating_teaching	Qualité de l'enseignement	Quality of the teaching	Qualität des Unterrichts	Calidad de la formación		
+DONE	table	table_th_rating_techno	Déroulement technique du cours	Technical aspect of the lesson	Technischer Aspekt Ihres Onlinetrainings?	Desarrollo técnico de la clase		
+DONE	table	table_th_rating_description	Vous souhaitez préciser ou ajouter quelque chose ?	Any other comments	Möchten Sie noch etwas loswerden?	¿Desea añadir algo más?		
+DONE	table	table_th_rating_support_tooltip	Qu'avez-vous pensé des supports de cours proposés ? (pdf, exercices, video, audio...)	What did you think of the lesson materials? (pdf, exercises, video, audio etc)	Wie zufrieden sind Sie mit den angebotenen Kursmaterialien? (PDFs, Übungen, Videos, Audios, ...)	¿ Qué le han parecido los materiales de clase propuestos? (pdf, ejercicios, video, audio...)		
+DONE	table	table_th_rating_teaching_tooltip	Qu'avez-vous pensé de votre formateur ? (adéquation du discours, du niveau, de l'assiduité)	What did you think of your teacher? (interaction, level, attendance, etc)	Wie zufrieden sind Sie mit Ihrem Trainer? (Qualität von Sprache und Unterrichtsweise, Schwierigkeitsgrad, Verfügbarkeit, ...)	¿ Qué le ha parecido su formador? (adecuación a su nivel, dedicación...)		
+DONE	table	table_th_rating_techno_tooltip	Notez les éventuels problèmes rencontrés... (LMS, Skype, Adobe Connect, Téléphone)	Did you encounter any issues with the technical side of the lesson (LMS, skype, Adobe connect, phone)	Sind technische Probleme aufgetreten? (LMS, Skype, Adobe Connect, Telefon)	Comente sobre los problemas que haya tenido (LMS, Skype, Adobe Connect, Teléfono)		

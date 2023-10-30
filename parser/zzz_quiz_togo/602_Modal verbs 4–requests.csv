@@ -1,0 +1,45 @@
+ID Question|Objective|Instructions|Question|Question time|Answer|Is correct|Answer type
+1|Grammar|Choose the correct modal verb. More than one is correct.|You ask a stranger for help.|20|"Can you help me, please?"|1|checkbox
+|||||"Should you help me, please?"|0|checkbox
+|||||"Could you help me, please?"|1|checkbox
+|||||Would you like to help me?|0|checkbox
+2|Grammar|Choose the correct modal verb.|You ask for the internet code at the hotel's front desk.|20|May I have ...?|1|radio
+|||||Can I have...?|0|radio
+|||||Should I have ....?|0|radio
+|||||Shall I have...?|0|radio
+3|Grammar|Choose the correct modal verb.|You need to speak to your best friend.|20|May I speak to you?|0|radio
+|||||Could you speak to me?|0|radio
+|||||Should you speak to me?|0|radio
+|||||Can I talk to you?|1|radio
+3|Grammar|Choose the correct modal verb.|Which modal verb do we use to make offers and invitations?|20|Would you like |1|radio
+|||||Should|0|radio
+|||||Can|0|radio
+|||||May|0|radio
+4|Grammar|Choose the correct modal verb. More than one is correct.|Which modal verb do we use to offer to do something?|20|Shall|1|checkbox
+|||||Can|1|checkbox
+|||||Should|0|checkbox
+|||||Could|0|checkbox
+5|Grammar|Choose the correct modal verb. More than one is correct.|Which modal verb do we use to ask / give permission?|20|May|1|checkbox
+|||||Can|1|checkbox
+|||||Should|0|checkbox
+|||||Will|0|checkbox
+6|Grammar|Choose the correct modal verb. More than one is correct.|"''Can'' is familiar and _____ is formal."|20|Would you like|0|checkbox
+|||||May |1|checkbox
+|||||Should|0|checkbox
+|||||Shall |1|checkbox
+7|Grammar|Fill in the gap with the correct words.|_____ to dance? (invitation)|20|Would you like|1|radio
+|||||May I have|0|radio
+|||||Should you like|0|radio
+|||||Could we|0|radio
+8|Grammar|Fill in the gap with the correct word.|"Yes, you _____ leave early today. (giving permission)"|20|Could|0|radio
+|||||Will|0|radio
+|||||Should|0|radio
+|||||May|1|radio
+9|Grammar|Fill in the gap with the correct word.|_______ open the door for you? (offering help)|20|Can I|0|radio
+|||||Will I|0|radio
+|||||Should I|0|radio
+|||||Shall I|1|radio
+10|Grammar|Fill in the gap with the correct word.|"_______ pass the sugar, please?"|20|Could you|1|checkbox
+|||||Can you|1|checkbox
+|||||Shall you|0|checkbox
+|||||Should you|0|checkbox

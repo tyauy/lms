@@ -1,0 +1,1816 @@
+1|sidemenu_trainer_home|Accoglienza
+2|sidemenu_trainer_calendar|Il mio calendario
+3|sidemenu_trainer_learners|I miei allievi
+4|sidemenu_trainer_programs|Il mio percorso
+5|sidemenu_trainer_lessons|I miei corsi
+6|sidemenu_trainer_account|Il mio conto
+7|sidemenu_trainer_library|Biblioteca
+8|sidemenu_trainer_general|Generale
+9|sidemenu_trainer_settings|Aggiustamenti
+10|sidemenu_trainer_availabilities|Disponibilità
+11|sidemenu_trainer_awaiting|Nuovo
+12|sidemenu_trainer_active|In corso
+13|sidemenu_trainer_inactive|Conclusi
+14|sidemenu_trainer_anomaly|Anomalia
+15|sidemenu_learner_home|Accoglienza
+16|sidemenu_learner_formation|La mia formazione
+17|sidemenu_learner_eval|I miei test
+18|sidemenu_learner_trainers|I miei formatori
+19|sidemenu_learner_library|La mia biblioteca
+20|sidemenu_learner_account|Il mio conto
+21|sidemenu_learner_calendar|Il mio calendario
+22|sidemenu_learner_reservation|Prenotazioni
+23|sidemenu_learner_global|Visione globale
+24|sidemenu_learner_report|I miei rapporti
+25|sidemenu_learner_tp|Il mio percorso
+26|sidemenu_learner_materials|Materiali
+27|sidemenu_learner_exercise|Esercizi
+28|sidemenu_learner_email_template|Modelli di mail
+29|sidemenu_learner_video|Tutorials
+30|sidemenu_learner_signature|Firma
+31|sidemenu_learner_myeprogram|Il mio programma on line
+32|sidemenu_learner_visio_f2f_tp|Percorso in videoconferenza / F2 Training
+33|sidemenu_learner_visio_library|Videobiblioteca
+34|sidemenu_learner_my_trainer|Il mio formatore
+35|sidemenu_learner_my_trainers|I miei formatori
+36|sidemenu_learner_wait_signature|Attesa firma
+37|sidemenu_learner_tests|Prove / Valutazioni
+38|sidemenu_learner_media_library|Mediateca
+39|sidemenu_learner_toolbox|Strumenti
+40|sidemenu_learner_vocab_list|Liste vocaboli
+41|sidemenu_learner_vocab_list_perso|La mia lista
+42|sidemenu_learner_activity_report|Rapporto di attività
+43|sidemenu_learner_mock_tests|Esami bianchi
+44|sidemenu_learner_vocab|Vocabolario
+45|sidemenu_learner_vocab_theme|Tematiche
+46|sidemenu_tm_activity|Attività
+47|sidemenu_tm_orders|Dossiers formazione
+48|sidemenu_tm_reports|Rapporti
+49|sidemenu_tm_learners|Tracciamento allievi
+50|sidemenu_tm_visio_library|Videobiblioteca
+51|sidemenu_tm_opinion|Il vostro parere
+52|sidemenu_tm_catalog|Catalogo
+53|sidemenu_tm_tutos|Tutorials
+54|sidemenu_tm_trainers|Formatori
+55|sidemenu_tm_library|Biblioteca
+56|card_tm_lrn_activity|Attività di apprendimento
+57|card_tm_participate_rate|Tasso di partecipazione
+58|tm_personalized_export|Export personalizzato
+59|card_tm_distribution|Ripartizione formazione
+60|card_tm_followup|Tracciamento amministrativo
+61|card_tm_feedback|Feedback & note
+62|global_all|Tutti
+63|dont_care|Indifferente
+64|coming_soon|Prossimamente
+65|more_details|Maggiori dettagli
+66|global_details|Dettagli
+67|global_title|Titolo
+68|contacts|Contatti
+69|techno|Tecnico
+70|webconf|Videoconferenza
+71|global_perform|Svolto
+72|global_completed|Completato
+73|global_missed|Mancato
+74|global_scheduled|Pianificato
+75|global_cancelled|Annullato
+76|global_inprogress|In corso
+77|global_home|Accoglienza
+78|by|per
+79|with|avec
+80|lrn_charter_title|I vostri impegni
+81|wefit_charter_title|I nostri impegni
+82|more_lst_progress|Svolgimento
+83|more_lst_list_profil|Lista dei profili
+84|structured_course|Corso strutturato
+85|workshop|Workshop
+86|open_lesson|Corso aperto
+87|course|Lezione
+88|short_from|Da
+89|short_to|a
+90|short_between|Tra il
+91|short_and|E il
+92|lesson|Lezione
+93|lessons|Lezioni
+94|level|Livello
+95|specify|Precisate
+96|resume|Riassunto
+97|completely|Completamente
+98|partially|Parzialmente
+99|yes|Sì
+100|no|No
+101|day|Giorno
+102|week|Settimanale
+103|short_date_from|Da
+104|short_date_to|al
+105|week_of|Settimana dal
+106|question|Domanda
+107|desactivated|Disattivato
+108|answer|Risposta
+109|search|Ricercare
+110|all|Tutti
+111|inprogress|in corso
+112|level_a0|A0 - Principiante
+113|level_a1|A1 - Falso Principiante
+114|level_a2|A2 - Preintermedio
+115|level_b1|B1 - Intermedio
+116|level_b2|B2 - Confermato
+117|level_c1|C1 - Padronanza
+118|level_c2|C2 - Ha bisogno?
+119|l_beginner|Principiante
+120|l_intermediate|Intermedio
+121|l_advanced|Avanzato
+122|l_preintermediate|Preintermedio
+123|lives|Abita
+124|lang_en|Inglese
+125|lang_de|Tedesco
+126|lang_fr|Francese
+127|lang_es|Spagnolo
+128|lang_it|Italiano
+129|badge_planned_m_s|Pianificato
+130|badge_planned_m_p|Pianificati
+131|badge_planned_f_s|Pianificata
+132|badge_planned_f_p|Pianificate
+133|badge_inprogress|In corso
+134|badge_completed_m_s|Completato
+135|badge_completed_m_p|Completati
+136|badge_completed_f_s|Completata
+137|badge_completed_f_p|Completate
+138|badge_missed_m_s|Mancato
+139|badge_missed_m_p|Mancati
+140|badge_missed_f_s|Mancata
+141|badge_missed_f_p|Mancate
+142|badge_cancelled_m_s|Annullato
+143|badge_cancelled_m_p|Annullati
+144|badge_cancelled_f_s|Annullata
+145|badge_cancelled_f_p|Annullate
+146|badge_remaining_m_s|Rimanente
+147|badge_remaining_m_p|Rimanenti
+148|badge_remaining_f_s|Rimanente
+149|badge_remaining_f_p|Rimanenti
+150|badge_signed_m_s|Firmato
+151|badge_signed_m_p|Firmati
+152|badge_signed_f_s|Firmata
+153|badge_signed_f_p|Firmate
+154|text_verified|Verificato
+155|tooltip_hours_planned|Ore pianificate
+156|tooltip_hours_completed|Ore svolte
+157|tooltip_hours_missed|Ore mancate
+158|tooltip_hours_cancelled|Ore annullate
+159|tooltip_hours_remain|Ore rimanenti
+160|tooltip_keyword_connected|Questa parola chiave fa parte dei suoi interessi
+161|tooltip_head_trainer|Formatore principale
+162|tooltip_secondary_trainer|Formatore secondario
+163|tooltip_view_lesson|Vedere prenotazione
+164|tooltip_view_ln|Vedere note lezione
+165|tooltip_sign_lesson|Firmare la lezione
+166|tooltip_launch_lesson|Lanciare la lezione
+167|tooltip_material|Materiali
+168|tooltip_cancel_lesson|Annullare la lezione
+169|tooltip_fill_ln|Redigere le note della lezione
+170|tooltip_fill_pta|Redigere note PTA
+171|tooltip_fill_na|Redigere note NA
+172|tooltip_video_content|Contiene un video
+173|tooltip_audio_content|Contiene un audio
+174|tooltip_quiz_content|Quiz di validità
+175|title_page_trainer_index|Benvenuto su *WEFIT LMS*
+176|title_page_trainer_avail|Disponibilità
+177|card_trainer_edit_workinghour|Azioni possibili
+178|card_trainer_planned|Lezioni pianificate
+179|card_trainer_next|Prossima lezione
+180|card_trainer_incoming|Percorso da lanciare
+181|card_trainer_active|Percorsi attivi
+182|card_trainer_done|Lezioni svolte
+183|card_trainer_done|Lezioni svolte nel corso del mese
+184|card_setup|Prendere un appuntamento col nostro servizio di assistenza al cliente
+185|card_trainer_today|Oggi
+186|card_trainer_tocomplete|Lezioni da completare
+187|title_page_trainer_program|I miei percorsi
+188|title_page_trainer_calendar|Il mio calendario
+189|card_select_learner|Selezionare allievo
+190|card_manage_avail|Gestione disponibilità
+191|card_trainer_avail_add|Aggiungere disponibilità
+192|card_trainer_avail_remove|Aggiungere un blocker
+193|title_page_trainer_lessons|Le mie lezioni
+194|card_trainer_period|Periodo selezionato
+195|card_trainer_activity|La mia attività
+196|card_trainer_hours|Ore di formazione
+197|title_page_connect|La aspettavamo
+198|card_forgotten_password|Password dimenticata?
+199|card_connect|Connessione
+200|title_page_common_trainer|Conto formatore
+201|title_page_common_trainer_learnerview|Conto formatore
+202|title_page_common_trainer_trainerview|Conto formatore
+203|title_page_common_trainer_avail|Conto formatore
+204|tab_general|Generale
+205|tab_settings|Aggiustamenti
+206|tab_avail|Disponibilità
+207|tab_working|Orario
+208|card_trainer_speciality|Specialità
+209|card_trainer_availability|Disponibilità globale
+210|card_trainer_about|A proposito di me
+211|card_trainer_workinghour|Ore di lavoro
+212|card_trainer_signature|Firma
+213|title_page_common_tp_details_learner|Il mio percorso formativo
+214|title_page_common_tp_details|Percorso formativo
+215|card_tp_resume|Riassunto percorso
+216|card_tp_hours|Ore di formazione
+217|card_tp_details|Dettagli percorso
+218|card_lesson_details|Dettagli delle lezioni
+219|card_formation_details|Dettagli della mia formazione
+220|card_tp_calendar|Calendario
+221|card_tp_description|Descrizione
+222|card_note_description|Commenti
+223|card_tp_exercice|Esercizi
+224|card_tp_lessonnote|Resoconto
+225|card_tp_note|Valutare il corso
+226|title_page_common_tp_builder|Edizione del percorso di formazione
+227|card_add_lesson|Aggiungere lezione di
+228|card_program|Programma
+229|card_details|Contenuto
+230|title_page_common_syllabus|Biblioteca
+231|title_page_common_materials|Materiali del corso
+232|text_about|Circa
+233|title_page_common_practice|Esercizi
+234|title_page_common_wemail|Modelli di mail
+235|card_wemail_search|Ricercare un modello
+236|card_wemail_category|Modelli per categoria
+237|card_vocab_search|Ricercare un termine
+238|card_settings|Aggiustamenti
+239|title_page_common_learner_account_learner|Il mio conto apprendimento
+240|title_page_common_learner_account_trainer|Conto allievo
+241|accordion_subscription|Abbonamento
+242|subscription_el|Il vostro abbonamento E-learning
+243|accordion_availabilities|Disponibilità
+244|accordion_needs|Bisogni formativi
+245|accordion_settings|Aggiustamenti
+246|accordion_my_availabilities|Le mie disponibilità
+247|accordion_my_needs|I miei bisogni formativi
+248|accordion_my_settings|I miei aggiustamenti
+249|title_page_gateway|Lancio della lezione
+250|card_gateway_launch|Siete pronti?
+251|card_title_reinit|Reimpostare la vostra password. Definirne una nuova.
+252|card_text_reinit|Avete richiesto un cambiamento o recupero della password.  Pregasi inserire una nuova password.
+253|ln_title_description|Descrizione
+254|ln_title_automatic|Automatico
+255|ln_title_main_description|Descrizione del corso
+256|ln_title_objectives|Obiettivi pedagogici
+257|ln_title_grammar|Grammatica
+258|ln_title_vocabulary|Vocabolario
+259|ln_title_today_teaching_points|Punti principali affrontati oggi
+260|ln_title_today_work_on|Oggi, abbiamo lavorato su
+261|ln_title_today_work_on_placeholder|Competenze affrontate, non citate qui sopra
+262|ln_title_grammar_covered|Punti di grammatica
+263|ln_title_sort_by_level|per livello
+264|ln_title_grammar_explanation|Esercizi o Punti di grammatica
+265|ln_title_trainer_feedback|Resconto del formatore
+266|ln_title_min_char|min. 150 caratteri
+267|ln_title_main_discussion|Principali soggetti / risorse impiegate
+268|ln_title_did_work_on|Su cosa abbiamo lavorato oggi?
+269|ln_title_target_situation|Obiettivi
+270|ln_title_strategy_analysis|Analisi
+271|ln_title_learner_profile|Profilo allievo
+272|profile|Profilo
+273|profile_social_lrn|Allievo sociale
+274|profile_social|Sociale
+275|profile_dynamic_lrn|Allievo dinamico
+276|profile_dynamic|Dinamico
+277|profile_independant_lrn|Allievo indipendente
+278|profile_independant|Indipendente
+279|profile_applied_lrn|Allievo pragmatico
+280|profile_applied|Pragmatico
+281|profile_conceptual_lrn|Allievo concettuale
+282|profile_conceptual|Concettuale
+283|profile_scholastic_lrn|Allievo accademico
+284|profile_scholastic|Accademico
+285|profile_creative_lrn|Allievo creativo
+286|profile_creative|Creativo
+287|profile_analytic_lrn|Allievo analitico
+288|profile_analytic|Analitico
+289|profile_neutral_lrn|Allievo completo
+290|profile_neutral|Completo
+291|brain_dominance|Padronanza cerebrale
+292|left_brain_dominance|Emisfero sinistro dominante
+293|right_brain_dominance|Emisfero destro dominante
+294|left_brain|Emisfero sinistro
+295|right_brain|Emisfero destro
+296|introvert|Introverso
+297|extrovert|Estroverso
+298|sensory_perception|Percezione sensoriale
+299|perception_visual_nv|Visuale / non verbale
+300|perception_kinesthetic|Cinestetico
+301|perception_visual_verbal|Visuale / verbale
+302|perception_audio_verbal|Audio / Verbale
+303|ln_title_target_analysis|Analisi
+304|ln_title_training_program|Percorso formativo
+305|ln_title_trainer_feedback_tips|Resoconto del formatore
+306|ln_title_achievement|Risultati
+307|ln_title_ln|Resconto note lezione
+308|ln_title_na|Raccolta di bisogni
+309|ln_title_pta|Rapporto di formazione
+310|ln_title_initial|Bisogni iniziali / Punti da migliorare
+311|ln_title_want_to|Competenze da sviluppare
+312|ln_title_auto_needs|Automatico (modulo compilato dall'allievo)
+313|ln_title_auto_pt|Automatico (Test valutazione allievo)
+314|ln_title_auto_tp|Automatico (basato sul percorso dell'allievo)
+315|ln_title_how|Come vorrebbe imparare la lingua:
+316|ln_title_alert_skill|Almeno una competenza dev'essere descritta
+317|ln_title_interests|Centri di interesse / Tematiche
+318|ln_title_level|Livello:
+319|ln_title_now_able|Ora siete capaci di:
+320|ln_title_performance|La vostra prestazione
+321|ln_title_alert_list|Elencare i soggeti o punti da migliorare espressi dall'allievo:
+322|title_page_learner_index|Benvenuto su *WEFIT LMS*
+323|card_learner_nextlesson|La mia prossima lezione
+324|card_learner_mytraining|La mia formazione
+325|card_learner_mytrainer|Il mio formatore
+326|card_learner_mytrainers|I miei formatori
+327|card_learner_remaining_hours|Totale ore rimanenti
+328|card_learner_remaining_without|(hors eLearning & certification)
+329|card_course_to_sign|Lezioni da firmare
+330|card_new|Novità
+331|card_certification|Certificazione
+332|card_subscription|Abbonamento
+333|card_use|Condizioni di impiego
+334|card_use_terms|Condizioni di impiego
+335|card_checklist|Checklist
+336|card_deadline|Data limite di formazione
+337|card_step_1|Passo il mio test di valutazione
+338|card_step_2|Valuto il mio profilo di apprendimento
+339|card_step_3|Informo dei miei obiettivi
+340|el_txt_lesson|Lezione
+341|el_txt_lessons|Lezioni
+342|el_txt_quiz|quiz
+343|el_txt_quizzes|quiz
+344|el_txt_test|test
+345|el_txt_tests|test
+346|title_page_learner_eval|Le mie valutazioni
+347|card_learner_pt|Test di livello
+348|card_learner_lst|Profilo di apprendimento
+349|title_page_learner_needs|Raccolta dei bisogni
+350|card_learner_needs|Valutazioni dei vostri bisogni
+351|needs_txt_exp_write_improve|Miglioramento espressivo scritto
+352|needs_txt_exp_oral_improve|Miglioramento espressivo orale
+353|needs_txt_exp_both_improve|Miglioramento espressivo orale e scritto
+354|needs_txt_comp_write_improve|Miglioramento comprensione scritta
+355|needs_txt_comp_oral_improve|Miglioramento comprensione orale
+356|needs_txt_comp_both_improve|Miglioramento comprensione orale scritta
+357|needs_txt_trainer_mono|Formatore unico
+358|needs_txt_trainer_several|Parecchi formatori
+359|needs_txt_advise|(consigliato per i livelli principianti: da A0 à B1)
+360|title_page_learner_eval_pt|Test di livello
+361|title_page_learner_eval_lst|Test profilo di apprendimento
+362|title_page_learner_eou_quiz|Quiz di comprensione
+363|title_page_learner_assessmet_quiz|Writing Assessment
+364|card_eval_global_results|Risultato globale
+365|card_eval_answer_details|Dettagli delle vostre risposte
+366|card_learner_your_level|Il vostro livello
+367|title_page_learner_calendar|Il mio calendario
+368|title_page_learner_trainers_view|I miei formatori
+369|title_page_trainer_lessons|Le mie lezioni
+370|card_learner_hours|Ore di formazione
+371|title_page_learner_mock_tests|Esami bianchi
+372|card_linguaskill_name|Comprensione orale
+373|card_brain_dominance|Padronanza cerebrale
+374|card_socialization|Socializzazione
+375|card_sensory_perception|Percezione sensoriale
+376|card_rating|Valutazione del corso
+377|txt_rating|Grazie di dedicare un po' di tempo per valutare il vostro corso. Questo ci aiuta a migliorare i nostri servizi.
+378|txt_rating2|NB: Questo apprezzamento non sarà visibile dal vostro formatore.
+379|title_page_tm_trainers|Formatori WEFIT
+380|title_page_tm_opinion|Inchiesta di soddisfazione
+381|card_quiz_timer|Tempo rimanente
+382|title_page_quiz_lst|Il mio profilo di apprendimento
+383|title_page_quiz_pt|Il mio test di valutazione
+384|p_several_answers|Parecchie risposte possibili
+385|p_solo_answer|Una sola risposta possibile
+386|title_page_subscription|Benvenuto su *WEFIT LMS*
+387|card_subscribe|Desidera creare un conto su WEFIT?
+388|card_already|Già iscritto?
+389|text_subscription|L'apertura di un conto sulla nostra piattaforma è gratuita e senza impegno. Una volta verificati i vostri recapiti, potrete:
+390|text_subscription_1|Passare il vostro test di livello
+391|text_subscription_2|Passare il vostro test di profilo di apprendimento
+392|text_subscription_3|Usufruire di un abbonamento e-learning di 6 ore e accedere all'insieme delle nostre risorse (materiali del corso, esami bianchi, liste di vocabolari, modelli di mail...)
+393|form_subscription_1|Siete
+394|form_subscription_2|Mail
+395|form_subscription_3|Password
+396|form_subscription_4|Telefono
+397|form_subscription_5|Situazione
+398|form_subscription_btn|Registrare e cominciare
+399|title_page_visio_f2f_tp|Percorso videoconferenza / F2F
+400|prefilled_tp|Percorso precostituito
+401|solo_tp|Percorso su misura
+402|collab_tp|Percorso collaborativo
+403|title_page_visio_library|Videobiblioteca
+404|title_page_my_trainer|Il mio formatore
+405|title_page_my_trainers|I miei formatori
+406|title_page_activity_report|Rapporto di attività
+407|title_page_tests|Test & Valutazioni
+408|title_page_signature|Attesa firma
+409|title_page_tools|Strumenti
+410|card_level|Livello:
+411|card_keywords|Parole chiave
+412|card_grammar|Grammatica
+413|card_activity|Attività
+414|card_media_library|Mediateca
+415|card_awaiting_signature|Lezione in attesa
+416|card_for_practice|Per allenarsi
+417|card_vocabulary_list|Liste vocaboli
+418|card_vocabulary_perso_list|La mia lista di vocaboli
+419|card_thematic_list|Tematiche
+420|var_duration|Durata variabile
+421|short_minute|min
+422|timing_fifteen_minutes|circa 15 minuti
+423|timing_ten_to_fifty_min|da 10 a 50 minuti
+424|timing_zero_minute|0 minuti
+425|timing_two_minutes|2 minuti
+426|timing_three_minutes|3 minuti
+427|timing_ten_minutes|10 minuti
+428|timing_course_morning|Mattino: 7h/12h
+429|timing_course_lunch|Mezzogiorno: 12h/15h
+430|timing_course_afternoon|Pomeriggio: 15h/19h
+431|timing_course_evening|Serata: 19h/22h
+432|tooltip_time_elapsed|Tempo passato
+433|tooltip_last_connect|Ultima visita
+434|tooltip_score_quiz|Punteggio quiz
+435|tooltip_remove_elearning|Ritirare dal mio e-programma
+436|tooltip_add_favourite|Aggiungere ai favoriti
+437|tooltip_remove_favourite|Ritirare dai favoriti
+438|tooltip_nnl|No prossima lezione
+439|tooltip_bl|Bad Learner (2 months without scheduling)
+440|alert_accept_charter|Pregasi di accettare per favore le condizioni di impiego come pure il trattamento dei dati personali
+441|alert_enter_valid_level|Pregasi indicare un livello valido
+442|alert_no_data|Nessun dato da mostrare
+443|alert_no_course|Nessuna lezione disponibile
+444|alert_not_compatible|Il vostro navigatore non è compatibile
+445|alert_no_support|Nessun materiale di supporto al corso
+446|alert_no_video|Non contiene materiale video
+447|alert_no_audio|Non contiene materiale audio
+448|alert_no_quiz|Nessun quiz allegato
+449|alert_no_tp|Nessun percorso
+450|alert_no_tp_created|Nessun percorso creato
+451|alert_modif_tp_ok|Modifiche di percorso effettuate
+452|alert_program_calendar_conflict|Percorso formativo incompatibile col calendario di prenotazione
+453|alert_no_avail|Nessuna disponibilità
+454|alert_no_workinghour|Nessun profilo di orarii di lavoro
+455|alert_modif_ok|Modifiche effettuate
+456|alert_modif_lesson_ok|Complimenti, la vostra lezione è ormai prenotata.
+457|alert_switch_lesson|Lo statuto della lezione è passato da "prenotato" a "in corso".
+458|alert_cancel_lesson_ok|La vostra lezione è stata annullata.
+459|alert_no_planned|Non avete lezioni pianificate.
+460|alert_no_trainer|Non avete formatori assegnati.
+461|alert_sign_lesson_ok|Avete firmato correttamente la vostra lezione.
+462|alert_no_access_syllabus|Non avete ancora il diritto di consultare la biblioteca su WEFIT
+463|alert_trainer_ok|Formatore correttamente creato.
+464|alert_user_created|Utente creato!
+465|alert_user_already_exist|Un utente esiste già con questa mail.
+466|alert_status_mail_send|Mail di status inviato.
+467|alert_mdp_trainer_reinit|Procedimento password impostato.
+468|alert_mdp_change_ok|La vostra password è stata correttamente parametrata.
+469|alert_thx_reading|Grazie di avere il tempo di leggerci.
+470|alert_thx_giving_opinion|Il vostro modulo non è correttamente pervenuto. Grazie di avere preso il tempo di rispondere.
+471|alert_needs_ok|La vostra raccolta di bisogni non è correttamente pervenuta e ve ne siamo riconoscenti.
+472|alert_wrong_connect|<strong>Attenzione!</strong> Errore di autenticazione. Pregasi di inserire nuovamente i vostri dati identificativi.
+473|alert_wrong_link|<strong>Attenzione!</strong> il link che avete utilizzato non è più attivo o difettoso. Pregasi reiterare una richiesta.
+474|alert_ready|<strong>Bravo !</strong> La vostra nuova password è stata reimpostata. Potete finalmente collegarvi)
+475|alert_tp_anomaly|<strong>Attenzione!</strong> Il Training Program è incompleto, pregasi completarlo velocemente.
+476|alert_tp_deadline|<strong>Attenzione!</strong> La date limite di uso dei crediti è superata. Pregasi contattare il nostro team.
+477|alert_no_answer|Non avete selezionato nessuna risposta
+478|alert_warning|Attenzione!
+479|alert_inactive_learner|<strong>Attenzione!</strong> Il vostro conto è inattivo.<br>Pregasi contattare il nostro Servizio Clienti:<br>service@wefitgroup.com // 01 83 62 32 46
+480|alert_reset_pwd|<strong>Pregasi consultare la vostra scatola mail.</strong> Una mail vi è stata rivolta contenente un link che le consentirà di reimpostare la vostra password.
+481|alert_ln_removed|L'allegato è stato correttamente eliminato.
+482|alert_ln_uploaded|L'allegato è stato correttamente scaricato.
+483|alert_ln_treated|Il resoconto delle lezione è stato trattato.
+484|alert_title_signature|Avete delle lezioni in attesa di firma.
+485|alert_title_no_signature|Non avete lezioni in attesa di firma su questo percorso.
+486|alert_title_elearning|Il vostro dossier E-learning è vuoto.
+487|alert_tm_no_records|Nessun dossier formativo quest'anno.
+488|alert_body_elearning|Percorrete le risorse tra diversi livelli e cliccate su <i class='fas fa-folder-plus'></i> per aggiungere una lezione al vostro 'e-program'.
+489|alert_body_signature|Al fine di garantire il buon svolgimento amministrativo del vostro dossier di formazione, è necessario firmare elettronicamente le vostre lezioni.
+490|alert_no_access|Non avete accesso alla pagina richiesta, siete stati reindirizzati verso la vostra homepage.
+491|alert_title_no_access_page|Attenzione
+492|alert_no_access_page|Non avete accesso alla pagina richiesta, pregasi contattare il nostro team.
+493|alert_note_success|<strong>Grazie!</strong> La vostra valutazione non è pervenuta. Potete ora chiudere questa finestra o accedere alla vostra interfaccia LMS.
+494|alert_note_danger|<strong>Attenzione!</strong> Avete già segnato questa lezione, questa nota sarà visibile sul vostro percorso formativo. Potete adesso chiudere questa finestra.
+495|btn_save|Salvaguardare
+496|btn_apply|Applicare
+497|btn_add|Aggiungere
+498|btn_remove|Ritirare
+499|btn_open_all_collapse|Spiegare tutto
+500|btn_send|Spedire
+501|btn_add_feedback|Aggiungere feedback
+502|btn_create_profil|Creare profilo
+503|btn_generate_estimate|Generare preventivo
+504|btn_generate_convention|Generare un contratto
+505|btn_trainer_nextlesson|Prossima lezione
+506|btn_trainer_nonextlesson|Nessun corso pianificato
+507|btn_trainer_report_access|Nessun rapporto
+508|btn_trainer_view|Vedere
+509|btn_trainer_sheet|Scheda formatore
+510|btn_trainer_thismonth|Questo mese
+511|btn_cancel_slot|Annullare prenotazione
+512|btn_miss_slot|Lezione mancata
+513|btn_launch_lesson|Lanciare lezione
+514|btn_view_profile|Vedere profilo
+515|btn_view_report|Accesso rapporto
+516|btn_edit_again|Pubblicare un'altra volta
+517|btn_later|Più tardi
+518|btn_go_test|Passo il mio test
+519|btn_view_policy|Consultare la nostra politica
+520|btn_view_use|Consultare i nostri impegni.
+521|btn_results|Risultati
+522|btn_note|Valutare
+523|btn_continue|Continuare
+524|btn_results_test|Risultati test
+525|btn_view|Vedere
+526|btn_cancel_short|Annullare
+527|btn_launch_short|Lanciare
+528|btn_sign_short|Firmare
+529|btn_support_short|Materiale
+530|btn_notes_short|Note
+531|btn_book_short|Prenotare
+532|btn_nothx|No, grazie
+533|btn_fill_notes|Redigere LN
+534|btn_upload_notes|Upload LN
+535|btn_go_send|E' partito!
+536|btn_reset|Cambiare password
+537|btn_change|Cambiare
+538|btn_choose_level|Scegliere il mio livello
+539|btn_ichoose|Scelgo
+540|btn_choose_program|Scegliere questo percorso
+541|btn_choose_course_duration|Prendo delle lezioni di
+542|btn_view_themes|Elenco le tematiche
+543|btn_prefilled_tp|Un percorso precostituito
+544|btn_solo_tp|Un percorso su misura
+545|btn_collab_tp|Un percorso collaborativo
+546|btn_criteria|I miei criteri
+547|btn_book_na|Prenoto la mia prima lezione
+548|btn_validate_tpstep|Convalidare la tappa del mio percorso
+549|btn_validate_levelstep|Convalidare la tappa del mio livello
+550|btn_validate_lststep|Convalidare la tappa del mio profilo di apprendimento
+551|btn_choose_trainer|Scegliere un formatore:
+552|btn_choose_this_trainer|Scegliere
+553|btn_validate|Convalidare
+554|btn_go_needs|Comunico i miei obiettivi
+555|btn_connect|Collegamento
+556|btn_lms_connect|Collegamento WEFIT LMS
+557|btn_mdp_reset|Reimpostare
+558|btn_disconnect|Disconnessione
+559|btn_update|Aggiornare
+560|btn_take_appointment|Prendere appuntamento
+561|btn_no_thx|Pazienza!
+562|btn_whynot|Perché no, in fin dei conti?
+563|btn_return_quiz|Ritorno ai quiz
+564|btn_start_again|Ricominciare
+565|btn_start|Cominciare
+566|btn_start_formation|Cominciare la mia formazione
+567|btn_favourite|I miei favoriti
+568|btn_return|Ritorno
+569|btn_export|Esportare
+570|btn_help|Aiuto
+571|btn_help_page|Aiuto su questa pagina
+572|btn_my_e_program|Il mio e-Program
+573|btn_empty_program|Programma vuoto
+574|btn_more_info|Più informazioni
+575|btn_know_more|saperne di più
+576|btn_all_level|Tutti i livelli
+577|btn_el_support|Materiali
+578|btn_el_keys|Correzione
+579|btn_el_vocab_list|Lista vocaboli
+580|btn_el_practice|Allenamento e convalida
+581|btn_el_video|Video
+582|btn_el_grammar_points|Grammatica
+583|btn_el_voc_points|Vocabolario
+584|btn_el_transcript|Trascrizione
+585|btn_el_exercices|Esercizi
+586|btn_el_resources|Risorse
+587|btn_move_forward|Proseguire
+588|btn_unlock|Sbloccare l'accesso
+589|btn_check_qpt|Passare il mio test di valutazione
+590|btn_check_lst|Passare il mio test di profilo di apprendimento
+591|btn_check_na|Compilare le vostre  necessità formative
+592|btn_check_build_el|Costruire il mio percorso e-learning
+593|btn_build_tp|Costruire il mio percorso
+594|btn_contact_wefit|Contatto WEFIT
+595|form_message_name|Pregasi inserire un cognome per favore
+596|form_message_entitled|Inserire un titolo
+597|form_label_name|Cognome
+598|form_placeholder_name|Cognome
+599|form_message_firstname|Pregasi inserire un nome per favore
+600|form_label_firstname|Nome
+601|form_placeholder_firstname|Nome
+602|form_message_alias|Pregasi inserie uno pseudonimo per favore
+603|form_label_alias|Pseudonimo
+604|form_placeholder_alias|Pseudonimo (Nome + iniziale cognome)
+605|form_message_email|Pregasi inserire una mail per favore
+606|form_label_email|Indirizzo mail
+607|form_placeholder_email|Indirizzo mail
+608|form_message_phone|Pregasi inserire un numero di telefono per favore
+609|form_label_phone|Tel.
+610|form_placeholder_phone|Tel.
+611|form_label_password|Password
+612|form_placeholder_new_password|Nuova password
+613|form_placeholder_new_password2|Confermare la password
+614|form_placeholder_jobtitle|La vostra situazione professionale
+615|form_tm_partnership_ans1|Gestione amministrativa
+616|form_tm_partnership_ans2|Consigli
+617|form_tm_partnership_ans3|Formazione addizionale
+618|form_tm_partnership_ans4|Organizzazione di eventi
+619|plugin_datatable_search|Ricerca:
+620|plugin_datatable_first|Inizio
+621|plugin_datatable_last|Fine
+622|plugin_datatable_next|Seguente
+623|plugin_datatable_previous|Precedente
+624|plugin_datatable_emptytable|Nessun risultato
+625|plugin_datatable_lengthmenu|Esporre_MENU_risultati
+626|plugin_datatable_loading|Caricamento
+627|plugin_datatable_processing|Esecuzione
+628|js_modal_title_trainer_view|Vista formatore
+629|js_modal_title_before_book|Prima di prenotare la vostra prima lezione
+630|js_modal_title_trainer_choose_solo|Avete scelto il formatore seguente:
+631|js_modal_title_trainer_choose|Avete scelto i formatori seguenti:
+632|js_warning_trainer_max|Numero massimo di formatori raggiunto
+633|js_modal_title_launch_step1|Tappa 1/3: compilare il proprio profilo
+634|js_modal_title_launch_step2|Tappa 2/3: costruire il mio percorso formativo
+635|js_modal_title_launch_solo|Scelgo l'opzione percorso su misura
+636|js_modal_title_validate_program|Convalidare il percorso formativo
+637|js_modal_title_no_lst|Non desidero valutare il mio profilo di apprendimento
+638|js_modal_title_detail|Dettaglio del corso
+639|js_modal_title_lst|Valuto il mio profilo di apprendimento
+640|js_modal_title_pt|Passo il mio test di valutazione
+641|js_modal_title_nextlesson|La mia lezione futura
+642|js_modal_title_session|Osservazione della lezione
+643|js_modal_title_book|Prenotare una lezione
+644|js_modal_title_book_confirm|Confermare la vostra prenotazione
+645|js_modal_title_edit_ln|Pubblicare resoconto della lezione
+646|js_modal_title_edit_na|Pubblicare i Needs Assessment
+647|js_modal_title_edit_pta|Pubblicare Post Training Assessment
+648|js_modal_title_upload|Upload documento
+649|js_modal_title_attendance|Conferma presenza
+650|js_modal_title_account_edit|Pubblicare conto
+651|js_modal_title_settings_edit|Pubblicare parametri
+652|js_modal_title_avail_edit|Pubblicare disponibilità
+653|js_modal_title_access_edit|Pubblicare accesso
+654|js_modal_title_special_edit|Pubblicare specialità
+655|js_modal_title_resume_edit|Pubblicare CV
+656|js_modal_title_about_edit|Pubblicare su
+657|js_modal_title_details_edit|Pubblicare recapiti
+658|js_modal_title_mdp_reset|Cambiare password
+659|js_modal_title_mdp_forgotten|Password dimenticata?
+660|js_modal_title_mdp_nomatch|Le password non corrispondono
+661|js_modal_title_ty|Grazie per le informazioni
+662|js_modal_title_inactive|Inattività
+663|js_modal_title_note|Valutazione del corso
+664|js_modal_contact_wefit|Contattare WEFIT
+665|js_grammar|Grammatica
+666|js_writing|Comprensione scritta
+667|js_oral|Comprensione orale
+668|js_vocabulary|Vocabolario
+669|js_comprehension|Comprensione
+670|js_book_confirm|Confermare la vostra prenotazione
+671|js_restart_quiz_confirm|I risultati del vecchio test sono persi, proseguire?
+672|js_book_credential|Impossibile programmare più di una lezione. Credito insufficiente.
+673|js_cancel_confirm_trainer|Siete sicuri di annullare la lezione
+674|js_cancel_confirm_learner|Siete sicuri di annulare la vostra lezione? Questa lezione sarà ritirata dal vostro credito orario. Contattate il nostro servizio di assistenza per maggiori informazioni.
+675|js_warning_signature|Pregasi compilare il campo firma per favore.
+676|js_warning_issue|Problema di trattamento.
+677|js_modal_title_help|Aiuto
+678|modal_supports|Materiali
+679|modal_support_pdf|Materiale PDF
+680|modal_support_video|Materaile VIDEO
+681|modal_support_audio|Materiale AUDIO
+682|modal_support_quiz|Quiz
+683|modal_link_ws|Materiale del corso
+684|modal_link_wsk|Materiale del corso con correzioni,
+685|modal_link_video|Video
+686|modal_link_audio|Audio
+687|modal_link_quiz|Quiz
+688|modal_avail_title|Disponibilità
+689|modal_planning_title|Programma quotidiano
+690|modal_txt_reinit_please|Pregasi inserire il vostro indirizzo mail
+691|modal_txt_reinit_explain|Vi scriveremo una mail automatica. Conterrà un link che vi consentirà di reimpostare la vostra password.
+692|modal_txt_reinit_connected_please|La vostra mail:
+693|modal_txt_reinit_connected_explain|Sarete scollegati e vi invieremo una mail in automatico. Conterrà un link che vi consentirà di reimpostare la vostra password.
+694|modal_txt_welcome|Benvenuto
+695|modal_txt_mdp_info|Al fine di proseguire sulla nostra piattaforma, pregasi inserire una nuova password. <em>(6 caratteri minimo)</em>
+696|modal_txt_mdp|Password
+697|modal_txt_mdp_repeat|Ripetere la password
+698|modal_ln_finalize|Finalizzare lezione (passare in completato).
+699|modal_txt_inactive|Abbiamo notato che siete inattivi da un periodo prolungato, desiderate proseguire nella navigazione?
+700|modal_txt_proposition|Proposta
+701|table_th_nationality|Cittadinanza
+702|table_th_teaches|Insegna
+703|table_th_speaks|Parla
+704|needs_trainer_speaks|Formatore (i) parlante (i)
+705|table_th_specialities|Specialità
+706|table_th_expertise|Perizia
+707|table_th_localisation|Ubicazione
+708|table_th_assign|Assegnato
+709|table_th_personnality|Personalità
+710|table_th_availabilities|Disponibilità
+711|table_th_methods|Metodo
+712|table_th_interests|Centro di interessi
+713|table_th_about|A proposito
+714|table_th_about_me|A proposito di me
+715|table_th_quick_about_me|A proposito di me
+716|table_th_learner|Allievo
+717|table_th_learners|Allievi
+718|table_th_active_learners|Allievi attivi
+719|table_th_role|Ruolo
+720|table_th_account|Conto
+721|table_th_level|Livelli preferiti
+722|table_th_experience|Esperienza professionale
+723|table_th_experience_long|Esperienza professionale (Formazione)
+724|table_th_education|Percorso
+725|table_th_last_lesson|Ultima lezione
+726|table_th_last|Ultimo
+727|table_th_next_lesson|Prossima lezione
+728|table_th_next|Prossimo
+729|table_th_alert|Notifica
+730|table_th_all_accounts|Tutti i conti
+731|table_th_last_connect|Ultimo collegamento
+732|table_th_tp_level|Livello
+733|table_th_administrative_file|Dossier amministrativo
+734|table_th_period|Periodo
+735|table_th_financial_proposal|Proposta finanziaria
+736|table_th_attachments|Allegato (i)
+737|table_th_factures|Fattura (e)
+738|table_th_teached_language|Lingua insegnata
+739|table_th_formation_method|Metodo formativo
+740|table_th_training_records|Dossiers formativi
+741|table_th_records|Dossiers formativi
+742|table_th_pricing_table|Tabella tariffaria
+743|table_th_courses_launched|Lezione (i) lanciata (e)
+744|table_th_launching|Lancio
+745|table_th_months_done|Svolto mese
+746|table_th_total_done|Svolto totale
+747|table_th_months_missed|Mancato mese
+748|table_th_total_missed|Mancato totale
+749|table_th_remaining|Rimanente
+750|table_th_booked|Pianificato
+751|table_td_active_learners|Allievi attivi
+752|table_th_status|Statuto
+753|table_th_method|Metodo
+754|table_th_trainer|Formatore
+755|table_th_visio_trainer|Formatore videoconferenza
+756|table_th_trainer2|Formatore ##2
+757|table_th_trainer3|Formatore ##3
+758|table_th_start|Inizio
+759|table_th_end|Fine
+760|table_th_date|Data
+761|table_th_time|Ora
+762|table_th_program_short|Percorso
+763|table_th_training_course|Sessione formativa
+764|table_th_program|Percorso formativo
+765|table_th_type|Tipo
+766|table_th_session_type|Tipo sessione
+767|table_th_planning|Pianificazione
+768|table_th_duration|Durata (min)
+769|table_th_duration_short|Durata
+770|table_th_support|Materiale
+771|table_th_tp|Percorso
+772|table_th_module|Modulo
+773|table_th_course|Corso
+774|table_th_course_type|Tipo corso
+775|table_th_techno|Strumenti di comunicazione
+776|table_th_certification|Certificazione prevista
+777|table_th_progress|Progressione
+778|table_th_progress_formation|Progressione formativa
+779|table_th_repartition|Ripartizione programma
+780|table_th_repartition_short|Ripartizione
+781|table_th_nextlesson|Prochaine leçon
+782|table_th_program_end|Fine percorso
+783|table_th_action|Azione
+784|table_th_bookedby|Prenotato da
+785|table_th_book|Prenotare
+786|table_th_build|Build
+787|table_th_ncourse|N.
+788|table_th_course_title|Titolo corso
+789|table_th_course_description|Descrizione
+790|table_th_course_objectives|Obiettivi
+791|table_th_course_grammar|Punti di grammatica
+792|table_th_course_vocabulary|Vocabolario
+793|table_th_estimated_time|Tempo stimato
+794|table_th_login|Identificativi di connessione
+795|table_th_el_login|Identificativi E-learning
+796|table_th_certif_login|Identificativi Certificazione
+797|table_th_tmp_pwd|Password temporanea
+798|table_th_params|Parametri LMS
+799|table_th_notifications|Notifica (EMAIL)
+800|table_th_notifications_sms|Notifiche (SMS)
+801|table_th_timezone|Zona GMT
+802|table_th_lms_language|Lingua LMS
+803|table_th_24h|24 ore prima
+804|table_th_1h|1 ora prima
+805|table_th_15m|15 min prima
+806|table_th_blocker|Blocker
+807|table_th_activity|Attività
+808|table_th_missed_lesson|Lezione mancata
+809|table_th_cancelled_lesson|Lezione annullata
+810|table_th_cancelled_lesson_pl|Lezione (i) annullata (e)
+811|table_th_scheduled_lesson|Lezione prenotata
+812|table_th_reason|Motivo
+813|table_th_num|N.
+814|table_th_competence|Competenza
+815|table_about_paragraph|In qualche parola
+816|table_th_question|Domanda
+817|table_th_answer_analyse|Analisi risposta
+818|table_th_genre|Titolo
+819|table_th_firstname|Nome
+820|table_th_lastname|Cognome
+821|table_th_name|Cognome
+822|table_th_group|Gruppo
+823|table_th_email|Mail
+824|table_th_password|Password
+825|table_th_email|Mail
+826|table_th_phone|Telefono
+827|table_th_details|Recapiti
+828|table_th_coordinates|Recapiti
+829|table_th_destination|Destinazione
+830|table_th_address|Indirizzo
+831|table_th_url|Indirizzo
+832|table_th_tests|Test
+833|table_th_mini_pt|Test di livello
+834|table_th_mini_lst|Test profilo di apprendimento (LST)
+835|table_th_access|Accesso
+836|table_th_mini_access|Accesso
+837|table_th_syllabus|Catalogo
+838|table_th_trainers|Formatori
+839|table_th_general|Generale
+840|table_th_mini_job|Mestiere
+841|table_th_mini_hobbies|Centri di interesse
+842|table_th_mini_needs|Obiettivi
+843|table_th_training|Formazione
+844|table_th_feedback|Feedback
+845|table_th_signature|Firma
+846|table_th_mini_avail|Le vostre disponibilità
+847|table_th_mini_course_pref|Preferenze di corsi
+848|table_th_mini_course_duration|Durata del corso
+849|table_th_mini_course_freq|Frequenza lezioni
+850|table_th_mini_themes|Tematica (che)
+851|table_th_mini_complement|Complemento informativo
+852|table_th_mini_trainer_franco|Formatore parlante nella vostra lingua madre
+853|table_th_mini_trainer_nb|Presenza formatore
+854|table_th_mini_trainer_complement|Complemento formatore
+855|table_th_accept_sign|Per lanciare la lezione, pregasi firmare nel riquadro qui di fianco.
+856|table_th_keywords|Parole chiave
+857|table_th_grammar|Grammatica
+858|table_th_elapsed_time_course|Tempo trascorso (questa lezione)
+859|table_th_last_connect_course|Ultima visita (questa lezione)
+860|table_th_recommended_time|Tempo raccomandato
+861|table_th_el_description|Descrizione
+862|table_th_mock_tests|Esami bianchi
+863|table_th_language|Lingua
+864|table_th_total_lms|Totale LMS
+865|table_th_e_program|E-Program
+866|table_th_quizzes|Quiz
+867|table_th_global_level|Livello globale
+868|table_th_score|Risultato
+869|table_th_cecr|Scala CECR
+870|table_th_analyse|Analisi
+871|table_th_scale|Scala
+872|table_th_estimated_level|Livello
+873|table_th_my_level|Il  mio livello
+874|table_th_your_answer|La vostra risposta
+875|table_th_good_answer|Risposta corretta
+876|table_th_training_exercices|Esercizi pratici
+877|table_th_validation_quiz|Quiz di convalida
+878|table_th_material|Materiali del corso
+879|table_th_audio|Contiene video
+880|table_th_video|Contiene audio
+881|table_th_quiz|Quiz di convalida
+882|table_th_practical_exercice|Esercizi pratici
+883|table_th_vocab_list|Lista di vocaboli
+884|table_th_my_vocab_list|La mia lista di vocaboli
+885|table_th_vocab_word|Parola/Espressione
+886|table_th_vocab_nature|Natura
+887|table_th_vocab_definition|Definizione
+888|table_th_vocab_category|Categoria
+889|table_th_main_language|Lingua principale
+890|table_th_lrn_language|Io imparo:
+891|table_th_translation|Traduzione
+892|table_th_rating_support|Qualità dei materiali del corso
+893|table_th_rating_teaching|Qualità dell'insegnamento
+894|table_th_rating_techno|Svolgimento tecnico del corso
+895|table_th_rating_description|Desidera precisare o aggiungere qualcosa?
+896|table_th_rating_support_tooltip|Cosa avete pensato dei materiali del corso proposti? (pdf, esercizi, video, audio...)
+897|table_th_rating_teaching_tooltip|Cosa avete pensato del vostro formatore? (adeguamento del discorso, del livello, dell'assiduità)
+898|table_th_rating_techno_tooltip|Notate gli eventuali problemi riscontrati...(LMS, Skype, Adobe connect, telefono...)
+899|mail_no_next_lesson_title|Non avete nessuna lezione programmata
+900|mail_no_next_lesson_subtitle|
+901|mail_no_next_lesson_footer|
+902|mail_bad_learner_title|Siete sempre con noi?;)
+903|mail_bad_learner_subtitle|
+904|mail_bad_learner_footer|
+905|mail_reminder_title|Richiamo automatico
+906|mail_reminder_subtitle|Avete lezione il $$dataformato(get_lesson.lesson_start,'dd/mm/yyyy')$$ à $$timeformat(get_lesson.lesson_start,'HH:mm')$$
+907|mail_missed_title|Lezione mancata
+908|mail_missed_subtitle|Lezione prevista il $$dataformato(get_lesson.lesson_start,'dd/mm/yyyy')$$ à $$timeformat(get_lesson.lesson_start,'HH:mm')$$
+909|mail_confirm_title|Conferma di prenotazione
+910|mail_confirm_subtitle|Il $$dataformato(get_lesson.lesson_start,'dd/mm/yyyy')$$ à $$timeformat(get_lesson.lesson_start,'HH:mm')$$
+911|mail_na_title|Prenotazione prima lezione
+912|mail_na_subtitle|Il $$dataformato(get_lesson.lesson_start,'dd/mm/yyyy')$$ à $$timeformat(get_lesson.lesson_start,'HH:mm')$$
+913|mail_na_done_title|La vostra prima lezione si è svolta con $$get_lesson.trainer_firstname$$
+914|mail_na_done_subtitle|Speriamo che questi abbia soddisfatto le vostre aspettative. Il vostro programma formativo è disponibile, ora potete collegarvi alla vostra piattaforma e prenotare le vostre lezioni.
+915|mail_pta_done_title|Avete avuto la vostra ultima lezione con $$get_lesson.trainer_firstname$$
+916|mail_pta_done_subtitle|Grazie di aver scelto WEFIT! Speriamo che abbiate raggiunto i vostri scopi e trascorso un buon momento col nostro team!
+917|mail_pta_done_footer|Cliccate sul link qui sotto per accedere al vostro rapporto di formazione.
+918|mail_pta_booked_title|La vostra ultima lezione con $$get_lesson.trainer_firstname$$
+919|mail_pta_booked_subtitle|Si tratta dell'ultima lezione del vostro percorso formativo (Post Training Assessement)! Speriamo che siate soddisfatto del lavoro compiuto!
+920|mail_cancel_title|Annullamento lezione
+921|mail_cancel_subtitle|La lezione prevista $$dataformato(get_lesson.lesson_start,'dd/mm/yyyy')$$ à $$timeformat(get_lesson.lesson_start,'HH:mm')$$ è stata annullata.
+922|mail_complete_title|Resoconto disponibile della lezione
+923|mail_complete_subtitle|$$get_lesson.trainer_firstname$$ ha finalizzato il resoconto della vostra lezione del $$dataformato(get_lesson.lesson_start,'dd/mm/yyyy')$$ à $$timeformat(get_lesson.lesson_start,'HH:mm')$$.
+924|mail_complete_footer|<p style='font-size:12px' align='center'>Nuovo! Al fine di migliorare i nostri servizi, vi invitiamo a valutare la qualità del vostro corso <br>en <a href='https://lms.wefitgroup.com/_note.cfm?
+925|mail_force_cancel_by_learner_title|Annullamento della lezione fuori termine
+926|mail_force_cancel_by_learner_subtitle|Confermiamo che la lezione prevista il $$dataformato(get_lesson.lesson_start,'dd/mm/yyyy')$$ à $$timeformat(get_lesson.lesson_start,'HH:mm')$$ è stata annullata.
+927|mail_force_cancel_by_learner_footer|Siamo purtroppo costretti a considerare questa lezione come mancata. Questa sarà dedotta dai vostri crediti dato che il termine di annullamento non è stato rispettato. (6 ore per le lezioni in videoconferenza, 48 ore per le lezioni in presenza....
+928|mail_force_cancel_by_trainer_title|Annullamento della lezioni fuori termine
+929|mail_force_cancel_by_trainer_subtitle|La lezione prevista il $$dataformato(get_lesson.lesson_start,'dd/mm/yyyy')$$ à $$timeformat(get_lesson.lesson_start,'HH:mm')$$ è stato annullato. Siamo sinceramente desolati per questo disagio.
+930|new_mail_subtitle|$$user_firstname$$ $$ucase(user_lastname)$$, avete voluto cambiare indirizzo mail <br>per collegarvi alla nostra piattaforma.<br> Ecco una password temporanea al fine di finalizzare il cambiamento.
+931|new_mail_prompt|*Vi sarà richiesto di reimpostare la password appena vi collegherete alla piattaforma WEFIT
+932|new_mail_trn_title|Il vostro conto WEFIT Trainer
+933|new_mail_trn_subtitle|$$user_firstname$$, ora potete collegarvi con l'aiuto di questi identificanti.
+934|mail_new_formation_subtitle|$$user_firstname$$ $$user_lastname$$, il vostro conto è stato creato.
+935|mail_pwd_explain|Soltanto voi lo conoscete
+936|mail_new_formation_video|Per prepararvi bene, 3 video a vostra disposizione.
+937|mail_new_video_explain|Ritrovate questi video sul nostro sito www.wefitgroup.com<br> nella rubrica 'Accesso cliente > Tutoriels' in alto a sinistra del menu.
+938|mail_new_formation_video1_title|Lancio della vostra formazione
+939|mail_new_formation_video2_title|Presentazione della funzionalità
+940|mail_new_formation_video3_title|Prenotare, lanciare e annullare una lezione
+941|mail_new_formation_steps|Quali sono le prossime tappe?
+942|mail_new_formation_step1|Vi collegate alla piattaforma, reimpostate la password e lasciatevi guidare.
+943|mail_new_formation_step_lst|Potete passare il votro test di profilo di apprendimento.
+944|mail_new_formation_step_pt|Potete passare il vosto test di valutazione
+945|mail_new_formation_step_pt_needs|Potete passare il vostro test di valutazione e comunicare i vostri bisogni.
+946|mail_new_formation_step_needs|Comunicate le vostre necessità.
+947|mail_new_formation_step_explain|Se lo desiderate, programmiamo insieme un appuntamento per presentarvi i nostri strumenti (piattaforma e soluzione di videoconferenza) e lanciare la vostra formazione.
+948|mail_new_migration_title|E' giunto il giorno!
+949|mail_new_migration_subtitle|$$user_firstname$$ $$ucase(user_lastname)$$, il vostro conto è stato trasferito.
+950|mail_new_migration_video|A titolo di ripasso, 3 video a vostra disposizione
+951|mail_new_migration_steps|Cosa dovete fare adesso?
+952|mail_new_migration_step0|Se non è già fatto, prendete visione dei video di presentazione sull'uso della piattaforma.
+953|mail_new_migration_step1|Vi collegate e inserite una nuova password, ritrovate allora il vostro percorso come pure il calendario di formazione.
+954|mail_new_migration_step2|Se usate Adobe Connect, cliccate <a href='https://meet28852663.adobeconnect.com/html5'>su questo link</a> per testare l'accesso alla sala del vostro formatore.
+955|mail_new_migration_step3|In caso di bisogno, contattate il nostro servizio.
+956|mail_new_migration_step_cs|Il nostro servizio clienti e a vostra disposizione <br>al 01 84 17 47 88
+957|mail_new_pwd_title|Il vostro conto  WEFIT
+958|mail_new_pwd_subtitle|$$user_firstname$$ $$ucase(user_lastname)$$, desiderate cambiare la vostra password.<br> Ecco una password temporanea per accedere alla piattaforma.
+959|mail_new_test_title|Benvenuti su WEFIT
+960|mail_new_test_subtitle|$$user_firstname$$ $$ucase(user_lastname)$$, desiderate scoprire i nostri servizi?<br> Abbiamo creato per voi uno spazio personalizzato.
+961|mail_new_test_steps|Quali sono le prossime tappe?
+962|mail_new_test_step1|Potete collegarvi alla piattaforma e reimpostare la vostra password.
+963|mail_new_test_step2|Potete passare il vostro test di valutazione
+964|mail_new_test_step3|Potete passare il vostro test di profilo di apprendimento.
+965|mail_new_test_step4|Potete consultare gratuitamente una selezione di risorse nella nostra biblioteca di contenuti.
+966|mail_new_tm_subtitle|$$user_firstname$$ $$ucase(user_lastname)$$, il vostro contoTM è attivo.
+967|mail_reset_mdp_title|Avete perso la password?
+968|mail_reset_mdp_subtitle|Pregasi cliccare sul link seguente. Sarete reindirizzati su un'interfaccia che le consentirà di inserire una nuova password.
+969|mail_reset_mdp_btn|Reimpostare la mia password.
+970|mail_reset_mdp_footer|Se non siete l'autore di questa mail, pregasi ignorarla. Se ricevete nuovamente questo tipo di messaggio, pregasi contattare il nostro servizio clienti.
+971|mail_token_title1|Passaggio della vostra certificazione
+972|mail_token_subtitle1|Avete optato per la certificazione <br> <strong>$$get_token.certif_name$$</strong> <br>i codici seguenti saranno necessari al passaggio della vostra certificazione:
+973|mail_token_title2|Svolgimento della certificazione
+974|mail_token_subtitle2|Pregasi seguire attentamente le tappe qui sotto:
+975|mail_token_title3|Il vostro conto E-learning
+976|mail_token_subtitle3|Se desiderate accedere alla piattaforma e-Learning ed allenarvi, pregasi usare gli identificativi seguenti:
+977|mail_warning_note_title|Annotamento lezione
+978|mail_warning_note_subtitle|Lesson $$dateformat(get_lesson.lesson_start,'dd mmm yyyy')$$ - $$timeformat(get_lesson.lesson_start,'HH:mm')$$ avec $$get_lesson.trainer_firstname$$
+979|lrn_status_legend|<strong>In attedsa:</strong> attesa di accordo contrattuale <br> <strong>Da lanciare:</strong> presa in carico dell'allievo dei nostri servizi <br> <strong>Lancio:</strong> svolgimento dall'allievo delle tappe preliminari alla formazione<br> <strong>...
+980|lst_lrn_profile_social|<ul> <li>L'allievo <strong>Social</strong> adora comunicare.</li> <li>Maneggiate facilmente le parole e vi esprimete molto bene.</li> <li>Siete a vostro agio con la gente e siete stimolati dalla loro presenza.</li> <li>Le discussioni di gruppo e...
+981|summary_lrn_profile_social|L'allievo Sociale ha il cervello sinistro dominante ed una personalità piuttosto estroversa. I vostri risultati precisano un dominio del cervello sinistro ad altezza di $$LB$$ e un carattere estroverso ad altezza di $$EXT$$.
+982|lst_lrn_profile_dynamic|<ul> <li>L'allievo<strong>Dinamico</strong> è portato per l'attività.<li> <li>Siete stimolati dall'azione ma anche dalle persone.</li> <li>Per imparare le cose, dovete farle da voi stessi, e meglio ancora essendo accompagnati...
+983|summary_lrn_profile_dynamic|L'allievo ha il cervello destro dominante ed una personalità piuttosto estroversa. I vostri risultati precisano un dominio del cervello destro ad altezza di $$RB$$ % ed un carattere estroverso ad altezza di $$EXT$$ %.
+984|lst_lrn_profile_independant|<ul> <li>L'allievo <strong>Indépendant</strong> apprezza la solitudine ee osserva il proprio ambiente.</li> <li>Voi meditate le cose interiormente e condividete raramente le vostre osservazioni con gli altri.</li> <li>Voi  integrate al meglio l'informazione...
+985|summary_lrn_profile_independant|L'allievo indipendente ha il cervello destro dominante ed una personalità piuttosto introversa. I vostri risultati precisano un dominio del cervello destro ad altezza di $$RB$$ % ed un carattere introverso ad altezza di $$INT$$ %.
+986|lst_lrn_profile_applied|<ul> <li>L'allievo <strong>Pragmatique</strong> è motivato dall'azione e dal concreto.</li> <li>Imparate al meglio facendo le cose da voi stessi: toccare, vedere e sentire le cose.</li> <li><<<<<<<<<Voi trattate l'informazione dell'insieme ai...
+987|summary_lrn_profile_applied|L'allievo Pragmatico ha un cervello destro dominante ed una personalità abbastanza estroversa. I vostri risultati precisano un dominio del cervello destro ad altezza di $$RB$$ % ed un carattere estroverso ad altezza di $$EXT$$ %
+988|lst_lrn_profile_conceptual|<ul> <li>L'allievo <strong>Concettuale</strong> è a proprio agio con l'informazione astratta. Voi potere arrivare ad una conclusione mettendo in relazione i diversi elementi di un tutto.</li> <li>Voi procedete in modo "induttivo".</li> <li>Vou...
+989|summary_lrn_profile_conceptual|L'allievo Concettuale ha il cervelllo sinistro dominante ed una personalità abbastanza introversa. I vostri risultati precisano un dominio del cervello sinistro ad altezza di $$LB$$ % ed un carattere introverso ad altezza di $$INT$$ %.
+990|lst_lrn_profile_scholastic|ul> <li>L'allievo <strong>Accademico</strong> adora imparare.</li> <li>Si parla di tratti accademici nel senso che le vostre caratteristiche di apprendimento concordano con il sistema scolastico o universitario. Queste particolarità sono un apprendimento...
+991|summary_lrn_profile_scholastic|L'allievo accademico ha il cervello sinistro dominante ed una personalità abbastanza estroversa. I vostri risultati precisano un dominio del cervello sinistro ad altezza di $$LB$$ % ed un carattere estroverso ad altezza di $$EXT$$ %.
+992|lst_lrn_profile_creative|<ul> <li>L'allievo <strong>Creativo</strong> ha un grande senso artistico.</li> <li>Voi integrate meglio l'informazione quando si presenta in forma visiva come foto, grafici o disegni.  dessins. Siete sensibili ai colori e voi...
+993|summary_lrn_profile_creative|L'allievo creativo ha un cervello destro dominante ed una personalità abbastanza introversa. I vostri risultati precisano un dominio del cervello destro ad altezza di $$RB$$ % ed un carattere introverso ad altezza di $$INT$$ %.
+994|lst_lrn_profile_analytic|<ul> <li>L'allievo <strong>Analitico</strong> è autonomo quando si tratta di formazione.</li> <li>Voi apprezzate il silenzio e la solitudine come ambiente di apprendimento.</li> <li>Voi siete molto concreti e basate le vostre decisioni sulla logica...
+995|summary_lrn_profile_analytic|L'allievo analitico ha un cervello sinistro dominante ed una personalità piuttosto introversa. I vostri risultati precisano un dominio del cervello sinistro ad altezza di $$LB$$ % ed un carattere introverso ad altezza di $$INT$$ %.
+996|lst_lrn_profile_neutral|<ul> <li>L'allievo <strong>Completo</strong> è a proprio agio con tutti i metodi di apprendimento.</li> <li>Voi potete emanciparvi sia durante una conferenza che con l'aiuto di ricerche, di video o di giochi...</li> <li>Che voi siate soli...
+997|summary_lrn_profile_neutral|L'allievo completo non rivela alcun dominio particolare del proprio cervello e nemmeno tratti di carattere prevalenti tra introverso ed estroverso. I vostri risultati precisano una giusta proporzione tra cervello destro e cervello sinistro come pure tra...
+998|brain_process_title|Come trattate le informazioni?
+999|left_brain_process_lst|<ul> <li>In un modo lineare e sequenziale.</li> <li>Partite dal dettaglio per andare verso il tutto.</li> <li>Voi organizzate le vostre idee in un modo logico per arrivare ad una conclusione.</li> </ul>
+1000|right_brain_process_lst|<ul> <li>Voi considerate l'informazione come un tutto.</li> <li>Voi partite dall'insieme per andare verso il dettaglio.</li> <li>Voi potete funzionare in modo aleatorio, a saper lavorare su parecchie cose simultaneamente senza avere bisogno di comp...
+1001|brain_strengths_title|Quali sono i vostri punti di forza?
+1002|left_brain_strengths_lst|<ul> <li>Voi siete a vostro agio con i simboli come lettere o numeri e siete di conseguenza spesso bravi nelle lingue e in matematica. </li> <li Vi piacciono pure le dimostrazioni  nella misura in prendete le vostre decisioni in tutta...
+1003|right_brain_strengths_lst|<ul> <li>You are good at reading and expressing emotions as these are processed in the right side of the brain.</li> <li>Voi siete intuitivo. Voi usate molto l'instinto come fattore decisionale et avete spesso ragione di farlo.<...
+1004|brain_learning_title|In termini di apprendimento
+1005|left_brain_learning_lst|<ul> <li>You don't mind lectures and appreciate discussions.</li> <li>You value outlines when receiving information as well as when expressing information.</li> <li>You like to write as well as talk about abstract concepts.</li> </ul>
+1006|right_brain_learning_lst|<ul> <li>You appreciate visuals and lots of illustrations.</li> <li>You value manipulatives and concreteness. You like to be able to touch and feel things.</li> <li>You would rather write down your own dialogue than read another one from books!</li> </u...
+1007|social_introvert_lst|<ul> <li>Voi vi concentrate maggiormente su voi stessi, e siete stimolati da voi stessi come pure dall'analisi dei vostri sentimenti e idee proprie. </li> <li>Spesso percepito(a) come timido(a),  perçu(e) non condividete facilmente delle informazioni personali...
+1008|social_extrovert_lst|<ul> <li>Voi mettete l'accento sulle relazioni con gli altri, siete stimolati dalla gente. </li> <li>Voi siete in accordo col vostro ambiente esterno e siete molto socievoli, di natura affabile, amate la folla e l'eccitazione....
+1009|sensory_vnv_intro|Siete "Visivo / Non verbale" a
+1010|sensory_vnv_title|Che cos'è un allievo "Visivo / Non verbale"?
+1011|sensory_vnv|In un contesto di apprendimento, il trattamento dell'informazione sarà ottimale quando visualizzate i materiali, senza l'accompagnamento di parole.  <br> Voi imparate meglio analizzando una foto, traendo delle conclusioni a partire da grafici, in...
+1012|sensory_k_intro|Siete
+1013|sensory_k_title|Che cos'è un allievo "cinestetico"?
+1014|sensory_k|L'apprendimento è facile per la pratica, l'impegno in un'attività manuale. <br> Voi imparate meglio prendendo appunti, illustrando l'informazione, usando una lavagna bianca, giocando un ruolo o qualsiasi attività in modo tattile.
+1015|sensory_vv_intro|I risultati mostrano che siete "Visivo / Verbale"
+1016|sensory_vv_title|What is a Visual / Verbal learner ?
+1017|sensory_vv|Tutti i materiali che vi consentono di trattare le informazioni per la lettura sono utili. Voi imparate meglio descrivendoli, leggendo, dettando, redando una sintesi, scrivendo dei dialoghi, localizzando delle parole.
+1018|sensory_av_intro|La vostra inclinazione "Audio /Verbale" è
+1019|sensory_av_title|What is the Audio / Verbal inclination ?
+1020|sensory_av|Siete sensibili ai materiali che vi consentono di trattare l'informazione ascoltandola. Imparerete meglio nei contesti seguenti: conferenze, esercizi orali, discussioni, colloqui, lettura ad alta voce...
+1021|policy_part_1|<strong>Società WEFIT GROUP S.A.S., 168 rue de La Convention, 75015 Parigi (Francia)</strong><br/>WEFIT GROUP vi ringrazia della vostra visita e del vostro intereresse per le sue prestazioni. Le formazioni WEFIT GROUP (« servizi di formazione ») sono proposti...
+1022|policy_part_2|La protezione dei vostri dati personali è importante per noi. Il nostro obiettivo è che vi sentiata al sicuro nel corso della vostra visita sulle nostre pagine Internet e usando le nostre informazioni. Noi rispettiamo le leggi  francesi sulla protezione... 
+1023|policy_part_3|
+1024|policy_part_4|
+1025|policy_part_5|
+1026|policy_part_6|
+1027|policy_part_7|
+1028|policy_part_8|
+1029|policy_part_9|
+1030|policy_part_10|
+1031|policy_part_11|
+1032|policy_part_12|
+1033|policy_part_13|
+1034|policy_part_14|
+1035|policy_part_15|
+1036|policy_part_16|
+1037|policy_part_17|
+1038|policy_part_18|
+1039|policy_part_19|
+1040|policy_part_20|
+1041|policy_part_21|
+1042|policy_part_22|
+1043|policy_part_23|
+1044|policy_part_24|
+1045|policy_part_25|
+1046|policy_part_26|
+1047|policy_part_27|
+1048|policy_part_28|
+1049|policy_part_29|
+1050|policy_part_30|
+1051|policy_part_31|
+1052|policy_part_32|
+1053|policy_part_33|
+1054|policy_part_34|
+1055|policy_part_35|
+1056|policy_part_36|
+1057|policy_part_37|
+1058|no_access_library|
+1059|no_favourite_lesson_yet|
+1060|intro_program_creation|
+1061|intro_mail_template|
+1062|intro_vocablist|
+1063|empty_my_vocablist|
+1064|choice1_calendar_title|Aggiornare soltanto gli orari di lavoro
+1065|choice1_calendar_explain|
+1066|choice2_calendar_title|Aggiornare gli orari di lavoro e le disponibilità
+1067|choice2_calendar_explain|
+1068|choice3_calendar_title|Vacanze / Attività ridotta
+1069|choice3_calendar_explain|
+1070|intro_eval_lrn|
+1071|learning_style_test|
+1072|intro_accordion_needs|
+1073|intro_lrn_needs|
+1074|lrn_before_start|
+1075|needs_intro|
+1076|pt_intro|
+1077|more_qpt_title|Valutazione di 3 competenze
+1078|more_qpt_list|
+1079|lst_intro|
+1080|more_lst_explain|
+1081|trainer_list_explain|
+1082|trainer_view_video|Elencare i formatori con il loro video di presentazione per difetto.
+1083|trainer_view_about|Elencare i formatori con la loro parola introduttiva per difetto.
+1084|trainer_view_avails|Elencare i formatori con la loro agenda per difetto.
+1085|eval_a_chaud1|
+1086|eval_a_froid|
+1087|eval_a_chaud2|
+1088|eval_a_froid2|
+1089|lrn_opinion_hot_q1|Siete globalmente soddisfatti della vostra formazione?
+1090|lrn_opinion_hot_q2|
+1091|lrn_opinion_hot_q3|
+1092|lrn_opinion_hot_q4|
+1093|lrn_opinion_hot_q5|
+1094|lrn_opinion_hot_q6|Siete rimasto soddisfatto dello strumento della videoconferenza?
+1095|lrn_opinion_hot_q7|
+1096|lrn_opinion_hot_q8|Quali sono i vostri suggerimenti per migliorare i formati dei nostri corsi?
+1097|lrn_opinion_hot_q9|
+1098|lrn_opinion_cold_q1|La formazione WEFIT ha risposto alle vostre aspettative?
+1099|lrn_opinion_cold_q2|Avete potuto mettere in pratica le competenze acquisite durante la vostra formazione?
+1100|lrn_opinion_cold_q3|Considerate che la vostra formazione vi ha consentito di migliorare la qualità o l'efficienza del vostro lavoro?
+1101|lrn_opinion_cold_q4|Direste che la vostra formazione vi ha consentito di sviluppare nuove competenze?
+1102|lrn_opinion_cold_q5|Quali sono stati i punti di forza della vostra formazione?
+1103|lrn_opinion_cold_q6|Quali sono stati i punti di debolezza della vostra formazione?
+1104|lrn_opinion_cold_q7|La vostra formazione ha risposto agli obiettivi che vi eravate fissati?
+1105|lrn_last_lesson|
+1106|toeic_intro|
+1107|bright_intro|
+1108|lingua_intro|
+1109|lingua_redirected|
+1110|setup_intro|
+1111|setup_complement|Vi contatteremo al:
+1112|intro_charter|
+1113|lrn_charter|
+1114|wefit_charter|
+1115|accept_charter|Accetto le condizioni di uso della piattaforma.
+1116|contact_free_call|
+1117|contact_sales_title|Desiderate contattare il nostro Servizio commerciale?
+1118|contact_sales_subtitle_tm|
+1119|contact_sales_subtitle_lrn|
+1120|contact_sales_content|01 83 62 32 45 <br>start@wefitgroup.com
+1121|contact_tm_title|Desiderate contattare il nostro Training Manager?
+1122|contact_tm_subtitle|Un problema con una risorsa, un allievo, la prenotazione di una lezione?
+1123|contact_tm_content|01 83 62 32 45 <br>krystina@wefitgroup.com
+1124|contact_cs_title|Desiderate contattare il nostro Servizio clienti?
+1125|contact_cs_subtitle|
+1126|contact_cs_content|01 83 62 32 46 <br>service@wefitgroup.com
+1127|sign_after_course|Firmando il riquadro qui sotto, riconosco di avere svolto questa sessione formativa.
+1128|cancel_course_6h_malus|* Il termine massimo di 6 ore prima dell'inizio della lezione è superato. Se voi annullate, una penale sarà applicata.
+1129|cancel_course_6h_lrn|* Il termine massimo di 6 ore prima dell'inizio della lezione è superato. Se voi annullate, la vostra lezione sarà considerata come mancata e ritirata dal vostro credito di ore di formazione.
+1130|cancel_course_before_6h|* Voi potete liberamente annullare la vostra lezione dato che rispettate le regolamento di annullamento (6 ore al massimo prima della lezione).
+1131|cancel_course_48h_malus|* Il termine massimo di 48 ore prima dell'inizio della lezione è superato. Se voi annullate, una penale sarà applicata.
+1132|cancel_course_48h_lrn|* Il termine massimo di 48 ore prima dell'inizio della lezione è superato. Se voi annullate, la lezione sarà considerata come mancata e ritirata dal vostro credito di ore di formazione.
+1133|cancel_course_before_48h|* Voi potete liberamente annullare il vostro corso dato che rispettate le regole di annullamento (48 ore massimo prima della lezione).
+1134|el_intro_title|Come funziona il e-Learning WEFIT?
+1135|el_program_title|Il vostro percorso formativo o "e-Program"
+1136|el_contents_title|I diversi contenuti e-Learning
+1137|homepage_intro_title|Homepage di WEFIT LMS
+1138|lrn_add_elrn_course|
+1139|elrn_contain_material|
+1140|elrn_contain_audios|
+1141|elrn_contain_video|Sullo stesso piano dei materiali audio, i video forniscono una dimensione interattiva nello svolgimento del corso.
+1142|elrn_contain_practical_exercice|Dei miniquiz su delle tematiche affrontate durante la lezione.
+1143|elrn_contain_quizz|
+1144|elrn_contain_vocablist|
+1145|e-training_explain|
+1146|e-learning_explain|
+1147|subscription_explain|
+1148|order_end_reminder|Da svolgere entro il <strong>$$limit_date_start$$</strong> ed il <strong>$$limit_date_end$$</strong>
+1149|accept_learner_use|Accetto le condizioni di utilizzo.
+1150|policy_intro|
+1151|skip_pt|
+1152|ask_learner_level|
+1153|skip_lst|
+1154|launch_done|Complimenti, tutte le tappe di lancio si sono svolte correttamente.
+1155|tp_builder_options|Per la creazione del vostro percorso di formazione, ecco qui le nostre opzioni:
+1156|prefilled_tp_intro|Sulla base della propria esperienza, WEFIT ha sviluppato dei corsi precostituiti, soltanto per voi!
+1157|prefilled_tp_explain|Raccomandato per gli allievi che hanno un'idea globale del loro programma.
+1158|solo_tp_intro|Accedo alla biblioteca del corso e costruisco e/o completo da solo il mio percorso.
+1159|solo_tp_explain|
+1160|collab_tp_intro|Aspetto la prima lezione col mio formatore e costruiamo insieme il mio percorso formativo.
+1161|collab_tp_explain|Raccomandato per gli allievi desiderosi di coinvolgere maggiormente il loro formatore nella costruzione del loro percorso.
+1162|course_duration_question|Come scegiere la durata del mio corso?
+1163|course_duration_explain|
+1164|resources_question|Come scegliere le risorse?
+1165|resources_explain|
+1166|course_rule_launch|* Voi potete lanciare una lezione soltanto 15 minuti prima e fino a 15 minuti dopo l'inizio previsto.
+1167|go_cambridge_with_code|Per accedere al test, sarete reindirizzato(a) verso il sito Cambridgeenglish.org.<br>Inserite allora il codice qui sopra.
+1168|ln_placeholder_open_main|
+1169|ln_lesson_intro_text|
+1170|ln_lesson_footer_text|A molto presto su WEFIT!
+1171|ln_na_lesson_intro_text|
+1172|ln_na_lesson_footer_text|
+1173|ln_na_level_A0_intro|Il vostro livello è: <strong>Principiante</strong><br>
+1174|ln_na_level_A0_list|
+1175|ln_na_level_A1_intro|Il vostro livello è: <strong>$$user_qpt$$ (Principiante)</strong><br>
+1176|ln_na_level_A1_list|
+1177|ln_na_level_A2_intro|Il vostro livello è: <strong>$$user_qpt$$ (Elementare)</strong><br>
+1178|ln_na_level_A2_list|
+1179|ln_na_level_B1_intro|Il vostro livello è: <strong>$$user_qpt$$ (Intermedio)</strong><br>
+1180|ln_na_level_B1_list|
+1181|ln_na_level_B2_intro|Il vostro livello è: <strong>$$user_qpt$$ (Intermedio-superiore)</strong><br>
+1182|ln_na_level_B2_list|
+1183|ln_na_level_C1_intro|Il vostro livello è: <strong>$$user_qpt$$ (Avanzato)</strong><br>
+1184|ln_na_level_C1_list|
+1185|ln_na_level_C2_intro|Il vostro livello è: <strong>$$user_qpt$$ (Esperto)</strong><br>
+1186|ln_na_level_C2_list|
+1187|ln_pta_intro_text|
+1188|ln_pta_footer_text|Grazie di aver scelto WEFIT, non esitate a ritornare da noi se volete proseguire l'avventura! Il team WEFIT vi augura un buon proseguimento!
+1189|needs_availability|Le vostre disponibilità ci consentiranno di assegnarvi un formatore in funzione di disponibilità simili alle vostre.
+1190|needs_structured_course|
+1191|needs_open_lesson_course|
+1192|needs_workshop_course|
+1193|needs_course_duration|Inserite la durata della lezione che vi conviene di più. Potrete sempre modificare le vostre disponibilità in seguito.
+1194|TMP|COME SEPARARE IL TESTO? LINEA 10->42
+1195|pt_still_available|
+1196|learning_style_test2|
+1197|lrn_style_test_still_available|
+1198|see_step_video_later|
+1199|tpview_intro|
+1200|welcome_intro|
+1201|welcome_setup|
+1202|use_intro|
+1203|message_go_needs|
+1204|show_score_pt|Voi ottenete un punteggio di
+1205|pt_not_finished|Il vostro test globale non è finito, potete proseguire provando il livello superiore.
+1206|pt_finished|Voi ottenete un punteggio di <span class="badge badge-pill badge-$$bg_badge$$ h5 m-0">$$global_note$$%</span>
+1207|toeic_result_A1_title|Utente elementare - principiante
+1208|toeic_result_A1_explain|
+1209|toeic_result_A2_title|Utente elementare - intermedio
+1210|toeic_result_A2_explain|
+1211|toeic_result_B1_title|Utente indipendente - Livello soglia
+1212|toeic_result_B1_explain|
+1213|toeic_result_B2_title|Utente indipendente - avanzato
+1214|toeic_result_B2_explain|
+1215|toeic_result_C1_title|Utente sperimentato - autonomo
+1216|toeic_result_C1_explain|
+1217|start_lst_title|Valutare il vostro profilo di apprendimento con WEFIT
+1218|start_lst_subtitle|
+1220|estimate_done|
+1221|estimate_sign_here|Firmo elettronicamente il documento nel riquadro qui sotto.
+1222|tm_opinion_q1|Le formazioni hanno globalmente risposto alle vostre aspettative?
+1223|tm_opinion_q2|Avete potuto notare la messa in pratica delle competenze acquisite dai vostri stipendiati o stipendiate?
+1224|tm_opinion_q3|I vostri collaboratori o collaboratrici hanno avuto piacere a seguire una formazione presso WEFIT?
+1225|tm_opinion_q4|Quali sono stati i punti di forza di WEFIT?
+1226|tm_opinion_q5|Quali sono stati i punti deboli di WEFIT?
+1227|tm_opinion_q6|Considerate WEFIT come un partner in grado di aiutarvi nelle vostre problematiche?
+1228|tm_opinion_q7|Come andare oltrre nella nostra collaborazione?
+1229|tm_opinion_q8|Pensate di continuare a lavorare con WEFIT nei prossimi tre anni?
+1230|tm_ask_opinion|
+1231|tm_opinion_ans10|Delegazione di un compito dal vostro posto Risorse Umane (Reclutamento, Gestione carriera, Team Building...)
+1232|tm_ask_interface_opinion|
+1233|tm_interface_q1|Il suo parere riguarda
+1234|tm_interface_q2|I vostri suggerimenti
+1235|download_trainer_video|
+1236|identify_cefr_level|
+1237|table_th_since|Da
+1238|btn_download|Scaricare
+1239|btn_whotochoose|Scegliere per me!
+1240|card_policy|Protezione dei dati personali
+1241|accept_learner_policy|Sono informato (a) sull'uso dei dati
+1242|title_trainer_chosen|Vi raccomandiamo:
+1243|text_trainer_chosen|La selezione proposta si basa sulle vostre disponibilità, il vostro profilo e il numero di allievi attivi per formatore al fine di garantire un numero massimo di disponibilità di formazione. La lista è suddivisa per pertinenza.
+1244|tooltip_explain_adobe_connect|Al fine di seguire la vostra formazione nelle migliori condizioni, useremo uno strumento di classe virtuale mondialmente riconosciuto.
+1245|tooltip_explain_phone|Al fine di assicurarsi che tutti gli aspetti tecnici funzionino, i formatori possono contattarvi telefonicamente nel corso dei primi scambi.
+1246|tooltip_explain_adobe_connect_long|Non avete nulla da installare! Le lezioni si svolgono direttamente nel vostro server (Chrome, Safari, Firefox, Edge...) <br><br> Voi potete testare e scoprire la nostra classe virtuale cliccando sul link qui sotto. <br><br> <small>Vogliate...
+1247|btn_test_system|Provare il mio materiale
+1248|card_visio|Videoconferenza
+1249|card_elearning|eLearning
+1250|card_f2f|In presenza
+1252|title_trainer_selection|Selezionare un formatore
+1253|start_qpt_subtitle|<h6>Piccolo richiamo prima di iniziare...</h6> <p> <ul><li>Le domande sono cronometrate.</li> <li>Non fate il refresh della finestra del vostro server o non usate un ritorno durante il test, passerete direttamente alla domanda successiva...
+1254|start_qpt_progress|<h6>La vostra progressione</h6><p>Il nostro test di livello è stato concepito con una difficoltà crescente. Voi non potete accedere ai test superiori soltanto se avete superato la tappa precedente.</p>
+1255|start_na_info|In funzione del vostro abbonamento (VIDEOCONFERENZA o ELEARNING) sarete chiamato(a) a compilare parecchi moduli, cliccate semplicemente sulle rubriche seguenti.
+1256|btn_go_step_2|Passare alla tappa 2
+1257|alert_profil_done|Complimenti, avete terminato la tappa Profilo. Passiamo ora alla costruzione del vostro percorso.
+1258|js_modal_title_confirm_trainer|Scelta del (i) formatore (i)
+1259|card_skills_interests|Costruzione del percorso
+1260|card_visio_settings|Organizzazione del percorso
+1261|js_modal_title_na|I miei obiettivi formativi
+1262|alert_na_select_skills|Pregasi selezionare almeno un obiettivo e un centro d'interesse per favore
+1263|alert_na_select_visio|Pregasi selezionare almeno una disponibilità per favore
+1264|today|Oggi
+1265|am|Mattina
+1266|pm|Pomeriggio
+1267|setup_title|Prendere appuntamento
+1268|text_not_verified|Non verificato
+1269|card_needs|Obiettivi
+1270|tooltip_required_field|Campi obbligatori
+1271|btn_understood|Ho capito!
+1272|js_modal_title_firstlesson|Complimenti! Avete programmato la vostra prima lezione
+1273|js_modal_text_firstlesson_1|Se avete scelto il percorso collaborativo (costruire il percorso formativo  col vostro formatore durante la vostra prima lezione), potrete programmare le altre lezioni dopo il primo appuntamento col vostro formatore. Per le altre programma...
+1274|js_modal_text_firstlesson_2|Nell'ora della vostra prima lezione, collegatevi su questo sito e cliccate su LANCER COURS in alto a sinistra.
+1275|js_modal_text_firstlesson_3|In seguito, seguite le istruzioni sullo schermo.
+1276|js_modal_text_firstlesson_4|<strong>I consigli per poter ben usufruire della vostra formazione:  </strong> <ul> <li>Al fine di poter prenotare le vostre disponibilità preferite, è consigliabile di prenotare le lezioni in anticipo.</li> <li>Voi potete annullare le lezioni sulla pagina di prenotazione e...
+1277|js_modal_text_firstlesson_5|Il nostro servizio clienti è a vostra disposizione, se avete delle domande o dei bisogni particolari, pregasi cliccare sul pulsante CONTACT WEFIT in alto della pagina per trovare il nostro numero di telefono e il nostro indirizzo mail.
+1278|alert_no_trainer_corresponding|Al momento nessun formatore corrisponde ai vostri criteri.
+1279|btn_build_tp|Costruire il mio percorso
+1280|form_label_company|Società
+1281|toiec_intro|
+1282|start_question|Per cominciare, pregasi scegliere una tematica su cui formarvi:
+1283|lang_pt|Portoghese
+1284|lang_zh|Cinese
+1285|lang_ru|Russo
+1286|lang_nl|Olandese
+1287|tooltip_explain_wefit_visio_tool|Non avete nulla da installare! Le lezioni si svolgono direttamente nel vostro navigatore (Chrome, Safari, Firefox, Edge...).
+1288|form_placeholder_company|Società
+1289|shop_menu_trainings|
+1290|shop_menu_training_certification|
+1291|shop_menu_training_visio|
+1292|shop_menu_training_elearning|
+1293|shop_menu_certifications|
+1294|shop_menu_funding|
+1295|shop_menu_elearning|
+1296|shop_menu_contact|
+1297|shop_menu_all_certifications|
+1298|shop_menu_become_trainer|
+1299|shop_menu_free_access|
+1300|shop_menu_training_pack|
+1301|shop_meta_title_contact|
+1302|shop_meta_desc_contact|
+1303|shop_slide_title_contact|
+1304|shop_slide_subtitle_contact|
+1305|shop_alert_contact_ok|
+1306|shop_alert_contact_fail|
+1307|shop_alert_contact_mail|
+1308|shop_text_contact_info_hello|
+1309|shop_text_contact_info_service|
+1310|shop_text_contact_info_start|
+1311|shop_text_list_subscription|
+1312|shop_meta_title_product|
+1313|shop_meta_desc_product|
+1314|shop_slide_title_product|
+1315|shop_slide_subtitle_product|
+1316|shop_title_wefit_test_center|
+1317|shop_text_wefit_ets|
+1318|shop_text_wefit_lingua|
+1319|shop_text_wefit_bright|
+1320|shop_meta_title_catalog|
+1321|shop_meta_desc_catalog|
+1322|shop_slide_title_catalog|
+1323|shop_slide_subtitle_catalog|
+1324|shop_alert_no_formation|
+1325|shop_meta_title_account|
+1326|shop_meta_desc_account|
+1327|shop_slide_title_account|
+1328|shop_slide_subtitle_account|
+1329|shop_text_mail_newsletter|
+1330|shop_meta_title_el|
+1331|shop_meta_desc_el|
+1332|shop_slide_title_el|
+1333|shop_slide_subtitle_el|
+1334|shop_title_el_demo|
+1335|shop_title_el_interface|
+1336|shop_text_intro_pt|
+1337|shop_subtitle_training_exams|
+1338|shop_text_intro_training_exams|
+1339|shop_subtitle_models|
+1340|shop_subtitle_quiz|
+1341|shop_text_el_demo_intro|
+1342|shop_meta_title_uspring|
+1343|shop_meta_desc_uspring|
+1344|shop_slide_title_uspring|
+1345|shop_slide_subtitle_uspring|
+1346|shop_particular|
+1347|shop_contact_form|
+1348|shop_user_request|
+1349|shop_formation_lg|
+1350|shop_el_pack|
+1351|shop_certif|
+1352|shop_immersion|
+1353|shop_user_message|
+1354|shop_required_input|
+1355|shop_title_create_demo|
+1356|shop_create_account|
+1357|shop_demo|
+1358|shop_title_b2b|
+1359|shop_professional|
+1360|shop_society|
+1361|shop_webmeeting|
+1362|shop_partnership|
+1363|shop_title_catalog|
+1364|shop_title_tp_example|
+1365|shop_title_research_result|
+1366|shop_link_el|
+1367|shop_label_el|
+1368|shop_title_materials|
+1369|shop_title_pt|
+1370|shop_subtitle_pt|
+1371|shop_title_lst|
+1372|shop_subtitle_lst|
+1373|shop_text_intro_lst|
+1374|shop_title_training_exams|
+1375|shop_title_models|
+1376|shop_title_quiz|
+1377|shop_btn_edit|
+1378|shop_wefit_lms|
+1379|shop_btn_connexion|
+1380|shop_title_lrn_subs|
+1381|shop_title_lrn_orders|
+1382|shop_title_lrn_params|
+1383|shop_text_param_email|
+1384|shop_btn_updt|
+1385|shop_th_inv_address|
+1386|shop_href_certif_lg|
+1387|shop_label_certif_lg|
+1388|shop_title_popular_certif|
+1389|shop_certificate|
+1390|shop_title_other_certif|
+1391|shop_title_level_scale|
+1392|shop_text_cefr_acronym|
+1393|shop_level_bilingual|
+1394|shop_level_mastery|
+1395|shop_level_confirmed|
+1396|shop_level_intermediate|
+1397|shop_level_school|
+1398|shop_level_false_beginner|
+1399|shop_level_beginner|
+1400|shop_level_equivalence|
+1401|shop_quantity|
+1402|shop_btn_add_cart|
+1403|shop_meta_title_cart_check|
+1404|shop_meta_desc_cart_check|
+1405|shop_slide_title_cart_check|
+1406|shop_slide_subtitle_cart_check|
+1407|shop_title_my_order|
+1408|shop_btn_goback_shop|
+1409|shop_btn_pay_order|
+1410|shop_empty_cart|
+1411|shop_meta_title_cart_pay|
+1412|shop_meta_desc_cart_pay|
+1413|shop_slide_title_cart_pay|
+1414|shop_slide_subtitle_cart_pay|
+1415|shop_title_user_connected|
+1416|shop_text_wrong_connexion|
+1417|shop_title_inv_add_to_pay|
+1418|shop_btn_modif|
+1419|shop_postal_code|
+1420|shop_city|
+1421|shop_country|
+1422|shop_text_validate_inv_address|
+1423|shop_text_pay_when_infos_given|
+1424|shop_btn_back_cart|
+1425|shop_meta_title_cart_return|
+1426|shop_meta_desc_cart_return|
+1427|shop_slide_title_cart_return|
+1428|shop_slide_subtitle_cart_return|
+1429|shop_text_order_validated|
+1430|shop_text_waiting_options|
+1431|shop_text_go_user_infos|
+1432|shop_btn_go_account|
+1433|shop_title_go_essential_el|
+1434|shop_desc_go_essential_el|
+1435|shop_btn_start_el|
+1436|shop_title_order_recap|
+1437|shop_order_number|
+1438|shop_btn_back_home|
+1439|shop_th_designation|
+1440|shop_th_price|
+1441|shop_coupon|
+1442|shop_ttc_total|
+1443|shop_20_tva|
+1444|shop_coupon_short|
+1445|shop_reduction|
+1446|shop_btn_validate_cart|
+1447|shop_btn_clear_cart|
+1448|shop_student_coupon|
+1449|shop_btn_remove|
+1450|shop_btn_apply|
+1451|shop_alert_unusable_coupon|
+1452|shop_activ_coupon|
+1453|shop_meta_title_index|
+1454|shop_meta_desc_index|
+1455|shop_slide_title_index|
+1456|shop_slide_subtitle_index|
+1457|shop_title_google_coms|
+1458|shop_text_verify_google_coms|
+1459|shop_title_certif_incl|
+1460|shop_text_certif_incl|
+1461|shop_btn_certifs|
+1462|shop_title_demo_incl|
+1463|shop_text_demo_incl|
+1464|shop_text_product_added|
+1465|shop_continue_on_shop|
+1466|shop_th_my_account|
+1467|shop_mr|
+1468|shop_ms|
+1469|shop_postal_address|
+1470|shop_postal_code_city|
+1471|shop_title_student_cpn|
+1472|shop_or|
+1473|shop_contact_form|
+1474|shop_text_contact_student_cpn|
+1475|shop_info_cpn|
+1476|shop_alert_invalid_cpn_date|
+1477|shop_alert_invalid_cpn_inexist|
+1478|shop_alert_invalid_cpn_use|
+1479|shop_form_wefit_news|
+1480|shop_alert_invalid_cpn_product|
+1481|shop_alert_invalid_cpn_empty_cart|
+1482|shop_text_go_news|
+1483|shop_title_oups|
+1484|shop_title_email_new_order|
+1485|shop_title_email_order|
+1486|shop_title_email_login|
+1487|shop_title_email_visio|
+1488|shop_title_email_elearning|
+1489|shop_title_email_certifs|
+1490|shop_title_email_certif|
+1491|shop_text_email_thankyou|
+1492|shop_text_inv_explain|
+1493|shop_th_progress|
+1494|shop_text_certif_explain|
+1495|shop_title_certif_explain|
+1496|shop_text_certif_steps|
+1497|shop_btn_consult|
+1498|shop_btn_download|
+1499|shop_text_candidate_manual|
+1500|shop_text_monitoring_software|
+1501|shop_text_test_and_result|
+1502|shop_title_create_account|
+1503|shop_alert_email_exist|
+1504|shop_title_field_form|
+1505|form_label_school|
+1506|form_label_apply|
+1507|form_label_inv_address|
+1508|shop_title_have_account|
+1509|shop_btn_i_connect|
+1510|shop_title_certif_quality|
+1511|shop_title_wefit_specialist|
+1512|shop_title_question|
+1513|shop_title_formations|
+1514|shop_title_certif_client|
+1515|shop_title_enterprise|
+1516|shop_title_securised_payment|
+1517|shop_title_fast_and_flex|
+1518|shop_text_order_deployment|
+1519|shop_text_cookies|
+1520|shop_btn_deconnect|
+1521|shop_cart|
+1522|shop_return_wefit|
+1523|shop_th_product|
+1524|shop_th_quantity_short|
+1525|shop_th_unit|
+1526|shop_th_unit_price|
+1527|shop_th_amount|
+1528|shop_meta_title_hiring|
+1529|shop_meta_desc_hiring|
+1530|shop_slide_title_hiring|
+1531|shop_slide_subtitle_hiring|
+1532|shop_link_hiring|
+1533|shop_label_hiring|
+1534|shop_title_hiring_header|
+1535|shop_title_hiring_corporate_teacher|
+1536|shop_text_hiring_corporate_teacher|
+1537|shop_title_hiring_tutor|
+1538|shop_text_hiring_tutor|
+1539|shop_title_hiring_account|
+1540|shop_subtitle_hiring_account|
+1541|shop_title_hiring_welookfor|
+1542|shop_title_hiring_video|
+1543|shop_text_hiring_video|
+1544|shop_btn_hiring_video|
+1545|shop_title_hiring_charter|
+1546|shop_text_hiring_charter|
+1547|shop_btn_hiring_charter|
+1548|shop_title_hiring_profile|
+1549|shop_text_hiring_profile|
+1550|shop_btn_hiring_profile|
+1551|shop_title_hiring_why|
+1552|shop_subtitle_hiring_why1|
+1553|shop_text_hiring_why1|
+1554|shop_subtitle_hiring_why2|
+1555|shop_text_hiring_why2|
+1556|shop_subtitle_hiring_why3|
+1557|shop_text_hiring_why3|
+1558|shop_subtitle_hiring_why4|
+1559|shop_text_hiring_why4|
+1560|shop_title_hiring_joined|
+1561|shop_title_hiring_faq|
+1562|shop_text_hiring_faq|
+1563|shop_title_hiring_review|
+1564|shop_form_label_video_link|
+1565|shop_placeholder_label_video_link|
+1566|shop_form_label_how_find|
+1567|shop_form_how_find_ans_1|
+1568|shop_form_how_find_ans_2|
+1569|shop_form_how_find_ans_3|
+1570|shop_form_language_taught|
+1571|shop_form_label_position|
+1572|shop_title_sidebar_listen|
+1573|shop_title_sidebar_infos|
+1574|shop_title_sidebar_certif|
+1575|shop_title_sidebar_company|
+1576|shop_step_cart|
+1577|shop_step_payment|
+1578|shop_step_confirm|
+1579|shop_btn_create_account|
+1580|shop_title_box_advice1|
+1581|shop_title_box_advice2|
+1582|shop_title_box_advice3|
+1583|shop_title_example|
+1584|shop_subtitle_example|
+1585|shop_title_tip1|
+1586|shop_text_tip1|
+1587|shop_title_tip2|
+1588|shop_text_tip2|
+1589|shop_title_tip3|
+1590|shop_text_tip3|
+1591|shop_title_tip4|
+1592|shop_text_tip4|
+1593|shop_title_tip_todo|
+1594|shop_title_tip_dont|
+1595|shop_text_nook_tip1|
+1596|shop_text_nook_tip2|
+1597|shop_text_use_conditions|
+1598|shop_btn_apply_go|
+1599|js_modal_title_welcome|Benvenuto su WEFIT LMS!
+1600|title_tuto_1|LANCIO DELLA VOSTRA FORMAZIONE: PROFILO E LIVELLO
+1601|title_tuto_2|LANCIO DELLA VOSTRA FORMAZIONE: COSTRUZIONE DEL VOSTRO PERCORSO
+1602|title_tuto_3|LANCIO DELLA VOSTRA FORMAZIONE: SCELTA DEL FORMATORE
+1603|title_tuto_booking|PRENOTAZIONE DI UNA LEZIONE
+1604|title_tuto_elearning|FUNZIONAMENTO DEL E-LEARNING
+1605|alert_ok_trainer|Il vostro conto è stato creato, pregasi connettersi per completare il suo profilo.  
+1606|congrats|Complimenti!
+1607|alert_trainer_account_created|Grazie per aver creato un conto su WEFIT !<br>Pregasi compilare le tappe seguenti per poter confermare la sua candidatura.  
+1608|alert_trainer_account_confirmed|Avete completato le tappe della candidatura. Il nostro team la ricontatterà al più presto. Ora può disconnettersi. 
+1609|tooltip_explain_trainer_teaching|
+1610|tooltip_explain_trainer_speaking|
+1611|tooltip_explain_trainer_workinghour|
+1612|title_trainer_teaching|LANGUAGES TAUGHT
+1613|title_trainer_speaking|LOCATION & SPOKEN LANGUAGES
+1614|title_trainer_workinghour|WORKING HOURS
+1615|title_trainer_picture_video|PICTURE & VIDEO
+1616|form_label_video_choice_wetransfer|Vorrei spedire il mio video con wetransfer (trainer@wefitgroup.com)
+1617|form_label_video_choice_link|Ho un video salvato su una piattaforma
+1618|form_label_video_choice_upload|Upload del mio video
+1619|sidemenu_tm_alerts|Notifiche 
+1620|title_page_tm_account|Il mio conto Training Manager
+1621|title_page_tm_alerts|Notifiche dossier di formazione
+1622|form_label_title|
+1623|sidemenu_tm_feedback|
+1624|sidemenu_tm_feedback_training|
+1625|sidemenu_tm_feedback_interface|
+1626|sidemenu_tm_admin|
+1627|table_th_program_short_plural|
+1628|short_between2|
+1629|short_and2|
+1630|pdf_title_as|
+1631|btn_display|
+1632|card_settings_hp|
+1633|table_th_attached_accounts|
+1634|js_modal_title_before_launch|
+1635|js_modal_title_welcome_test|
+1636|js_modal_title_launch_step3|
+1637|table_th_last_activity|
+1638|btn_view_total_list|
+1639|js_modal_title_list_launching|
+1640|js_modal_title_list_deadline|
+1641|js_modal_title_list_missed|
+1642|js_modal_title_list_nnl|
+1643|table_th_deadline|
+1644|tooltip_display_tp|
+1645|tooltip_display_activity|
+1646|tooltip_display_el|
+1647|text_no_activity|
+1648|table_th_missed_ratio|
+1649|table_th_missed_lesson|
+1650|text_no_course_planned|
+1650|text_no_course_planned|Nessun corso pianificato
+1651|js_modal_title_welcome_learner|Benvenuto sulla nostra piattaforma di apprendimento
+1652|js_modal_charter|Carta dello studente
+1653|js_modal_cgu|Condizioni
+1654|card_communication|Comunicazioni
+1655|communication_intro|Accettate di ricevere delle informazioni relative ai nuovi servizi attraverso corrispondenza elettronica. Potete disiscrivervi in ogni momento mediante il ricorso ai link di disiscrizione o via mail a hello@wefitgroup.com
+1656|accept_learner_communication|Accetto di ricevere delle comunicazioni sui nuovi servizi WEFIT
+1657|accordion_launch_reminder|Richiamo del mio abbonamento
+1658|accordion_launch_setup|Fisso un appuntamento in caso di necessità
+1659|accordion_launch_cgu|Un po' di lettura
+1660|accordion_launch_verif|Alcune verifiche
+1661|accordion_tp_formula|Scelgo il mio ritmo
+1662|accordion_tp_objective|Fisso i miei obiettivi
+1663|accordion_tp_support|Scopro i supporti del corso
+1664|accordion_tp_type|Scelgo il mio tipo di percorso
+1665|accordion_tp_orientation|Scelgo un orientamento
+1666|accordion_trainer_choose|Scelgo il mio formatore
+1667|accordion_tp_theme|Scelgo delle tematiche
+1668|btn_modif|Modificare
+1669|btn_understood|Ho capito
+1670|alert_launch_title_before_start|Tutto è pronto per cominciare...
+1671|alert_launch_text_before_start|Grazie di ricorrere a WEFIT per la vostra formazione. Prima di fissare la vostra prima lezione con un formatore, passiamo un momento insieme per configurare la vostra formazione. In funzione del vostro livello e/o dei vostri obiettivi, ciò impiegherà circa 20 minuti, 1 ora al massimo...
+1672|alert_launch_text_setup|Il nostro processo di lancio della formazione è alla portata di tutti! Tuttavia, se desiderate essere assistito(a) nel corso di questa tappa, potete fissare un appuntamento di circa 20 minuti con la nostra squadra Customer Service cliccando sul pulsante...
+1673|alert_launch_text_rythm|Passiamo ora alla definizione del vostro percorso. Per cominciare, scegliete la formula che vi corrisponde. Il ritmo formativo influenzerà la vostra progressione ed il vostro impegno. La nostra squadra di coaching adatterà il susseguirsi della vostra formazione.  
+1674|alert_launch_text_skill|La padronanza di una lingua si base su 4 competenze linguistiche:  "leggere", "scrivere", "parlare", "ascoltare".<br>Desiderate una progressione complessiva o porre l'accento su una o più competenze linguistiche?  
+1675|alert_launch_text_support|WEFIT propone diversi tipi di corsi, il vostro percorso formativo si comporrà quindi di uno o più di queste tipologie di corsi. Avrete pure la possibilità di concentrarvi su supporti a scelta, parlatene col vostro formatore! 
+1676|alert_launch_text_tp|Proponiamo diverse opzioni per la definizione del vostro percorso. Grazie di scegliere il percorso che desiderate seguire. Anche qui, avrete la possibilità di cambiarlo più avanti, non esitate a parlarne col vostro formatore.  
+1677|alert_launch_text_theme|Potete scegliere diverse tematiche ed accedere alle risorse disponibili per il vostro livello. Se tuttavia la categoria fosse vuota, i nostri formatori faranno il necessario per operare su dei supporti in rete (Web Lesson).  
+1678|alert_launch_text_trainer|Siete ora all'ultima tappa di lancio della vostra formazione. Una volta compilate le vostre disponibilità qui di seguito, vi mostreremo dei formatori che hanno delle disponibilità simili alle vostre. Non impegnatevi a fissare... 
+1679|table_th_launch_job|Nella vita, sono
+1680|table_th_launch_area|Lavoro nel
+1681|table_th_launch_phone1|Sono contattabile al
+1682|table_th_launch_phone2|Dispongo di un'altra linea
+1683|table_th_launch_email1|La mia mail di collegamento
+1684|table_th_launch_email2|La mia mail d'urgenza
+1685|table_th_launch_complement|Vorrei dire qualcosa di più su di me
+1686|btn_take_meeting|Fissare un appuntamento
+1687|btn_global_progression|Progressione complessiva
+1688|text_no_domain|Nessun campo
+1689|needs_txt_trainer_advise|Potete scegliere fino a 3 formatori
+1690|table_th_step_1|Valutazione
+1691|tooltip_skill_grammar|Grammatica
+1692|tooltip_skill_listening|Comprensione orale
+1693|tooltip_skill_reading|Comprensione scritta
+1694|timing_tena|
+1695|btn_qpt|Test veloce
+1696|btn_fpt|Test completo
+1697|text_pt_later|Vorrei valutare il mio livello più tardi
+1698|text_pt_qpt|Ho un'idea del mio livello
+1699|text_pt_fpt|Non ho idea del mio livello
+1700|table_th_visio_techno|Link per videoconferenze
+1701|table_th_techno_key|Password della sessione
+1702|table_th_business|Competenze business
+1703|accordion_tp_session_duration|Scelgo la durata della mia lezione
+1704|table_th_skills|Competenze
+1705|table_th_themes|Tematiche
+1706|card_start_level|Livello d'esordio
+1707|card_end_level|Livello conclusivo
+1708|js_modal_title_keywords|Temi generali o business
+1709|table_th_rythm|Ritmo
+1710|alert_tp_deadline_approach|<strong>Attenzione!</strong> Il vostro abbonamento sta per scadere. Pregasi concludere velocemente la vostra formazione o contattare la nostra squadra.
+1711|btn_trainer|Formatore
+1712|btn_learner|Studente
+1713|btn_learners|Studenti
+1714|btn_calendar|Calendario
+1715|btn_business_hours|Business Hours
+1716|card_legal|Menzioni legali
+1717|short_year|an
+1718|short_years|ans
+1719|js_modal_title_launch_step3_ol|Le vostre disponibilità
+1720|accordion_trainer_choose_ol|Informo sulla mia disponibilità
+1721|js_modal_title_confirm_trainer_ol|I vostri formatori
+1722|table_th_availabilities_ol_warning|Questo formatore non corrisponde pienamente alle vostre disponibilità
+1723|title_trainer_chosen_ol|I vostri formatori
+1724|table_th_teached_level|Insegnata per i livelli
+1725|card_trainer_location_and_language|Lingue insegnate e parlare / Cittadinanza
+1726|btn_add_language|Aggiungere lingua
+1727|table_th_expertise_business_area|Campo
+1728|table_th_expertise_practical|Pratica
+1729|table_th_expertise_taught|Insegnamento
+1730|table_th_exam_preparation|Specialità in certificazione
+1731|btn_delete|Cancellare
+1732|btn_grammar|Grammatica
+1733|btn_reading|Leggere
+1734|btn_listening|Ascoltare
+1735|btn_speaking|Parlare
+1736|btn_writing|Scrivere
+1737|btn_global_level|Livello complessivo
+1738|table_th_teached_accent|accento
+1739|invoice_recipient|Destinatario
+1740|invoice_ref_folder|Riferimento dossier
+1741|invoice_date_edit|Data 
+1742|invoice_invoice|Fattura
+1743|invoice_period|Periodo formativo
+1744|invoice_avoir|Avere
+1745|invoice_designation|Nomina
+1746|invoice_learner|Studente
+1747|invoice_qty|Quantità
+1748|invoice_unit|Unità
+1749|invoice_price_unit|Tariffa unitaria
+1750|invoice_amount|Somma
+1751|short_hour|Ora
+1752|short_hours|Ore
+1753|invoice_total_ht|Totale netto
+1754|invoice_vat|IVA
+1755|invoice_due|Scadenza
+1756|invoice_total_ttc|Totale lordo
+1757|invoice_special|Commenti / Istruzioni speciali
+1758|invoice_ref_wefit|Riferimento Wefit
+1759|accordion_choice|Una scelta si impone
+1760|accordion_level|Il mio livello
+1761|alert_launch_text_choice|Ecco due percorsi disponibili affinché la vostra esperienza possa svolgersi al meglio: <li>Avete fretta di incontrare uno dei nostri formatori, scegliete l'esperienza veloce e prenotate fin d'ora un orario.</li> <li>Desiderate prendere tempo...
+1762|btn_test_choice_fast|Desidero andare veloce
+1763|btn_test_choice_slow|Desidero prendere tempo
+1764|test_choice_fast_subtitle|Accedo alla lista dei formatori e fisso una lezione
+1765|test_choice_slow_subtitle|Desidero accedere ai test di livello e del profilo di apprendimento
+1766|text_accordion_speed|Potreste indicarci per favore il vostro livello? Potremmo così proporvi un formatore idoneo e preparare di conseguenza il vostro corso. 
+1767|text_accordion_slow|Avete scelto di realizzare il vostro test di valutazione e il vostro test relativo al profilo di apprendimento. <br>Pregasi di farlo nel corso della tappa successiva.
+1768|alert_launch_text_choose_test_trainer|Basandoci sul vostro livello e i vostri centri di interesse, ecco una selezione di formatori con cui realizzare una prova. <br><br> Avete fino a <strong>$$tp_end$$</strong> per prenotare una lezione. <br><br> Vi informiamo che si tratta di un...
+1769|alert_launch_text_orientation|
+1770|btn_next_avail|Prossima disponibilità:
+1771|btn_more_avail|Vedere più disponibilità
+1772|text_full_placement_test|Test di livello completo
+1773|text_quick_placement_test|Test di livello rapido
+1774|text_start_level|(Livello iniziale)
+1775|text_end_level|(Livello finale)
+1776|js_modal_title_quiz_result|Risultati Quiz
+1777|btn_devis|Buono d'ordine / Preventivo
+1778|btn_convention|Convenzione di formazione
+1779|btn_apc|Accordo di presa in carico
+1780|btn_avenant|Appendice
+1781|btn_aff|Attestato di fine formazione
+1782|btn_certification|Certificazione
+1783|js_remove_trainer_confirm|Siete sul punto di rimuovere un formatore dal vostro percorso. Confermare?
+1784|js_choose_trainer_confirm|Desiderate aggiungere il formatore al vostro percorso?
+1785|shop_menu_recruiting|Raggiungere il team
+1786|shop_menu_become_team_member|Le nostre offerte di impiego
+1787|invoice_price_fee|Incarichi
+1788|for|per
+1789|table_th_updatedby|Modificato da
+1790|js_modal_title_quiz_swap|Quiz TP legame
+1791|table_th_assignement|TP affidato
+1792|btn_add_tp|Aggiungere TP
+1793|table_th_provider|entità
+1794|alert_log_item_error|Tutte le task devono essere convalidate per archiviare questo To-do
+1795|ln_title_ending|Buona giornata e a presto su Wefit!
+1796|shop_text_wefit_lte|WEFIT è agente di certificazione LanguageCert dal 2021
+1797|shop_title_quality|IMPEGNO QUALITA'
+1798|ln_title_trainer_sign|IL FORMATORE
+1799|ln_title_learner_sign|LO STUDENTE
+1800|alert_modif_trainer_ok|Potete pianificare da adesso una lezione con...
+1801|mail_team_trainer_removed_title|$$_trainer$$ è stato soppresso dal programma formativo del $$_user$$
+1802|mail_team_trainer_added_title|$$_trainer$$ è stato aggiunto al programma formativo del $$_user$$
+1803|mail_trainer_added_title|$$_user$$ è stato scelto come formatore!
+1804|modal_remove_trainer_title|Diteci perché volete separarvi dal $$_trainer$$
+1805|modal_remove_trainer_avail|Le nostre disponibilità non sono più compatibili
+1806|modal_remove_trainer_accent|Vorrei un formatore con un accento diverso
+1807|modal_remove_trainer_method|Vorrei provare altri metodi di lavoro
+1808|modal_remove_trainer_style|Vorrei provare uno stile di apprendimento diverso
+1809|modal_remove_trainer_skills|Vorrei lavorare su nuove competenze
+1810|modal_remove_trainer_trainer|Non sono soddisfatto del mio formatore
+1811|modal_remove_trainer_trainer_left|Il formatore è partito
+1812|js_modal_title_change_trainer|Cambiare formatore
+1813|quiz_audio_help|Se la pista audio non funziona, cliccate qui.
+1814|modal_remove_trainer_not_booked|Il formatore non ha avuto nessuna lezione nei tre mesi successivi alla sua nomina.
+1815|limit_trainer_max|Potete avere fino a tre formatori alla volta.
+1816|alert_modif_trainer_warning|Attenzione! Se non prenotate nessuna lezione in un periodo di tre mesi, il formatore può essere tolto dal vostro programma di formazione.<br>Se annullate un numero troppo grande di lezioni, il formatore può richiedere di essere tolto dal vostro programma formativo.  
+1817|js_modal_title_remove_trainer|Cancellare il formatore

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectDescription>
+    <name>lms</name>
+    <id>0609d223-991c-4d56-8e95-946544e46943</id>
+    <comment/>
+    <projects/>
+    <buildSpec/>
+    <natures>
+        <nature>com.adobe.ide.coldfusion.projectNature</nature>
+    </natures>
+</projectDescription>

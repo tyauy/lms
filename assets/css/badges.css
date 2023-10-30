@@ -1,0 +1,57 @@
+/* .card {
+    border-radius: 3em !important;
+    box-shadow: 0 2px 7px -4px rgba(0, 0, 0, 0.15) !important;
+
+}
+.li_perso {
+        list-style: none;
+        display: inline-block !important;
+        font-size: 1em;
+        padding:1em;
+        border-radius: 1.5em; 
+        margin: 1.5em;
+        cursor:pointer;
+
+    }
+.heading{
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+ .votes{
+    position: absolute !important;
+    
+    width: 20px !important;
+    height: 20px !important;
+    background-color: white !important;
+    text-align: center!important;
+    color: blueviolet!important;
+    border-style: solid;
+    border-color: blueviolet;
+ }
+ 
+.purple{
+    fill: #933088;
+    
+        }
+.green {
+    fill:#80BB46;
+        }
+													
+.perso:hover .st0{ 
+        
+    fill:#933088;
+    opacity: 0.5;
+        }
+.badge:hover .st0{ 
+        
+    fill:#80BB46;
+    opacity: 0.5;
+    }
+
+.badge_title {
+        position: relative;
+        width: 2.5em;
+        height: 1em;
+      } */
