@@ -37,7 +37,7 @@
         SELECT level_id, level_name_#SESSION.LANG_CODE# as level_name FROM lms_level
 </cfquery>
 <cfquery name="get_lms_skills" datasource="#SESSION.BDDSOURCE#">
-        SELECT keyword_id, keyword_name_#SESSION.LANG_CODE# as keyword_name FROM lms_keyword2 WHERE keyword_cat_id = 5
+        SELECT keyword_id, keyword_name_#SESSION.LANG_CODE# as keyword_name FROM lms_keyword2 WHERE keyword_cat_id = 4
 </cfquery>
 
 <cfquery name="get_lms_badge" datasource="#SESSION.BDDSOURCE#">

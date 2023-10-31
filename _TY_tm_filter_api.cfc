@@ -25,7 +25,7 @@
                 FROM user u
                 LEFT JOIN settings_country c ON c.country_id = u.country_id
                 LEFT JOIN user_status s ON s.user_status_id = u.user_status_id
-                LEFT JOIN user_profile up ON up.profile_id = u.profile_id
+                LEFT JOIN user_profile_cor up ON up.user_id = u.user_id
 
             <cfif IsDefined("Arguments.get_language_taught_id") || IsDefined("Arguments.get_lms_level_id")>
                 INNER JOIN user_teaching t ON t.user_id = u.user_id

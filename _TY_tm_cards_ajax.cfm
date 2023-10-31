@@ -199,13 +199,16 @@
                                         </div>
                                     </div>
 
-                                    <div align="center" class="tab-pane fade <cfif display eq "personality"> show active</cfif>" id="personality_#user_id#" role="tabpanel">
+                                    <div class="tab-pane fade <cfif display eq "personality"> show active</cfif>" id="personality_#user_id#" role="tabpanel">
                                         <table>
                                             <tbody>
                                                 <cfloop query="get_user_personality">
                                                     <tr>
                                                         <td>
-                                                            <img src="./assets/img_personality/#perso_id#_G.svg" height="80" width="80" alt="#perso_name#" title="#perso_name#" />
+                                                            <img src="./assets/img_personality/#perso_id#_G.svg" height="60" width="60" alt="#perso_name#" title="#perso_name#" />
+                                                        </td>
+                                                        <td>
+                                                            <span>#perso_name#</span>
                                                         </td>
                                                         <td>
                                                             <span>(#count#)</span>
@@ -215,13 +218,16 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <div align="center" class="tab-pane fade <cfif display eq "badge"> show active</cfif>" id="badge_#user_id#" role="tabpanel">
+                                    <div class="tab-pane fade <cfif display eq "badge"> show active</cfif>" id="badge_#user_id#" role="tabpanel">
                                         <table>
                                             <tbody>
                                                 <cfloop query="get_user_badge">
                                                     <tr>
                                                         <td>
                                                             <img src="./assets/img_badge/#badge_id#_G.svg" height="80" width="80" alt="#badge_name#" title="#badge_name#" />
+                                                        </td>
+                                                        <td>
+                                                            <span>#badge_name#</span>
                                                         </td>
                                                         <td>
                                                             <span>(#count#)</span>
