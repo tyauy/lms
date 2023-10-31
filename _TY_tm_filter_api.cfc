@@ -62,7 +62,7 @@
                 AND t.level_id IN (#get_lms_level_id#)
             </cfif>
             <cfif IsDefined("Arguments.get_lms_skills_id")>
-                AND eb.keyword_id IN (#get_lms_skills_id#)
+                AND u.expertise_id IN (#get_lms_skills_id#)
             </cfif>
             <cfif IsDefined("Arguments.get_lms_badge_id")>
                 AND lba.badge_id IN (<cfqueryparam value="#Arguments.get_lms_badge_id#" list="yes" cfsqltype="CF_SQL_INTEGER">)
