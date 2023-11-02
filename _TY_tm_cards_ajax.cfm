@@ -211,7 +211,7 @@
                                                             <span>#perso_name#</span>
                                                         </td>
                                                         <td>
-                                                            <span>(#count#)</span>
+                                                            <span>(#count# recommendations)</span>
                                                         </td>
                                                     </tr>
                                                 </cfloop>
@@ -230,7 +230,7 @@
                                                             <span>#badge_name#</span>
                                                         </td>
                                                         <td>
-                                                            <span>(#count#)</span>
+                                                            <span>(#count# recommendations)</span>
                                                         </td>
                                                     </tr>
                                                 </cfloop>

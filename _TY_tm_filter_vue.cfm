@@ -340,10 +340,8 @@
         async callapi () {
               // const axios = require('axios');
             try {
-                console.log($('#test'))
                 let data = new FormData()
                 const response = await axios.post('_TY_tm_filter_api.cfc?method=filter', data);
-                this.data = data
 
                 if(this.select_language_taught.length > 0) {
                     data.append('get_language_taught_id', this.select_language_taught)
@@ -367,8 +365,11 @@
                     data.append('get_lms_badge_id', this.select_lms_badge)
                 } 
 
-                axios.post('_TY_tm_filter_api.cfc?method=filter', data, {headers:{"Content-Type" : "application/json"}}).then(response => {
-                    this.data = response.data.DATA
+                this.data = data
+
+                axios.post('_TY_tm_filter_api.cfc?method=filter', this.data, {headers:{"Content-Type" : "application/json"}}).then(response => {
+                    console.log(response)
+                    //this.data = response.data.DATA
                 })
 
             } catch (error) {

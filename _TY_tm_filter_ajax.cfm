@@ -195,6 +195,7 @@ $(document).ready(function() {
                 console.log(obj_result)
                 $("#t_lists").empty()
                 if(obj_result.DATA.length > 0) {
+                    $("#t_lists").append('<h3>'+obj_result.DATA.length+' trainers found</h3>')
                     $.each(obj_result.DATA, function() {
                         $("#t_lists").append('<div id="tc_'+this[0]+'"></div>')
                         $("#tc_"+this[0]).load("_TY_tm_cards_ajax.cfm?user_id="+this[0])

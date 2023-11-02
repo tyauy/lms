@@ -1,14 +1,14 @@
 <cfcomponent>
 
     <cffunction name="filter" access="remote" method="POST" returntype="any" returnformat="JSON">
-        <cfargument name="get_language_taught_id" required="no">
-        <cfargument name="get_language_spoken_id" required="no">
-        <cfargument name="get_user_personality_id" required="no">
-        <cfargument name="get_lms_business_area_id"  required="no">
-        <cfargument name="get_lms_level_id"  required="no">
-        <cfargument name="get_lms_skills_id" required="no">
-        <cfargument name="get_lms_badge_id" required="no">
 
+    
+        <cfif IsDefined("Arguments.get_lms_level_id")>
+            <cfset lms_level = Arguments.get_lms_level_id.split(",")>
+        </cfif>
+        <cfif IsDefined("Arguments.get_lms_skills_id")>
+            <cfset lms_skills = Arguments.get_lms_skills_id.split(",")>
+        </cfif>
 
         <cfquery name="get_filtered_trainers" datasource="#SESSION.BDDSOURCE#">
 
@@ -59,10 +59,25 @@
                 AND eb.keyword_id IN (#get_lms_business_area_id#)
             </cfif>
             <cfif IsDefined("Arguments.get_lms_level_id")>
-                AND t.level_id IN (#get_lms_level_id#)
+                <cfloop array="#lms_level#" index="idx" item="item">
+                    <cfif idx == 1>
+                        AND (t.level_id LIKE ("%#item#%")
+                    <cfelseif idx GT 1 && ArrayLen(lms_level) GT 1 >
+                        OR t.level_id LIKE ("%#item#%")
+                    </cfif>
+                </cfloop>
+                        )
             </cfif>
             <cfif IsDefined("Arguments.get_lms_skills_id")>
-                AND u.expertise_id IN (#get_lms_skills_id#)
+            
+                <cfloop array="#lms_skills#" index="idx" item="item">
+                    <cfif idx == 1>
+                        AND (u.expertise_id LIKE ("%#item#%")
+                    <cfelseif idx GT 1 && ArrayLen(lms_skills) GT 1 >
+                        OR u.expertise_id  LIKE ("%#item#%")
+                    </cfif>
+                </cfloop>
+                        )
             </cfif>
             <cfif IsDefined("Arguments.get_lms_badge_id")>
                 AND lba.badge_id IN (<cfqueryparam value="#Arguments.get_lms_badge_id#" list="yes" cfsqltype="CF_SQL_INTEGER">)

@@ -568,7 +568,7 @@
 
                 formData = new FormData();
                 formData.append('report', 'finance_order_list_get');
-                axios.post('api/report/report_get.cfc?method=oget_report_json', formData).then(response => {
+                axios.post('api/report/report_get.cfc?method=oget_report_json', {Arguments : formData}).then(response => {
                     console.log(response)
                     this.initdata(response.data, 1);
                 })
