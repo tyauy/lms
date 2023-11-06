@@ -2,15 +2,16 @@
 <html lang="<cfoutput>#SESSION.LANG_CODE#</cfoutput>">
 <body>
 <cfsilent>
+    
     <cfquery name="get_trainer_info" datasource="#SESSION.BDDSOURCE#">
 
-        SELECT u.user_id, u.user_firstname, u.user_status_id, u.country_id, u.speciality_id, u.method_id, u.user_based, u.user_abstract, u.user_create, u.user_add_course, u.user_add_learner,
-            c.country_name_#SESSION.LANG_CODE# as country_name, c.country_alpha,
-            s.user_status_name_#SESSION.LANG_CODE# as user_status_name, s.user_status_css
-            FROM user u
-            LEFT JOIN settings_country c ON c.country_id = u.country_id
-            LEFT JOIN user_status s ON s.user_status_id = u.user_status_id
-            WHERE u.user_id = #user_id#
+            SELECT u.user_id, u.user_firstname, u.user_status_id, u.country_id, u.speciality_id, u.method_id, u.user_based, u.user_abstract, u.user_create, u.user_add_course, u.user_add_learner,
+                c.country_name_#SESSION.LANG_CODE# as country_name, c.country_alpha,
+                s.user_status_name_#SESSION.LANG_CODE# as user_status_name, s.user_status_css
+                FROM user u
+                LEFT JOIN settings_country c ON c.country_id = u.country_id
+                LEFT JOIN user_status s ON s.user_status_id = u.user_status_id
+                WHERE u.user_id IN (#users#)
     </cfquery>
 </cfsilent>
 <cfset display = "video">
@@ -20,21 +21,34 @@
     <cfset get_teaching = obj_query.oget_teaching(p_id="#user_id#")>
     <cfset get_speaking = obj_query.oget_speaking(p_id="#user_id#")>
     <cfset get_workinghour = obj_query.oget_workinghour(p_id="#user_id#")>
+
     
-    <!---- HARD QUERIES--->
-    <cfquery name="get_lesson" datasource="#SESSION.BDDSOURCE#">
-    SELECT COUNT(lesson_id) as nb FROM lms_lesson2 WHERE planner_id = <cfqueryparam cfsqltype="cf_sql_integer" value="#user_id#"> AND status_id <> 3
-    </cfquery>
+    <cfinvoke component="_TY_tm_filter_api" method="get_user_personality" returnvariable="get_user_personality">
+        <cfinvokeargument name="user_id" value="#user_id#">
+    </cfinvoke>
+    <cfinvoke component="_TY_tm_filter_api" method="get_user_badge" returnvariable="get_user_badge">
+        <cfinvokeargument name="user_id" value="#user_id#">
+    </cfinvoke>
+
     
-    <cfquery name="get_learner" datasource="#SESSION.BDDSOURCE#">
-    SELECT COUNT(DISTINCT(t.user_id)) as nb FROM lms_tp t
-    INNER JOIN lms_tpplanner p ON p.tp_id = t.tp_id
-    WHERE p.planner_id = <cfqueryparam cfsqltype="cf_sql_integer" value="#user_id#">
-    </cfquery>
+    <cfinvoke component="_TY_tm_filter_api" method="get_lesson" returnvariable="get_lesson">
+        <cfinvokeargument name="user_id" value="#user_id#">
+    </cfinvoke>
+    <cfinvoke component="_TY_tm_filter_api" method="get_user_about" returnvariable="get_user_about">
+        <cfinvokeargument name="user_id" value="#user_id#">
+    </cfinvoke>
+    <cfinvoke component="_TY_tm_filter_api" method="get_user_paragraph" returnvariable="get_user_paragraph">
+        <cfinvokeargument name="user_id" value="#user_id#">
+    </cfinvoke>
+    <cfinvoke component="_TY_tm_filter_api" method="get_learner" returnvariable="get_learner">
+        <cfinvokeargument name="user_id" value="#user_id#">
+    </cfinvoke>
+    <cfinvoke component="_TY_tm_filter_api" method="get_rating" returnvariable="get_rating">
+        <cfinvokeargument name="user_id" value="#user_id#">
+    </cfinvoke>
+
+
     
-    <cfquery name="get_rating" datasource="#SESSION.BDDSOURCE#">
-        SELECT AVG(rating_teaching) as avg_rating, COUNT(rating_id) as sum_rating FROM lms_rating WHERE trainer_id = <cfqueryparam cfsqltype="cf_sql_integer" value="#user_id#">
-    </cfquery>
     
     <div class="row">
         <div class="col-12">
@@ -68,6 +82,17 @@
                                     <cfloop query="get_teaching">
                                     
                                         <span class="lang-lg" lang="#get_teaching.formation_code#" style="top:4px"></span>
+                                        
+                                        <cfset level_id = get_teaching.level_id>
+                                        <div class="clearfix"></div>
+                                        <cfif Find('0',level_id)><span class="badge border">A0</span> </cfif>
+                                        <cfif Find('1',level_id)><span class="badge border">A1</span> </cfif>
+                                        <cfif Find('2',level_id)><span class="badge border">A2</span> </cfif>
+                                        <cfif Find('3',level_id)><span class="badge border">B1</span> </cfif>
+                                        <cfif Find('4',level_id)><span class="badge border">B2</span> </cfif>
+                                        <cfif Find('5',level_id)><span class="badge border">C1</span> </cfif>
+                                        <cfif Find('6',level_id)><span class="badge border">C2</span> </cfif>
+                                        <br>
                                     </cfloop>
                                 <div class="clearfix mt-3"></div>
     
@@ -141,41 +166,6 @@
                                             </div>
                                         </cfif>
                                     </div>
-
-                                    <cfsilent>
-                                        <cfquery name="get_user_about" datasource="#SESSION.BDDSOURCE#">
-                                            SELECT ua.*, uaq.about_question_#SESSION.LANG_CODE# as quest 
-                                            FROM user_about ua 
-                                            INNER JOIN user_about_question uaq ON uaq.user_about_question_id = ua.user_about_type 
-                                            WHERE ua.user_id = <cfqueryparam cfsqltype="cf_sql_integer" value="#user_id#"> 
-                                            ORDER BY RAND()
-                                            LIMIT 5
-                                        </cfquery>
-                                        <cfquery name="get_user_paragraph" datasource="#SESSION.BDDSOURCE#">
-                                        SELECT *
-                                        FROM user_about
-                                        WHERE user_id = <cfqueryparam cfsqltype="cf_sql_integer" value="#user_id#"> and user_about_type = 0
-                                        </cfquery>
-                                        
-                                        <cfquery name="get_user_personality" datasource="#SESSION.BDDSOURCE#">
-                                            SELECT perso_id, COUNT(up.personality_id) AS count, perso_name_#SESSION.LANG_CODE# as perso_name FROM user_personality_index upi
-                                            INNER JOIN user_personality up ON up.personality_id = upi.perso_id
-                                            WHERE up.user_id = <cfqueryparam cfsqltype="cf_sql_integer" value="#user_id#">
-                                            GROUP BY up.personality_id
-                                            ORDER BY count DESC
-                                            LIMIT 3
-                                        </cfquery>
-
-                                        <cfquery name="get_user_badge" datasource="#SESSION.BDDSOURCE#">
-                                            SELECT lbi.badge_id, COUNT(lba.badge_id) AS count, badge_name_#SESSION.LANG_CODE# as badge_name FROM lms_badge_index lbi
-                                            INNER JOIN lms_badge_attribution lba ON lba.badge_id = lbi.badge_id
-                                            WHERE lba.badge_trainer_id = <cfqueryparam cfsqltype="cf_sql_integer" value="#user_id#">
-                                            GROUP BY lba.badge_id
-                                            ORDER BY count DESC
-                                            LIMIT 3
-                                        </cfquery>
-                                    </cfsilent>
-    
     
                                     <div class="tab-pane fade <cfif display eq "aboutus"> show active</cfif>" id="about_#user_id#" role="tabpanel">
                                         <cfif get_user_paragraph.recordcount neq "0">
@@ -247,7 +237,6 @@
             </div>
         </div>
     </div>
-
 </cfoutput>
 
 
