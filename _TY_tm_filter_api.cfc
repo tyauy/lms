@@ -27,7 +27,7 @@
                 LEFT JOIN user_status s ON s.user_status_id = u.user_status_id
                 LEFT JOIN user_profile_cor up ON up.user_id = u.user_id
 
-            <cfif IsDefined("Arguments.get_language_taught_id") || IsDefined("Arguments.get_lms_level_id")>
+            <cfif IsDefined("Arguments.get_language_taught_id") || IsDefined("Arguments.get_lms_level_id") || IsDefined("Arguments.get_accent_spoken_id")>
                 INNER JOIN user_teaching t ON t.user_id = u.user_id
             </cfif>
             <cfif IsDefined("Arguments.get_language_spoken_id")>
@@ -51,6 +51,9 @@
             AND u.user_status_id = 4
             <cfif IsDefined("Arguments.get_language_taught_id")>
                 AND t.formation_id IN (#get_language_taught_id#)
+            </cfif>
+            <cfif IsDefined("Arguments.get_accent_spoken_id")>
+                AND t.accent_id IN (#get_accent_spoken_id#)
             </cfif>
             <cfif IsDefined("Arguments.get_language_spoken_id")>
                 AND sp.formation_id IN (#get_language_spoken_id#)

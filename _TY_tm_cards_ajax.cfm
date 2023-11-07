@@ -156,7 +156,7 @@
                                 <div class="tab-content">
                                     <div class="tab-pane fade <cfif display eq "video"> show active</cfif>" id="video_#user_id#" role="tabpanel">
                                         <cfif fileexists("#SESSION.BO_ROOT#/assets/user/#user_id#/video.mp4")>
-                                            <video controls preload width="100%" height="250" <cfif fileexists("#SESSION.BO_ROOT#/assets/user/#user_id#/photo_video.jpg")>poster="./assets/user/#user_id#/photo_video.jpg"</cfif>>
+                                            <video controls preload="none" width="100%" height="250" <cfif fileexists("#SESSION.BO_ROOT#/assets/user/#user_id#/photo_video.jpg")>poster="./assets/user/#user_id#/photo_video.jpg"</cfif>
                                                 <source src="#SESSION.BO_ROOT_URL#/assets/user/#user_id#/video.mp4" type="video/mp4">
                                             </video>
                                         <cfelse>

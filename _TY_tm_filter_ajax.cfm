@@ -25,6 +25,12 @@
         HAVING COUNT(*)>1
 </cfquery>
 
+<cfquery name="get_accent_spoken" datasource="#SESSION.BDDSOURCE#">
+        SELECT formation_accent_id, formation_accent_name_#SESSION.LANG_CODE# as formation_accent_name, lfa.formation_id, lf.formation_name_#SESSION.LANG_CODE# as formation_name FROM lms_formation_accent lfa
+        LEFT JOIN lms_formation lf ON lf.formation_id = lfa.formation_id
+</cfquery>
+
+
 <cfquery name="get_user_personality" datasource="#SESSION.BDDSOURCE#">
         SELECT perso_id, perso_name_#SESSION.LANG_CODE# as perso_name FROM user_personality_index
 </cfquery>
@@ -93,6 +99,17 @@
                         <select name="get_language_spoken_id" id="get_language_spoken_id"  multiple="multiple">
                             <cfoutput query="get_language_spoken">
                                 <option value="#formation_id#">#formation_name# (#count#)</option>
+                            </cfoutput>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <select name="get_accent_spoken_id" id="get_accent_spoken_id"  multiple="multiple">
+                            <cfoutput query="get_accent_spoken" group="formation_id">
+                                <optgroup label="#formation_name#">
+                                    <cfoutput>
+                                        <option value="#formation_accent_id#">#formation_accent_name# </option>
+                                    </cfoutput>
+                                </optgroup>
                             </cfoutput>
                         </select>
                     </div>
@@ -236,6 +253,7 @@ $(document).ready(function() {
 
     $('#get_language_taught_id').multiselect({ nonSelectedText:'Language taught'});
     $('#get_language_spoken_id').multiselect({ nonSelectedText:'Language spoken'});
+    $('#get_accent_spoken_id').multiselect({ nonSelectedText:'Accent spoken'});
     $('#get_user_personality_id').multiselect({ nonSelectedText:'Personality'});
     $('#get_lms_business_area_id').multiselect({ nonSelectedText:'Business area'});
     $('#get_lms_level_id').multiselect({ nonSelectedText:'Level'});
@@ -243,6 +261,8 @@ $(document).ready(function() {
     $('#get_lms_badge_id').multiselect({ nonSelectedText:'Badges'});
 
     $('select, [name=avail_id]').on('change', function() {
+        $("#t_count").empty()
+        $("#t_lists").empty()
         
         $("#t_spin_load").show()
         refresh($("#filter").serialize())
@@ -261,8 +281,6 @@ $(document).ready(function() {
             data: data,
             success : function(result, status){
                 var obj_result = jQuery.parseJSON(result);
-                $("#t_count").empty()
-                $("#t_lists").empty()
                 if(obj_result.DATA.length > 0) {
                     let data = []
                     $.each(obj_result.DATA, function() {
