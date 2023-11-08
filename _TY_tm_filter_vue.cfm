@@ -11,6 +11,7 @@
         AND u.user_status_id = 4
         GROUP BY t.formation_id
         HAVING COUNT(*)>1
+        ORDER BY formation_name
 
 </cfquery>
 
@@ -23,25 +24,38 @@
         AND u.user_status_id = 4
         GROUP BY t.formation_id
         HAVING COUNT(*)>1
+        ORDER BY formation_name
+</cfquery>
+
+
+<cfquery name="get_accent_spoken" datasource="#SESSION.BDDSOURCE#">
+        SELECT formation_accent_id, formation_accent_name_#SESSION.LANG_CODE# as formation_accent_name, lfa.formation_id, lf.formation_name_#SESSION.LANG_CODE# as formation_name FROM lms_formation_accent lfa
+        LEFT JOIN lms_formation lf ON lf.formation_id = lfa.formation_id
+        ORDER BY formation_name
 </cfquery>
 
 <cfquery name="get_user_personality" datasource="#SESSION.BDDSOURCE#">
         SELECT perso_id, perso_name_#SESSION.LANG_CODE# as perso_name FROM user_personality_index
+        ORDER BY perso_name
 </cfquery>
 
 <cfquery name="get_lms_business_area" datasource="#SESSION.BDDSOURCE#">
         SELECT keyword_id, keyword_name_#SESSION.LANG_CODE# as keyword_name FROM lms_keyword2 WHERE keyword_cat_id = 2
+        ORDER BY keyword_name
 </cfquery>
 
 <cfquery name="get_lms_level" datasource="#SESSION.BDDSOURCE#">
         SELECT level_id, level_name_#SESSION.LANG_CODE# as level_name FROM lms_level
+        ORDER BY level_name
 </cfquery>
 <cfquery name="get_lms_skills" datasource="#SESSION.BDDSOURCE#">
         SELECT keyword_id, keyword_name_#SESSION.LANG_CODE# as keyword_name FROM lms_keyword2 WHERE keyword_cat_id = 5
+        ORDER BY keyword_name
 </cfquery>
 
 <cfquery name="get_lms_badge" datasource="#SESSION.BDDSOURCE#">
         SELECT badge_id, badge_name_#SESSION.LANG_CODE# as badge_name FROM lms_badge_index
+        ORDER BY badge_name
 </cfquery>
 
 <cfparam name="u_level" default="">
@@ -121,6 +135,29 @@
                                             item-text="name"
                                             item-value="id"
                                             label="Language spoken"
+                                            @change="onChange($event)"
+                                            multiple
+                                            >
+                                            <template v-slot:selection="{ item, index }">
+                                                <v-chip v-if="index < 1">
+                                                <span>{{ item.name }}</span>
+                                                </v-chip>
+                                                <span
+                                                v-if="index === 1"
+                                                class="grey--text text-caption"
+                                                >
+                                                (+{{ select_language_spoken.length - 1 }} autres)
+                                                </span>
+                                            </template>
+                                        </v-select>
+                                    </v-col>
+                                    <v-col cols="2">
+                                        <v-select
+                                            v-model="select_accent_spoken"
+                                            :items="item_accent_spoken"
+                                            item-text="name"
+                                            item-value="id"
+                                            label="Accent spoken"
                                             @change="onChange($event)"
                                             multiple
                                             >
@@ -309,6 +346,8 @@
             item_language_taught: [<cfoutput query="get_language_taught">{ id: #formation_id#, name: "#formation_name# (#count#)"},</cfoutput>],
             select_language_spoken: [],
             item_language_spoken: [<cfoutput query="get_language_spoken">{ id: #formation_id#, name: "#formation_name# (#count#)" },</cfoutput>],
+            select_accent_spoken: [],
+            item_accent_spoken: [<cfoutput query="get_accent_spoken">{ id: #formation_accent_id#, name: "#formation_accent_name#", formation_id: "#formation_id#", formation_name: "#formation_name#" },</cfoutput>],
             select_user_personality: [],
             item_user_personality: [<cfoutput query="get_user_personality">{ id: #perso_id#, name: "#perso_name#" },</cfoutput>], 
             select_lms_business_area: [],
@@ -348,6 +387,9 @@
                 }
                 if(this.select_language_spoken.length > 0) {
                     data.append('get_language_spoken_id', this.select_language_spoken)
+                }
+                if(this.select_accent_spoken.length > 0) {
+                    data.append('get_accent_spoken_id', this.select_user_personality)
                 }
                 if(this.select_user_personality.length > 0) {
                     data.append('get_user_personality_id', this.select_user_personality)

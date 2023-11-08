@@ -11,6 +11,7 @@
         AND u.user_status_id = 4
         GROUP BY t.formation_id
         HAVING COUNT(*)>1
+        ORDER BY formation_name
 
 </cfquery>
 
@@ -23,31 +24,38 @@
         AND u.user_status_id = 4
         GROUP BY t.formation_id
         HAVING COUNT(*)>1
+        ORDER BY formation_name
 </cfquery>
 
 <cfquery name="get_accent_spoken" datasource="#SESSION.BDDSOURCE#">
         SELECT formation_accent_id, formation_accent_name_#SESSION.LANG_CODE# as formation_accent_name, lfa.formation_id, lf.formation_name_#SESSION.LANG_CODE# as formation_name FROM lms_formation_accent lfa
         LEFT JOIN lms_formation lf ON lf.formation_id = lfa.formation_id
+        ORDER BY formation_name
 </cfquery>
 
 
 <cfquery name="get_user_personality" datasource="#SESSION.BDDSOURCE#">
         SELECT perso_id, perso_name_#SESSION.LANG_CODE# as perso_name FROM user_personality_index
+        ORDER BY perso_name
 </cfquery>
 
 <cfquery name="get_lms_business_area" datasource="#SESSION.BDDSOURCE#">
         SELECT keyword_id, keyword_name_#SESSION.LANG_CODE# as keyword_name FROM lms_keyword2 WHERE keyword_cat_id = 2
+        ORDER BY keyword_name
 </cfquery>
 
 <cfquery name="get_lms_level" datasource="#SESSION.BDDSOURCE#">
         SELECT level_id, level_name_#SESSION.LANG_CODE# as level_name FROM lms_level
+        ORDER BY level_name
 </cfquery>
 <cfquery name="get_lms_skills" datasource="#SESSION.BDDSOURCE#">
         SELECT keyword_id, keyword_name_#SESSION.LANG_CODE# as keyword_name FROM lms_keyword2 WHERE keyword_cat_id = 4
+        ORDER BY keyword_name
 </cfquery>
 
 <cfquery name="get_lms_badge" datasource="#SESSION.BDDSOURCE#">
         SELECT badge_id, badge_name_#SESSION.LANG_CODE# as badge_name FROM lms_badge_index
+        ORDER BY badge_name
 </cfquery>
 
 <cfparam name="u_level" default="">
@@ -90,7 +98,11 @@
                     <div class="col-sm">
                         <select name="get_language_taught_id" id="get_language_taught_id" placeholder="test" multiple="multiple">
                             <cfoutput query="get_language_taught">
-                                <option value="#formation_id#">#formation_name# (#count#)</option>
+                                <cfif #formation_id# == 2>
+                                    <option value="#formation_id#" selected>#formation_name# (#count#)</option>
+                                <cfelse>
+                                    <option value="#formation_id#">#formation_name# (#count#)</option>
+                                </cfif>
                             </cfoutput>
                         </select>
 
@@ -217,6 +229,8 @@
 
                         <div id="t_count">
                         </div>
+                        <div id="t_list_page">
+                        </div>
                         
                         <div class="spinner-border text-danger collapse" id="t_spin_load" role="status">
                             <span class="sr-only">Loading...</span>
@@ -224,6 +238,7 @@
 						<div class="card-body" id="t_lists">
                         
 						</div>
+                        
 					</div>
 				
 				</div>
@@ -249,7 +264,7 @@ $(document).ready(function() {
 
     
     $("#t_spin_load").show()
-    refresh($("#filter").serialize())
+    refresh($("#filter").serialize(), 1)
 
     $('#get_language_taught_id').multiselect({ nonSelectedText:'Language taught'});
     $('#get_language_spoken_id').multiselect({ nonSelectedText:'Language spoken'});
@@ -261,11 +276,8 @@ $(document).ready(function() {
     $('#get_lms_badge_id').multiselect({ nonSelectedText:'Badges'});
 
     $('select, [name=avail_id]').on('change', function() {
-        $("#t_count").empty()
-        $("#t_lists").empty()
-        
-        $("#t_spin_load").show()
-        refresh($("#filter").serialize())
+        reloadCards()
+        refresh($("#filter").serialize(), 1)
     })
     	
 	// $('#filter').submit(function(event) {
@@ -273,7 +285,7 @@ $(document).ready(function() {
     //     refresh($(event.target).serialize())
     // });	
 
-    function refresh(data) {
+    function refresh(data, page, isLast) {
         console.log(data)
         $.ajax({				 
             url: '_TY_tm_filter_api.cfc?method=filter',
@@ -283,10 +295,44 @@ $(document).ready(function() {
                 var obj_result = jQuery.parseJSON(result);
                 if(obj_result.DATA.length > 0) {
                     let data = []
-                    $.each(obj_result.DATA, function() {
-                        data.push(this[0])
-                    })
-                    console.log(JSON.stringify(data).slice(1,-1))
+                    let startrow = 0
+                    let endrow = 20
+                    let pages = Math.ceil(obj_result.DATA.length / endrow)
+                    
+                    if(obj_result.DATA.length > 20) {
+                        if(isLast) {
+                            startrow = endrow * page-1
+                            endrow = obj_result.DATA.length
+                        }
+                        else {
+                            endrow = endrow * page
+                            startrow = endrow - 20
+                        }
+                        for(i=1; i <= pages; i++) {
+                            $("#t_list_page").append("<button class='btn btn-light' id='page_"+i+"' value='"+i+"'>"+i+"</button>")
+
+                            $("#page_"+i).on("click", function() {
+                                let isLast = 0
+                                if(i == pages) {
+                                    isLast = 1
+                                }
+                                reloadCards()
+                                refresh($("#filter").serialize(), this.value, isLast)
+                            })
+                        }
+
+                        for(i=startrow; i < endrow; i++) {
+                            if(obj_result.DATA[i]) {
+                                data.push(obj_result.DATA[i][0])
+                            }
+                        }
+                    }
+                    else {
+                        for(i=startrow; i < obj_result.DATA.length; i++) {
+                            data.push(obj_result.DATA[i][0])
+                        }
+                    }
+                    
                     $("#t_count").append('<h3>'+obj_result.DATA.length+' trainers found</h3>')
                     $("#t_lists").load("_TY_tm_cards_ajax.cfm?users="+JSON.stringify(data).slice(1,-1), function() {
                         $("#t_spin_load").hide()
@@ -304,6 +350,14 @@ $(document).ready(function() {
             complete : function(result, status){
             }	
         });
+    }
+
+    function reloadCards() {
+        $("#t_count").empty()
+        $("#t_lists").empty()
+        $("#t_list_page").empty()
+        $("#t_spin_load").show()
+
     }
 	
 });

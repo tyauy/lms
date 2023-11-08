@@ -16,6 +16,7 @@
 </cfsilent>
 <cfset display = "video">
 
+
 <cfoutput query="get_trainer_info">
     						<!---- OBJ QUERIES--->
     <cfset get_teaching = obj_query.oget_teaching(p_id="#user_id#")>
@@ -240,6 +241,13 @@
 </cfoutput>
 
 
+<script>
+
+$(document).ready(function() {
+
+	
+});
+</script>
 
 </body>
 </html>
