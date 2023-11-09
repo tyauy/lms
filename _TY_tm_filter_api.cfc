@@ -1,8 +1,153 @@
 <cfcomponent>
 
+    <cffunction name="filter_test" access="remote" method="POST" returntype="any" returnformat="JSON">
+        <cfargument name="filter_data" type="string" required="no" default="">
+
+        <cfset _filter_data = {}>
+
+        <cfif filter_data neq "">
+            <cfset _filter_data = deserializeJSON(filter_data)>
+        </cfif>
+        <cfreturn _filter_data>
+    </cffunction>
+
+    <cffunction name="filter_vue" access="remote" method="POST" returntype="any" returnformat="JSON">
+        <cfargument name="filter_data" type="string" required="no" default="">
+
+        <cfset _filter_data = {}>
+
+        <cfif filter_data neq "">
+            <cfset _filter_data = deserializeJSON(filter_data)>
+        </cfif>
+
+        
+        <cfif IsDefined("_filter_data.get_lms_level_id")>
+            <cfset lms_level = _filter_data.get_lms_level_id.split(",")>
+        </cfif>
+        <cfif IsDefined("_filter_data.get_lms_skills_id")>
+            <cfset lms_skills = _filter_data.get_lms_skills_id.split(",")>
+        </cfif>
+
+        <cfquery name="get_filtered_trainers" datasource="#SESSION.BDDSOURCE#">
+
+            SELECT u.user_id, 
+            
+                <cfif IsDefined("_filter_data.get_user_personality_id")>
+                    COUNT(p.personality_id) AS count_perso,
+                </cfif>
+
+                <cfif IsDefined("_filter_data.get_lms_badge_id")>
+                    COUNT(lba.badge_id) AS count_badge,
+                </cfif>
+                u.profile_id
+                FROM user u
+                LEFT JOIN settings_country c ON c.country_id = u.country_id
+                LEFT JOIN user_status s ON s.user_status_id = u.user_status_id
+                LEFT JOIN user_profile_cor up ON up.user_id = u.user_id
+
+            <cfif IsDefined("_filter_data.get_language_taught_id") || IsDefined("_filter_data.get_lms_level_id") || IsDefined("_filter_data.get_accent_spoken_id")>
+                INNER JOIN user_teaching t ON t.user_id = u.user_id
+            </cfif>
+            <cfif IsDefined("_filter_data.get_language_spoken_id")>
+                INNER JOIN user_speaking sp ON sp.user_id = u.user_id
+            </cfif>
+            <cfif IsDefined("_filter_data.get_user_personality_id")>
+                INNER JOIN user_personality p ON p.user_id = u.user_id
+            </cfif>
+            <cfif IsDefined("_filter_data.get_lms_business_area_id") || IsDefined("_filter_data.get_lms_skills_id")>
+                INNER JOIN user_expertise_business eb ON eb.user_id = u.user_id
+            </cfif>
+            <cfif IsDefined("_filter_data.get_lms_badge_id")>
+                INNER JOIN lms_badge_attribution lba ON lba.badge_trainer_id = u.user_id
+            </cfif>
+            <cfif IsDefined("_filter_data.avail_id")>
+                INNER JOIN user_business_hours ubh ON ubh.user_id = u.user_id
+            </cfif>
+
+            <!---- PROFIL TRAINER, ACTIVE --->
+            WHERE up.profile_id = 4 
+            AND u.user_status_id = 4
+            <cfif IsDefined("_filter_data.get_language_taught_id")>
+                AND t.formation_id IN (#get_language_taught_id#)
+            </cfif>
+            <cfif IsDefined("_filter_data.get_accent_spoken_id")>
+                AND t.accent_id IN (#get_accent_spoken_id#)
+            </cfif>
+            <cfif IsDefined("_filter_data.get_language_spoken_id")>
+                AND sp.formation_id IN (#get_language_spoken_id#)
+            </cfif>
+            <cfif IsDefined("_filter_data.get_user_personality_id")>
+                AND p.personality_id IN (<cfqueryparam value="#_filter_data.get_user_personality_id#" list="yes" cfsqltype="CF_SQL_INTEGER">)
+            </cfif>
+            <cfif IsDefined("_filter_data.get_lms_business_area_id")>
+                AND eb.keyword_id IN (#get_lms_business_area_id#)
+            </cfif>
+            <cfif IsDefined("_filter_data.get_lms_level_id")>
+                <cfloop array="#lms_level#" index="idx" item="item">
+                    <cfif idx == 1>
+                        AND (t.level_id LIKE ("%#item#%")
+                    <cfelseif idx GT 1 && ArrayLen(lms_level) GT 1 >
+                        OR t.level_id LIKE ("%#item#%")
+                    </cfif>
+                </cfloop>
+                        )
+            </cfif>
+            <cfif IsDefined("_filter_data.get_lms_skills_id")>
+            
+                <cfloop array="#lms_skills#" index="idx" item="item">
+                    <cfif idx == 1>
+                        AND (u.expertise_id LIKE ("%#item#%")
+                    <cfelseif idx GT 1 && ArrayLen(lms_skills) GT 1 >
+                        OR u.expertise_id  LIKE ("%#item#%")
+                    </cfif>
+                </cfloop>
+                        )
+            </cfif>
+            <cfif IsDefined("_filter_data.avail_id")>
+                AND u.user_id IN (
+                    SELECT user_id FROM user_business_hours ubh, user_availability ua 
+                    WHERE (ua.hour_start BETWEEN ubh.start_time AND DATE_ADD(ubh.end_time, INTERVAL -45 MINUTE) 
+                    OR ua.hour_end BETWEEN DATE_ADD(ubh.start_time, INTERVAL 45 MINUTE)  AND ubh.end_time)
+                    AND ua.avail_id IN (#avail_id#)
+                    AND ubh.status = "available"
+                    AND ((ua.avail_day = "mon" AND ubh.week_day = 1)
+                        OR(ua.avail_day = "tue" AND ubh.week_day = 2)
+                        OR(ua.avail_day = "wed" AND ubh.week_day = 3)
+                        OR(ua.avail_day = "thu" AND ubh.week_day = 4)
+                        OR(ua.avail_day = "fri" AND ubh.week_day = 5)
+                        OR(ua.avail_day = "sat" AND ubh.week_day = 6)
+                        OR(ua.avail_day = "sun" AND ubh.week_day = 0)
+                        )
+                )
+            </cfif>
+            <cfif IsDefined("_filter_data.get_lms_badge_id")>
+                AND lba.badge_id IN (<cfqueryparam value="#_filter_data.get_lms_badge_id#" list="yes" cfsqltype="CF_SQL_INTEGER">)
+            </cfif> 
+
+            <!---- VISIO --->
+            AND FIND_IN_SET(1,method_id)
+
+            <!---- REMOVE FAKE TRAINERS --->
+            AND u.user_id <> 2656 AND u.user_id <> 4784 AND u.user_id <> 4785 AND u.user_id <> 201 
+
+            GROUP BY u.user_id
+            
+            <cfif IsDefined("_filter_data.get_user_personality_id") && IsDefined("_filter_data.get_lms_badge_id")>
+                ORDER BY count_perso DESC, count_badge DESC
+            <cfelseif IsDefined("_filter_data.get_user_personality_id")>
+                ORDER BY count_perso DESC
+            <cfelseif IsDefined("_filter_data.get_lms_badge_id")>
+                ORDER BY count_badge DESC
+            </cfif>
+
+        </cfquery>
+    
+        <cfreturn get_filtered_trainers>
+    </cffunction>
+
     <cffunction name="filter" access="remote" method="POST" returntype="any" returnformat="JSON">
 
-    
+        
         <cfif IsDefined("Arguments.get_lms_level_id")>
             <cfset lms_level = Arguments.get_lms_level_id.split(",")>
         </cfif>

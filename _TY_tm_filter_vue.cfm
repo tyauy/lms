@@ -379,40 +379,52 @@
         async callapi () {
               // const axios = require('axios');
             try {
-                let data = new FormData()
-                const response = await axios.post('_TY_tm_filter_api.cfc?method=filter', data);
+                let filterData = {}
+                let formData = new FormData()
 
                 if(this.select_language_taught.length > 0) {
-                    data.append('get_language_taught_id', this.select_language_taught)
+                    // data.append('get_language_taught_id', this.select_language_taught)
+                    filterData.get_language_taught_id = this.select_language_taught
                 }
                 if(this.select_language_spoken.length > 0) {
-                    data.append('get_language_spoken_id', this.select_language_spoken)
+                    // data.append('get_language_spoken_id', this.select_language_spoken)
+                    filterData.get_language_spoken_id = this.select_language_spoken
                 }
                 if(this.select_accent_spoken.length > 0) {
-                    data.append('get_accent_spoken_id', this.select_user_personality)
+                    // data.append('get_accent_spoken_id', this.select_user_personality)
+                    filterData.get_accent_spoken_id = this.select_user_personality
                 }
                 if(this.select_user_personality.length > 0) {
-                    data.append('get_user_personality_id', this.select_user_personality)
+                    // data.append('get_user_personality_id', this.select_user_personality)
+                    filterData.get_user_personality_id = this.select_user_personality
                 }
                 if(this.select_lms_business_area.length > 0) {
-                    data.append('get_lms_business_area_id', this.select_lms_business_area)
+                    // data.append('get_lms_business_area_id', this.select_lms_business_area)
+                    filterData.get_lms_business_area_id = this.select_lms_business_area
                 }
                 if(this.select_lms_level.length > 0) {
-                    data.append('get_lms_level_id', this.select_lms_level)
+                    // data.append('get_lms_level_id', this.select_lms_level)
+                    filterData.get_lms_level_id = this.select_lms_level
                 }
                 if(this.select_lms_skills.length > 0) {
-                    data.append('get_lms_skills_id', this.select_lms_skills)
+                    // data.append('get_lms_skills_id', this.select_lms_skills)
+                    filterData.get_lms_skills_id = this.select_lms_skills
                 }
                 if(this.select_lms_badge.length > 0) {
-                    data.append('get_lms_badge_id', this.select_lms_badge)
+                    // data.append('get_lms_badge_id', this.select_lms_badge)
+                    filterData.get_lms_badge_id = this.select_lms_badge
                 } 
-
-                this.data = data
-
-                axios.post('_TY_tm_filter_api.cfc?method=filter', this.data, {headers:{"Content-Type" : "application/json"}}).then(response => {
+                //const response = await axios.post('_TY_tm_filter_api.cfc?method=filter_vue', formData);
+                    console.log(JSON.stringify(filterData))
+                formData.append('filter_data', JSON.stringify(filterData))
+                
+                axios.post('_TY_tm_filter_api.cfc?method=filter_test', { Arguments : formData }).then(response => {
                     console.log(response)
-                    //this.data = response.data.DATA
+                    this.data = response.data
                 })
+                // axios.post('_TY_tm_filter_api.cfc?method=filter_vue', { filter_data : JSON.stringify(formData) }).then(response => {
+                //     this.data = response.data.DATA
+                // })
 
             } catch (error) {
                 console.error(error.response.data);

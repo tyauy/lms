@@ -296,17 +296,17 @@ $(document).ready(function() {
                 if(obj_result.DATA.length > 0) {
                     let data = []
                     let startrow = 0
-                    let endrow = 20
+                    let endrow = 10
                     let pages = Math.ceil(obj_result.DATA.length / endrow)
                     
-                    if(obj_result.DATA.length > 20) {
+                    if(obj_result.DATA.length > 10) {
                         if(isLast) {
                             startrow = endrow * page-1
                             endrow = obj_result.DATA.length
                         }
                         else {
                             endrow = endrow * page
-                            startrow = endrow - 20
+                            startrow = endrow - 10
                         }
                         for(i=1; i <= pages; i++) {
                             $("#t_list_page").append("<button class='btn btn-light' id='page_"+i+"' value='"+i+"'>"+i+"</button>")
